@@ -5,7 +5,7 @@
 *.slo
 *.lo
 *.o
-*.obj
+
 
 # Precompiled Headers
 *.gch
@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
 
 # Fortran module files
 *.mod
@@ -24,9 +24,10 @@
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
 *.out
 *.app
+TPV2/.vs/TPV2/v16/Browse.VC.opendb

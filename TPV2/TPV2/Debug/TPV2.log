@@ -1,6 +1,40 @@
 ﻿  AudioManager.cpp
+  BallMoveBehaviour.cpp
+  Collisions.cpp
+  Component.cpp
+  Entity.cpp
+  Font.cpp
+  FontsManager.cpp
+  GameCtrl.cpp
+  GameLogic.cpp
+  InputHandler.cpp
+  jute.cpp
+  main.cpp
+  Manager.cpp
+  ObjectPool.cpp
+  PaddleKBCtrl.cpp
+  PaddleMouseCtrl.cpp
+  PaddleMoveBehaviour.cpp
+  PingPong.cpp
   RandomNumberGenerator.cpp
+  Rectangle.cpp
+  Generating Code...
+  Compiling...
+  Resources.cpp
+  ScoreManager.cpp
+  ScoreViewer.cpp
+  SDLAudioManager.cpp
+  SDLFontsManager.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  sdl_macros.cpp
+  SimpleMoveBahviour.cpp
+  SRandBasedGenerator.cpp
+U:\hlocal\PROneTPV2\TPV2\TPV2\ver_7\SRandBasedGenerator.cpp(11,8): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Texture.cpp
+  TexturesManager.cpp
+  Transform.cpp
   Vector2D.cpp
   Generating Code...
-     Creating library U:\hlocal\TPV2\bin\TPV2Debug.lib and object U:\hlocal\TPV2\bin\TPV2Debug.exp
-  TPV2.vcxproj -> U:\hlocal\TPV2\bin\TPV2Debug.exe
+     Creating library U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.lib and object U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.exp
+  TPV2.vcxproj -> U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.exe
