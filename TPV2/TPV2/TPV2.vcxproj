@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="checkML.h" />
+    <ClInclude Include="FighterCtrl.h" />
+    <ClInclude Include="FighterViewer.h" />
     <ClInclude Include="ver_7\AudioManager.h" />
     <ClInclude Include="ver_7\BallMoveBehaviour.h" />
     <ClInclude Include="ver_7\Collisions.h" />
@@ -56,6 +58,8 @@
     <ClInclude Include="ver_7\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FighterCtrl.cpp" />
+    <ClCompile Include="FighterViewer.cpp" />
     <ClCompile Include="ver_7\AudioManager.cpp" />
     <ClCompile Include="ver_7\BallMoveBehaviour.cpp" />
     <ClCompile Include="ver_7\Collisions.cpp" />

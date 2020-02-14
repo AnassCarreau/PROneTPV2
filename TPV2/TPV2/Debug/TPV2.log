@@ -1,4 +1,37 @@
-﻿  AudioManager.cpp
+﻿  FighterCtrl.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(4,2): error C2614:  'FighterCtrl': inicialización de miembro no válida: 'PaddleKBCtrl' no es una base o miembro
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(7,98): error C2511:  'FighterCtrl::FighterCtrl(SDL_Keycode,SDL_Keycode,SDL_Keycode,SDL_Keycode)': la función miembro sobrecargada no se ha encontrado en 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.h(6): message :  vea la declaración de 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(13,1): error C2550:  'FighterCtrl::{ctor}': las listas de inicializadores de constructor solo se permiten en las definiciones de constructor
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(18,19): error C2039:  'init': no es un miembro de 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.h(6): message :  vea la declaración de 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(19,2): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(19,8): error C2065:  'entity_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(22,19): error C2039:  'update': no es un miembro de 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.h(6): message :  vea la declaración de 'FighterCtrl'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(24,2): error C2065:  'InputHandler': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(24,16): error C2065:  'ih': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(24,43): error C2653:  'InputHandler': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(24,35): error C3861:  'instance': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(26,6): error C2065:  'ih': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(27,7): error C2065:  'ih': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(27,21): error C2065:  'up_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(28,4): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(28,17): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(28,40): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(29,4): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(29,17): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(29,40): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(31,12): error C2065:  'ih': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(31,26): error C2065:  'right_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(32,4): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(32,16): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(35,12): error C2065:  'ih': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(35,26): error C2065:  'left_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(36,4): error C2065:  'tr_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(36,16): error C2065:  'tr_': identificador no declarado
+  FighterViewer.cpp
+  AudioManager.cpp
   BallMoveBehaviour.cpp
   Collisions.cpp
   Component.cpp
@@ -16,10 +49,10 @@
   PaddleMouseCtrl.cpp
   PaddleMoveBehaviour.cpp
   PingPong.cpp
+  Generando código...
+  Compilando...
   RandomNumberGenerator.cpp
   Rectangle.cpp
-  Generating Code...
-  Compiling...
   Resources.cpp
   ScoreManager.cpp
   ScoreViewer.cpp
@@ -30,11 +63,10 @@
   sdl_macros.cpp
   SimpleMoveBahviour.cpp
   SRandBasedGenerator.cpp
-U:\hlocal\PROneTPV2\TPV2\TPV2\ver_7\SRandBasedGenerator.cpp(11,8): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(22): error C1075:  "{": no se encontró ningún token coincidente
   Texture.cpp
   TexturesManager.cpp
   Transform.cpp
   Vector2D.cpp
-  Generating Code...
-     Creating library U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.lib and object U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.exp
-  TPV2.vcxproj -> U:\hlocal\PROneTPV2\TPV2\bin\TPV2Debug.exe
+  Generando código...
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ver_7\SRandBasedGenerator.cpp(11,8): warning C4244:  'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos

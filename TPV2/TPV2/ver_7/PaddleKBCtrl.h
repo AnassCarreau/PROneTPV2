@@ -6,14 +6,16 @@
 class PaddleKBCtrl: public Component {
 public:
 	PaddleKBCtrl();
-	PaddleKBCtrl(SDL_Keycode up, SDL_Keycode down, SDL_Keycode stop);
+	PaddleKBCtrl(SDL_Keycode up, SDL_Keycode right , SDL_Keycode left, SDL_Keycode space);
 	virtual ~PaddleKBCtrl();
 
-	inline void setCtrlKeys(SDL_Keycode up, SDL_Keycode down,
-			SDL_Keycode stop) {
+	inline void setCtrlKeys(SDL_Keycode up, SDL_Keycode right,
+			SDL_Keycode left,SDL_Keycode space) {
 		up_ = up;
-		down_ = down;
-		stop_ = stop;
+		right_ = right;
+		left_ = left;
+		space_ = space;
+		
 	}
 
 	void init() override;
@@ -21,8 +23,9 @@ public:
 
 private:
 	SDL_Keycode up_;
-	SDL_Keycode down_;
-	SDL_Keycode stop_;
+	SDL_Keycode right_;
+	SDL_Keycode left_;
+	SDL_Keycode space_;
 	Transform *tr_;
 };
 
