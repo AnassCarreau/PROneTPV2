@@ -6,7 +6,7 @@ class FighterViewer:public Component
 private:
 	Texture* fighter;
 public:
-	FighterViewer(SDL_Renderer* renderer, string fileName);
+	FighterViewer();
 	virtual ~FighterViewer();
 	void draw() override;
 };

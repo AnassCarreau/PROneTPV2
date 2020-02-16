@@ -7,8 +7,9 @@ class Health: public Component
 {
 private:
 	int vidas;
+	Texture* life;
 public:
-	Health(int vidas_) :Component(ecs::Health) { vidas = vidas_; };
+	Health(int vidas_) :Component(ecs::Health) { vidas = vidas_; life = game_->getTextureMngr()->getTexture(8);};
 	virtual ~Health();
 	void RestaVida();
 	void ResetVidas() {
