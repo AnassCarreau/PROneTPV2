@@ -18,6 +18,9 @@ enum CmpId : CmpIdType {
 	PaddleMouseCtrl,
 	GameCtrl,
 	GameLogic,
+	FighterCtrl,
+	Health,
+	Gun,
 	//
 	// don't touch the rest of this enum, it is to identify the max
 	// number of components

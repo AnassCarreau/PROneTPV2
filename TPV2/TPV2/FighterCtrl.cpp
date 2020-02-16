@@ -15,6 +15,7 @@ FighterCtrl::FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left) :
 {}
 
 FighterCtrl::~FighterCtrl() {
+
 }
 
 void FighterCtrl::init() {

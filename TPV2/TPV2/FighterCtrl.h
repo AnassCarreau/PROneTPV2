@@ -3,7 +3,7 @@
 #include "ver_7/Component.h"
 #include "ver_7/Transform.h"
 
-class FighterCtrl
+class FighterCtrl:public Component
 {
 public:
 	FighterCtrl();
