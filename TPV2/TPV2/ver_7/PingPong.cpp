@@ -66,7 +66,7 @@ void PingPong::initGame() {
 	gameManager->addComponent<ScoreManager>(1);
 	gameManager->addComponent<GameLogic>(ballTR, leftPaddleTR, rightPaddleTR);
 	gameManager->addComponent<ScoreViewer>();
-	gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
+	//gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
 }
 
 void PingPong::closeGame() {

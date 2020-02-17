@@ -19,13 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="BulletsPool.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.h" />
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h" />
     <ClInclude Include="checkML.h" />
-    <ClInclude Include="FighterCtrl.h" />
-    <ClInclude Include="FighterViewer.h" />
-    <ClInclude Include="Gun.h" />
-    <ClInclude Include="Health.h" />
+    <ClInclude Include="FighterMotion.h" />
     <ClInclude Include="ver_7\AudioManager.h" />
     <ClInclude Include="ver_7\BallMoveBehaviour.h" />
     <ClInclude Include="ver_7\Collisions.h" />
@@ -62,12 +63,13 @@
     <ClInclude Include="ver_7\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="BulletsPool.cpp" />
-    <ClCompile Include="FighterCtrl.cpp" />
-    <ClCompile Include="FighterViewer.cpp" />
-    <ClCompile Include="Gun.cpp" />
-    <ClCompile Include="Health.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.cpp" />
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.cpp" />
+    <ClCompile Include="FighterMotion.cpp" />
     <ClCompile Include="ver_7\AudioManager.cpp" />
     <ClCompile Include="ver_7\BallMoveBehaviour.cpp" />
     <ClCompile Include="ver_7\Collisions.cpp" />

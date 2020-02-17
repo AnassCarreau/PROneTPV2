@@ -15,5 +15,6 @@ public:
 	void ResetVidas() {
 		vidas = 3;
 	};
+	void draw() override;
 };
 

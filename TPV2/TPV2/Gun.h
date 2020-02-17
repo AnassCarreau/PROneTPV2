@@ -9,6 +9,9 @@ class Gun:public Component
 private:
 
 public:
+	Uint32 shoot=2500;
+	Uint32 frame;
+	bool disparo=true;
 	Gun():Component(ecs::Gun) {};
 	virtual ~Gun();
 	void canshoot();

@@ -120,22 +120,25 @@
     <ClInclude Include="ver_7\Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FighterViewer.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FighterCtrl.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Health.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Gun.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BulletsPool.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bullet.h">
+    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterMotion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -242,22 +245,25 @@
     <ClCompile Include="ver_7\Vector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FighterViewer.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FighterCtrl.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Health.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Gun.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BulletsPool.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bullet.cpp">
+    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterMotion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

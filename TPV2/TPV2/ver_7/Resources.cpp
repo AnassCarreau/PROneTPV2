@@ -16,14 +16,13 @@ vector<Resources::ImageInfo> Resources::images_ {
 		{ AIIcon, "resources/images/ai.png" }, //
 		{ SpaceShips, "resources/images/spaceships.png" }, //
 		{ Airplanes, "resources/images/airplanes.png" }, //
-		{ Star, "resources/images/star.png" }, //
-		{ Heart, "resources/images/heart.png" } //
+		{ Star, "resources/images/star.png" } //
 };
 
 vector<Resources::TextMsgInfo> Resources::messages_ {
 //
 		{ HelloWorld, "Hello World", { COLOR(0xaaffffff) }, ARIAL16 }, //
-		{ PresAnyKey, "Press Any Key ...", { COLOR(0xaaffbbff) }, ARIAL24 }, //
+		{ PressAnyKey, "Press Any Key to Start", { COLOR(0xaaffbbff) }, ARIAL24 }, //
 		{ GameOver, "Game Over", { COLOR(0xffffbbff) }, ARIAL24 } //
 };
 
