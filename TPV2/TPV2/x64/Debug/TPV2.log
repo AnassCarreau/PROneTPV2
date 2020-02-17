@@ -1,35 +1,12 @@
-﻿  FighterCtrl.cpp
-  FighterViewer.cpp
-  Gun.cpp
-  Health.cpp
-  AudioManager.cpp
-  BallMoveBehaviour.cpp
-  Component.cpp
-  Entity.cpp
-  GameCtrl.cpp
-  GameLogic.cpp
-  main.cpp
-  Manager.cpp
-  ObjectPool.cpp
-  PaddleKBCtrl.cpp
-  PaddleMouseCtrl.cpp
-  PaddleMoveBehaviour.cpp
-  PingPong.cpp
-  Rectangle.cpp
-  Resources.cpp
-  ScoreManager.cpp
-  Generando código...
-  Compilando...
-  ScoreViewer.cpp
-  SDLGame.cpp
-  SimpleMoveBahviour.cpp
+﻿  FighterMotion.cpp
   Transform.cpp
-  Vector2D.cpp
   Generando código...
      Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
 FighterCtrl.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
 PaddleKBCtrl.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 PingPong.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
+Gun.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: unsigned int __cdecl SDLGame::getTime(void)" (?getTime@SDLGame@@QEAAIXZ)
+PingPong.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
 Font.obj : error LNK2019: símbolo externo TTF_OpenFont sin resolver al que se hace referencia en la función "public: bool __cdecl Font::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?load@Font@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
 Font.obj : error LNK2019: símbolo externo TTF_RenderText_Solid sin resolver al que se hace referencia en la función "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
 Font.obj : error LNK2019: símbolo externo TTF_CloseFont sin resolver al que se hace referencia en la función "public: void __cdecl Font::close(void)" (?close@Font@@QEAAXXZ)
@@ -44,7 +21,6 @@ PingPong.obj : error LNK2019: símbolo externo SDL_RenderClear sin resolver al q
 SDLGame.obj : error LNK2001: símbolo externo SDL_RenderClear sin resolver
 PingPong.obj : error LNK2019: símbolo externo SDL_RenderPresent sin resolver al que se hace referencia en la función "private: void __cdecl PingPong::render(void)" (?render@PingPong@@AEAAXXZ)
 SDLGame.obj : error LNK2001: símbolo externo SDL_RenderPresent sin resolver
-PingPong.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: unsigned int __cdecl SDLGame::getTime(void)" (?getTime@SDLGame@@QEAAIXZ)
 PingPong.obj : error LNK2019: símbolo externo SDL_Delay sin resolver al que se hace referencia en la función "public: void __cdecl PingPong::start(void)" (?start@PingPong@@QEAAXXZ)
 Rectangle.obj : error LNK2019: símbolo externo SDL_RenderFillRect sin resolver al que se hace referencia en la función "public: virtual void __cdecl Rectangle::draw(void)" (?draw@Rectangle@@UEAAXXZ)
 SDLAudioManager.obj : error LNK2019: símbolo externo SDL_RWFromFile sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::loadSound(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSound@SDLAudioManager@@UEAA_NHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)

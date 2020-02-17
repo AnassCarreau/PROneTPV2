@@ -4,6 +4,7 @@
 
 SDLTexturesManager::SDLTexturesManager() :
 		initialized_(false) {
+
 }
 
 SDLTexturesManager::~SDLTexturesManager() {

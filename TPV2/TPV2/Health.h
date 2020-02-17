@@ -9,7 +9,7 @@ private:
 	int vidas;
 	Texture* life;
 public:
-	Health(int vidas_) :Component(ecs::Health) { vidas = vidas_; life = game_->getTextureMngr()->getTexture(8);};
+	Health(int vidas_) :Component(ecs::Health) { vidas = vidas_; life = game_->getTextureMngr()->getTexture(Resources::Health);};
 	virtual ~Health();
 	void RestaVida();
 	void ResetVidas() {
