@@ -25,6 +25,11 @@
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.h" />
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.h" />
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h" />
+    <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="AsteroidPool.h" />
+    <ClInclude Include="AsteroidsMotion.h" />
+    <ClInclude Include="AsteroidsViewer.h" />
+    <ClInclude Include="BulletsMotion.h" />
     <ClInclude Include="checkML.h" />
     <ClInclude Include="FighterMotion.h" />
     <ClInclude Include="ver_7\AudioManager.h" />
@@ -69,6 +74,11 @@
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.cpp" />
+    <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="AsteroidPool.cpp" />
+    <ClCompile Include="AsteroidsMotion.cpp" />
+    <ClCompile Include="AsteroidsViewer.cpp" />
+    <ClCompile Include="BulletsMotion.cpp" />
     <ClCompile Include="FighterMotion.cpp" />
     <ClCompile Include="ver_7\AudioManager.cpp" />
     <ClCompile Include="ver_7\BallMoveBehaviour.cpp" />
