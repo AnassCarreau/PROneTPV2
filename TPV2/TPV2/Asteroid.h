@@ -8,14 +8,20 @@ class Asteroid
 	double width_;
 	double height_;
 	double rotation_;
-	int generaciones;
+	int generaciones_;
 	int use;
+public :
 	Asteroid(Vector2D pos,
 		Vector2D vel,
 		double width,
 		double height,
 		double rotation);
-public :
+	void setGenerations(int generaciones) {
+		generaciones_ = generaciones;
+	}
+	int getGenerations() {
+		return generaciones_;
+	}
 	const Vector2D& getPos() const {
 		return position_;
 	}

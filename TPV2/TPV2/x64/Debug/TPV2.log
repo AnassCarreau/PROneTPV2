@@ -1,4 +1,33 @@
-﻿  FighterMotion.cpp
+﻿  Bullet.cpp
+  BulletsPool.cpp
+  FighterCtrl.cpp
+  FighterViewer.cpp
+  Gun.cpp
+  Health.cpp
+  Asteroid.cpp
+  AsteroidPool.cpp
+  AsteroidsMotion.cpp
+  AsteroidsViewer.cpp
+  BulletsMotion.cpp
+  FighterMotion.cpp
+  BallMoveBehaviour.cpp
+  Component.cpp
+  Entity.cpp
+  GameCtrl.cpp
+  GameLogic.cpp
+  Manager.cpp
+  PaddleKBCtrl.cpp
+  PaddleMouseCtrl.cpp
+  Generando código...
+  Compilando...
+  PaddleMoveBehaviour.cpp
+  PingPong.cpp
+  Rectangle.cpp
+  ScoreManager.cpp
+  ScoreViewer.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  SimpleMoveBahviour.cpp
   Transform.cpp
   Generando código...
      Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp

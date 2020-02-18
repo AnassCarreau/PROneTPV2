@@ -10,8 +10,9 @@ private:
 	Texture* fighter;
 	SDL_Rect clip, destRect;
 public:
-	FighterViewer();
+	FighterViewer(Texture* fig);
 	virtual ~FighterViewer();
 	void draw() override;
+	void init();
 };
 

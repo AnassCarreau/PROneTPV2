@@ -1,7 +1,6 @@
 #include "SDL_macros.h"
 #include "PingPong.h"
 #include <assert.h>
-
 #include "BallMoveBehaviour.h"
 #include "GameCtrl.h"
 #include "GameLogic.h"
@@ -15,6 +14,10 @@
 #include "SimpleMoveBahviour.h"
 #include "Transform.h"
 #include "SDLGame.h"
+#include "..//FighterCtrl.h"
+#include "..//FighterViewer.h"
+#include "..//FighterMotion.h"
+#include "..//Health.h"
 
 #include "SDL_macros.h"
 
@@ -37,7 +40,16 @@ void PingPong::initGame() {
 
 	entityManager_ = new EntityManager(game_);
 
-	Entity *leftPaddle = entityManager_->addEntity();
+	Entity* fighter = entityManager_->addEntity();
+	Transform* fighterTR = fighter->addComponent<Transform>();
+	fighter->addComponent<FighterCtrl>();
+	fighter->addComponent<FighterMotion>();
+	fighter->addComponent<FighterViewer>(game_->getTextureMngr()->getTexture(Resources::Airplanes));
+	//fighter->addComponent<Health>(game_->getTextureMngr()->getTexture(Resources::Health));
+	fighterTR->setPos(game_->getWindowWidth()/2, game_->getWindowHeight() / 2);
+	fighterTR->setWH(10, 50);
+
+	/*Entity *leftPaddle = entityManager_->addEntity();
 	Transform *leftPaddleTR = leftPaddle->addComponent<Transform>();
 	leftPaddle->addComponent<PaddleKBCtrl>();
 	leftPaddle->addComponent<PaddleMoveBehaviour>();
@@ -60,11 +72,11 @@ void PingPong::initGame() {
 	ball->addComponent<Rectangle>();
 	ballTR->setPos(game_->getWindowWidth() / 2 - 6,
 			game_->getWindowHeight() / 2 - 6);
-	ballTR->setWH(11, 11);
+	ballTR->setWH(11, 11);*/
 
 	Entity *gameManager = entityManager_->addEntity();
 	gameManager->addComponent<ScoreManager>(1);
-	gameManager->addComponent<GameLogic>(ballTR, leftPaddleTR, rightPaddleTR);
+	//gameManager->addComponent<GameLogic>(fighterTR);
 	gameManager->addComponent<ScoreViewer>();
 	//gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
 }

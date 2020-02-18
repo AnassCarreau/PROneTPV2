@@ -16,3 +16,7 @@ void FighterMotion::update() {
 		naveDelKibab->setVel(naveDelKibab->getVel() * -1);
 	}
 }
+
+void FighterMotion::init() {
+	naveDelKibab = GETCMP1_(Transform);
+}

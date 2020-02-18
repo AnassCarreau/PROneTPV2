@@ -9,8 +9,9 @@ class FighterMotion:public Component
 private:
 	Transform *naveDelKibab;
 public:
-	FighterMotion() : Component(ecs::FighterMotion) { naveDelKibab = GETCMP1_(Transform); };
+	FighterMotion() : Component(ecs::FighterMotion) {};
 	virtual ~FighterMotion() {};
 	void update();
+	void init();
 };
 

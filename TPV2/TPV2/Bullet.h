@@ -9,6 +9,7 @@ protected:
 	double height_;
 	double rotation_;
 	bool use;
+public:
 	Bullet(Vector2D pos,
 		Vector2D vel,
 		double width,

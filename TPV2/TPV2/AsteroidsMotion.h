@@ -32,8 +32,6 @@ class AsteroidsMotion : public Component {
 				o->setPosY(game_->getWindowHeight());
 			}
 		}
-	
-
 	};
 
 };

@@ -21,9 +21,7 @@ class AsteroidsViewer :public Component
 					 destRect;//= RECT();
 					asteroide->render(destRect);
 				}
-
 			}
-
 		}
 		;
 };
