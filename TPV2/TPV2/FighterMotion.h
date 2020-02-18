@@ -11,6 +11,6 @@ private:
 public:
 	FighterMotion() : Component(ecs::FighterMotion) { naveDelKibab = GETCMP1_(Transform); };
 	virtual ~FighterMotion() {};
-	void init();
+	void update();
 };
 

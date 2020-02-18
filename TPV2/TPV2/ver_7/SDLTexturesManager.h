@@ -2,10 +2,12 @@
 
 #include "TexturesManager.h"
 #include <map>
-
+#include "PingPong.h"
 /*
  *
  */
+const int NUM_TEXTURES = 9;
+
 class SDLTexturesManager: public TexturesManager {
 public:
 	SDLTexturesManager();
@@ -27,5 +29,4 @@ private:
 
 	bool initialized_;
 	map<std::size_t, Texture*> textures_;
-
 };

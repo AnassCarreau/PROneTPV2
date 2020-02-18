@@ -1,10 +1,14 @@
 #include "SDLTexturesManager.h"
 #include <SDL_image.h>
 #include <assert.h>
+#include "Resources.h"
+#include "SDLGame.h"
 
 SDLTexturesManager::SDLTexturesManager() :
 		initialized_(false) {
-
+	/*for (int i = 0; i < NUM_TEXTURES; i++) {
+		loadFromImg(i, SDLGame::instance()->getRenderer(), Resources::images_.at(i).fileName);
+	}*/
 }
 
 SDLTexturesManager::~SDLTexturesManager() {
