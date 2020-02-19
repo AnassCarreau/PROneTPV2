@@ -49,7 +49,7 @@ void PingPong::initGame() {
 	fighterTR->setPos(game_->getWindowWidth()/2, game_->getWindowHeight() / 2);
 	fighterTR->setWH(10, 50);
 
-	/*Entity *leftPaddle = entityManager_->addEntity();
+	Entity *leftPaddle = entityManager_->addEntity();
 	Transform *leftPaddleTR = leftPaddle->addComponent<Transform>();
 	leftPaddle->addComponent<PaddleKBCtrl>();
 	leftPaddle->addComponent<PaddleMoveBehaviour>();
@@ -72,12 +72,12 @@ void PingPong::initGame() {
 	ball->addComponent<Rectangle>();
 	ballTR->setPos(game_->getWindowWidth() / 2 - 6,
 			game_->getWindowHeight() / 2 - 6);
-	ballTR->setWH(11, 11);*/
+	ballTR->setWH(11, 11);
 
 	Entity *gameManager = entityManager_->addEntity();
-	gameManager->addComponent<ScoreManager>(1);
+	//gameManager->addComponent<ScoreManager>(1);
 	//gameManager->addComponent<GameLogic>(fighterTR);
-	gameManager->addComponent<ScoreViewer>();
+	//gameManager->addComponent<ScoreViewer>();
 	//gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
 }
 

@@ -18,8 +18,6 @@ enum CmpId : CmpIdType {
 	PaddleMouseCtrl,
 	GameCtrl,
 	GameLogic,
-
-
 	FighterViewer,
 	FighterCtrl,
 	Health,
