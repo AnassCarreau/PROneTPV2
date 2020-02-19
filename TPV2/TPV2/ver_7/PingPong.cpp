@@ -18,7 +18,7 @@
 #include "..//FighterViewer.h"
 #include "..//FighterMotion.h"
 #include "..//Health.h"
-
+#include "ObjectPool.h"
 #include "SDL_macros.h"
 
 using namespace std;
@@ -45,10 +45,11 @@ void PingPong::initGame() {
 	fighter->addComponent<FighterCtrl>();
 	fighter->addComponent<FighterMotion>();
 	fighter->addComponent<FighterViewer>(game_->getTextureMngr()->getTexture(Resources::Airplanes));
-	//fighter->addComponent<Health>(game_->getTextureMngr()->getTexture(Resources::Health));
+	fighter->addComponent<Health>(3);
 	fighterTR->setPos(game_->getWindowWidth()/2, game_->getWindowHeight() / 2);
-	fighterTR->setWH(10, 50);
+	fighterTR->setWH(50, 50);
 
+	
 	Entity *leftPaddle = entityManager_->addEntity();
 	Transform *leftPaddleTR = leftPaddle->addComponent<Transform>();
 	leftPaddle->addComponent<PaddleKBCtrl>();

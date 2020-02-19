@@ -30,16 +30,16 @@ void FighterCtrl::update() {
 		if (ih->isKeyDown(up_)) {
 			Vector2D newvel = tr_->getVel() + Vector2D(0, -1).rotate(tr_->getRot()) * 0.5;
 			newvel= newvel.normalize() * 2;
-			tr_->setPos(tr_->getPos() + newvel);
+			tr_->setVel( newvel);
 		
 		}
 		else if (ih->isKeyDown(right_)) {
-			tr_->setRot(tr_->getRot() + 0.5);
+			tr_->setRot(tr_->getRot() + 1);
 
 
 		}
 		else if (ih->isKeyDown(left_)) {
-			tr_->setRot(tr_->getRot() -0.5);
+			tr_->setRot(tr_->getRot() -1);
 		}
 	}
 }

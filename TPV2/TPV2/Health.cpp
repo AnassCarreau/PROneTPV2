@@ -17,7 +17,10 @@ Health::~Health() {
 void Health::draw() {
 	int x = 50;
 	for (int i = 0; i < vidas; i++) {
-		life->render(x, 100);
+		
+		dest.x = x;
+		
+		life->render(dest);
 		x += 40;
 	}
 }
