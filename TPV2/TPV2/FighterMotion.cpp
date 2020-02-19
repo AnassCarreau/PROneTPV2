@@ -18,5 +18,5 @@ void FighterMotion::update() {
 }
 
 void FighterMotion::init() {
-	naveDelKibab = GETCMP1_(Transform);
+	naveDelKibab = GETCMP2_(ecs::Transform,Transform);
 }

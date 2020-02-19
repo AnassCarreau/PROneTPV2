@@ -61,6 +61,7 @@ void PingPong::initGame() {
 	Transform *rightPaddleTR = rightPaddle->addComponent<Transform>();
 	rightPaddle->addComponent<PaddleMouseCtrl>();
 	rightPaddle->addComponent<PaddleMoveBehaviour>();
+
 	rightPaddle->addComponent<Rectangle,SDL_Color>({COLOR(0x0000AAFF)});
 	rightPaddleTR->setPos(game_->getWindowWidth() - 15,
 			game_->getWindowHeight() / 2 - 25);

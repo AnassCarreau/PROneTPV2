@@ -28,15 +28,18 @@ void FighterCtrl::update() {
 
 	if (ih->keyDownEvent()) {
 		if (ih->isKeyDown(up_)) {
-			tr_->setVelX(tr_->getPos().getX() + tr_->getRot());
-			tr_->setVelY(tr_->getPos().getY() + tr_->getRot());
+			Vector2D newvel = tr_->getVel() + Vector2D(0, -1).rotate(tr_->getRot()) * 0.5;
+			newvel= newvel.normalize() * 2;
+			tr_->setPos(tr_->getPos() + newvel);
+		
 		}
 		else if (ih->isKeyDown(right_)) {
-			tr_->setRot(tr_->getRot() + 5);
+			tr_->setRot(tr_->getRot() + 0.5);
+
 
 		}
 		else if (ih->isKeyDown(left_)) {
-			tr_->setRot(tr_->getRot() - 5);
+			tr_->setRot(tr_->getRot() -0.5);
 		}
 	}
 }
