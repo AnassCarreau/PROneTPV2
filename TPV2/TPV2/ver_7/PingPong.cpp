@@ -19,6 +19,10 @@
 #include "..//FighterMotion.h"
 #include "..//Health.h"
 #include "ObjectPool.h"
+#include "..//AsteroidPool.h"
+#include "..//Asteroid.h"
+#include "..//AsteroidsViewer.h"
+#include "..//AsteroidsMotion.h"
 #include "SDL_macros.h"
 
 using namespace std;
@@ -63,6 +67,12 @@ void PingPong::initGame() {
 	rightPaddle->addComponent<PaddleMouseCtrl>();
 	rightPaddle->addComponent<PaddleMoveBehaviour>();
 
+	//ObjectPool<Asteroid, 30>ast_;
+	/*Entity* asteroid = entityManager_->addEntity();
+	asteroid->addComponent<AsteroidPool>();
+	asteroid->addComponent<AsteroidsMotion>();
+	asteroid->addComponent<AsteroidsViewer>();*/
+	 
 	rightPaddle->addComponent<Rectangle,SDL_Color>({COLOR(0x0000AAFF)});
 	rightPaddleTR->setPos(game_->getWindowWidth() - 15,
 			game_->getWindowHeight() / 2 - 25);

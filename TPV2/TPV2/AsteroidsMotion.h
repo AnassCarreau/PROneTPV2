@@ -4,11 +4,12 @@
 #include "Asteroid.h"
 #include "ver_7/Entity.h"
 class AsteroidsMotion : public Component {
-
+private:
 	ObjectPool<Asteroid, 30>ast;
 
 	Texture* asteroide;
 	SDL_Rect clip, destRect;
+public:
 	void update()override
 	{
 		for (auto& o : ast.getPool())
