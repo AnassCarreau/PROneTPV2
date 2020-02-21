@@ -27,6 +27,7 @@ enum CmpId : CmpIdType {
 	Bullet,
 	AsteroidPool ,
 	BulletsPool,
+	AsteroidsViewer,
 
 	//
 	// don't touch the rest of this enum, it is to identify the max

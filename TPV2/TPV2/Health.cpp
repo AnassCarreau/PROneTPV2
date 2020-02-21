@@ -16,12 +16,10 @@ Health::~Health() {
 }
 
 void Health::draw() {
-	int x = 50;
+	int x = 15;
 	for (int i = 0; i < vidas; i++) {
 		
-		dest.x = x;
-		
 		life->render(dest);
-		x += 40;
+		x += 30;
 	}
 }

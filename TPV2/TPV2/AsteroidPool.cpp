@@ -38,24 +38,24 @@
  }
 
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
-	 if (Collisions::collidesWithRotation(a->getPos(),a->getW(),a->getH(),a->getRot(), b->getPos(), b->getW(), b->getH(), b->getRot())) {
-		 
-		 if (a->getGenerations() > 0) {
-			 Asteroid* durum = ast.getObj();
-			 Asteroid* durumconsalsa = ast.getObj();
+	 if (Collisions::collidesWithRotation(a->getPos(), a->getW(), a->getH(), a->getRot(), b->getPos(), b->getW(), b->getH(), b->getRot())) {
 
-			 Vector2D v = a->getVel().rotate(a->getRot() *45); //posible cambio de a->getRot()
+		 if (a->getGenerations() > 0) {
+			 Asteroid* astdiv1 = ast.getObj();
+			 Asteroid* astdiv2 = ast.getObj();
+
+			 Vector2D v = a->getVel().rotate(a->getRot() * 45); //posible cambio de a->getRot()
 			 Vector2D p = a->getPos() + v.normalize();
 
 			 int wh = 10 + 3 * (a->getGenerations() - 1);
-			 durum->setVel(v);
-			 durum->setPos(p);
-			 durum->setGenerations(a->getGenerations() - 1);
-			 durum->setWH(wh, wh);
-			 durumconsalsa->setVel(v);
-			 durumconsalsa->setPos(p);
-			 durumconsalsa->setGenerations(a->getGenerations() - 1);
-			 durumconsalsa->setWH(wh, wh);
+			 astdiv1->setVel(v);
+			 astdiv1->setPos(p);
+			 astdiv1->setGenerations(a->getGenerations() - 1);
+			 astdiv1->setWH(wh, wh);
+			 astdiv2->setVel(v);
+			 astdiv2->setPos(p);
+			 astdiv2->setGenerations(a->getGenerations() - 1);
+			 astdiv2->setWH(wh, wh);
 		 }
 		 a->isUse(false);
 		 astAct++;

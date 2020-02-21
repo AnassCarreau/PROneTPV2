@@ -4,11 +4,12 @@
 #include "Asteroid.h"
 #include "ver_7/Entity.h"
 class AsteroidsMotion : public Component {
-
+private:
 	ObjectPool<Asteroid, 30>ast;
 
 	Texture* asteroide;
 	SDL_Rect clip, destRect;
+public:
 	void update()override
 	{
 		for (auto& o : ast.getPool())
@@ -23,11 +24,11 @@ class AsteroidsMotion : public Component {
 			{
 				o->setPosY(0);
 			}
-			else if (o->getPos().getX() <0)
+			else if (o->getPos().getX() < 0)
 			{
 				o->setPosX(game_->getWindowWidth());
 			}
-			else  if (o->getPos().getY() <0)
+			else  if (o->getPos().getY() < 0)
 			{
 				o->setPosY(game_->getWindowHeight());
 			}
