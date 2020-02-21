@@ -1,12 +1,13 @@
 #include "Health.h"
 
-void Health::RestaVida() {
+bool Health::RestaVida() {
 
 	if (vidas > 0) {
 		vidas--;
+		return true;
 	}
 	else {
-		//llama a perder partida imagino
+		return false;
 	}
 }
 

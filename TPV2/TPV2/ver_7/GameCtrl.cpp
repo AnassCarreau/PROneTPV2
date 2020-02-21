@@ -6,7 +6,9 @@
 GameCtrl::GameCtrl(Transform *ballTR) :
 		Component(ecs::GameCtrl), //
 		ballTR_(ballTR), //
-		scoreManager_(nullptr) //
+		scoreManager_(nullptr) ,
+	vida_(nullptr),
+	ast_(nullptr)//
 {
 }
 
@@ -15,25 +17,20 @@ GameCtrl::~GameCtrl() {
 
 void GameCtrl::init() {
 	scoreManager_ = GETCMP1_(ScoreManager);
+	vida_ = GETCMP1_(Health);
+	ast_ = GETCMP1_(AsteroidPool);
 }
 
 void GameCtrl::update() {
 
 	if (InputHandler::instance()->keyDownEvent()) {
-		if (!scoreManager_->isRunning()) {
-			RandomNumberGenerator *r = game_->getRandGen();
-			scoreManager_->setRunning(true);
-			int dx = 1 - 2 * r->nextInt(0, 2); // 1 or -1
-			int dy = 1 - 2 * r->nextInt(0, 2); // 1 or -1
-			Vector2D v(dx * r->nextInt(6, 7), // 2 to 6
-			dy * r->nextInt(2, 7) // 2 to 6
-					);
-			ballTR_->setVel(v.normalize() * 5);
-
+		if (scoreManager_->getPausing()) {
+			scoreManager_->setPausing(false);
+			ast_->generateAsteroids(10);
 			// rest the score if the game is over
-			if (scoreManager_->isGameOver()) {
-				scoreManager_->setLeftScore(0);
-				scoreManager_->setRightScore(0);
+			if (scoreManager_->getRunning()) {
+				vida_->ResetVidas();
+				scoreManager_->setScore(0);
 			}
 		}
 	}
@@ -41,7 +38,7 @@ void GameCtrl::update() {
 
 void GameCtrl::draw() {
 
-	if (!scoreManager_->isRunning()) {
+	if (scoreManager_->getPausing()) {
 		Texture *hitanykey = game_->getTextureMngr()->getTexture(
 				Resources::PressAnyKey);
 		hitanykey->render(
@@ -50,7 +47,7 @@ void GameCtrl::draw() {
 	}
 
 	// game over message when game is over
-	if (scoreManager_->isGameOver()) {
+	if (!scoreManager_->getRunning() ) {
 		Texture *gameOver = game_->getTextureMngr()->getTexture(
 				Resources::GameOver);
 		gameOver->render(game_->getWindowWidth() / 2 - gameOver->getWidth() / 2,

@@ -19,10 +19,25 @@ void ScoreViewer::init() {
 void ScoreViewer::draw() {
 
 	Texture score(game_->getRenderer(),
-			to_string(scoreManager_->getLeftScore()) + " - "
-					+ to_string(scoreManager_->getRightScore()),
+			to_string(scoreManager_->getScore()) ,
 			game_->getFontMngr()->getFont(Resources::ARIAL24),
 			{ COLOR(0x111122ff) });
 	score.render(
 			game_->getWindowWidth() / 2 - score.getWidth() / 2, 10);
+	if (!scoreManager_->getRunning())
+	{ 
+		string texto= "Game Over!";
+		if (scoreManager_->getWin())
+		{
+			texto += "You won!";
+		}
+		else
+		{
+			texto += "You lost!";
+
+		}
+		Texture score(game_->getRenderer(),
+			texto,
+			game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0x111122ff) });
+	}
 }

@@ -3,17 +3,21 @@
 #include "Component.h"
 #include "ScoreManager.h"
 #include "Transform.h"
+#include"..//Health.h"
+#include "..//AsteroidPool.h"
+#include "..//BulletsPool.h"
 
 class GameLogic: public Component {
 public:
-	GameLogic(Transform* ballTR, Transform* leftPaddleTR, Transform* rightPaddleTR);
+	GameLogic(Transform* fighter,AsteroidPool* ast, BulletsPool* bala);
 	virtual ~GameLogic();
 	void init() override;
 	void update() override;
 private:
-	Transform* ballTR_;
-	Transform* leftPaddleTR_;
-	Transform* rightPaddleTR_;
+	Transform* fighter_;
+	AsteroidPool* ast_;
+	BulletsPool* bala_;
+	Health* vida_;
 	ScoreManager *scoreManager_;
 };
 

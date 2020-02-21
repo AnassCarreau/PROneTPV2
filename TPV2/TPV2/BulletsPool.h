@@ -3,7 +3,7 @@
 #include "Bullet.h"
 class BulletsPool
 {
-      ;
+public:
 	  ObjectPool<Bullet,10>bull;
 
 
