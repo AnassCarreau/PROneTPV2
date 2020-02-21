@@ -3,13 +3,12 @@
 #include "Resources.h"
 #include "Entity.h"
 
-GameLogic::GameLogic(Transform *ballTR, Transform *leftPaddleTR,
-		Transform *rightPaddleTR) :
-		Component(ecs::GameLogic), //
-		ballTR_(ballTR), //
-		leftPaddleTR_(leftPaddleTR), //
-		rightPaddleTR_(rightPaddleTR), //
-		scoreManager_(nullptr) //
+GameLogic::GameLogic(Transform* fighter, AsteroidPool* ast, BulletsPool* bala) :
+	Component(ecs::GameLogic), //
+	fighter_(fighter), //
+	ast_(ast),
+	bala_(bala),
+	scoreManager_(nullptr) //
 {
 }
 
@@ -19,39 +18,70 @@ GameLogic::~GameLogic() {
 void GameLogic::init() {
 	// scoreManager_ = GETCMP2(ecs::ScoreManager,ScoreManager);
 	scoreManager_ = GETCMP1_(ScoreManager);
+	//bala_ = GETCMP1_(BulletsPool);
+	//ast_ = GETCMP1_(AsteroidPool);
+	//vida_ = GETCMP1_(Health);
 }
 
 void GameLogic::update() {
-	// check for collision of ball with paddles
-	if (Collisions::collides(ballTR_->getPos(), ballTR_->getW(),
-			ballTR_->getH(), leftPaddleTR_->getPos(), leftPaddleTR_->getW(),
-			leftPaddleTR_->getH())
-			|| Collisions::collides(ballTR_->getPos(), ballTR_->getW(),
-					ballTR_->getH(), rightPaddleTR_->getPos(),
-					rightPaddleTR_->getW(), rightPaddleTR_->getH())) {
-		Vector2D v = ballTR_->getVel();
-		v.setX(-v.getX());
-		ballTR_->setVel(v * 1.2);
-		game_->getAudioMngr()->playChannel(Resources::Paddle_Hit, 0);
-	}
+	if (!scoreManager_->getPausing())
+	{
+		for (auto& o : ast_->getPool())
+		{
+			if (o->isInUse())
+			{
 
-	// check if the back exit from sides
-	if (ballTR_->getPos().getX() <= 0) {
-		scoreManager_->setRightScore(scoreManager_->getRightScore() + 1);
-		scoreManager_->setRunning(false);
-		ballTR_->setVel(Vector2D(0, 0));
-		ballTR_->setPos(
-				Vector2D(game_->getWindowWidth() / 2 - 6,
-						game_->getWindowHeight() / 2 - 6));
 
-	} else if (ballTR_->getPos().getX() + ballTR_->getW()
-			>= game_->getWindowWidth()) {
-		scoreManager_->setLeftScore(scoreManager_->getLeftScore() + 1);
-		scoreManager_->setRunning(false);
-		ballTR_->setPos(
-				Vector2D(game_->getWindowWidth() / 2 - 6,
-						game_->getWindowHeight() / 2 - 6));
-		ballTR_->setVel(Vector2D(0, 0));
+				if (Collisions::collidesWithRotation
+				(fighter_->getPos(), fighter_->getW(), fighter_->getH(), fighter_->getRot(),
+					o->getPos(), o->getW(), o->getH(), o->getRot()))
+				{
+					ast_->disablAll();
+					bala_->disablAll();
+
+					if (!vida_->RestaVida())
+					{
+						scoreManager_->setPausing(true);
+						scoreManager_->setRunning(false);
+						scoreManager_->isGameOver(false);
+						fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
+							game_->getWindowHeight() / 2));
+						fighter_->setVel(Vector2D(0.0, 0.0));
+						fighter_->setRot(0);
+
+					}
+				}
+
+				for (auto& a : bala_->getPool())
+				{
+					if (a->isInUse())
+					{
+						if (Collisions::collidesWithRotation
+						(a->getPos(), a->getW(), a->getH(), a->getRot(),
+							o->getPos(), o->getW(), o->getH(), o->getRot()))
+						{
+							ast_->onCollision(o, a);
+							bala_->onCollision(a,o);
+							scoreManager_->setScore(scoreManager_->getScore() + 1);
+							if (ast_->getNumOfAsteroid() == 0)
+							{
+								scoreManager_->isGameOver(true);
+								scoreManager_->setRunning(false);
+								scoreManager_->setPausing(true);
+
+								fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
+									game_->getWindowHeight() / 2));
+								fighter_->setVel(Vector2D(0.0, 0.0));
+								fighter_->setRot(0);
+
+							}
+						}
+					}
+
+				}
+			}
+		}
 	}
 }
+
 

@@ -2,5 +2,8 @@
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  ScoreManager.cpp
+  ScoreViewer.cpp
+  Generando código...
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
   TPV2.vcxproj -> C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe

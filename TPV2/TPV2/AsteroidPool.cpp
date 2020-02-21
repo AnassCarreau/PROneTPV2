@@ -38,8 +38,6 @@
  }
 
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
-	 if (Collisions::collidesWithRotation(a->getPos(),a->getW(),a->getH(),a->getRot(), b->getPos(), b->getW(), b->getH(), b->getRot())) {
-		 
 		 if (a->getGenerations() > 0) {
 			 Asteroid* astdiv1 = ast.getObj();
 			 Asteroid* astdiv2 = ast.getObj();
@@ -59,5 +57,5 @@
 		 }
 		 a->isUse(false);
 		 astAct++;
-	 }
  }
+ 

@@ -68,10 +68,10 @@ void PingPong::initGame() {
 	rightPaddle->addComponent<PaddleMoveBehaviour>();
 
 	//ObjectPool<Asteroid, 30>ast_;
-	/*Entity* asteroid = entityManager_->addEntity();
+	Entity* asteroid = entityManager_->addEntity();
 	asteroid->addComponent<AsteroidPool>();
 	asteroid->addComponent<AsteroidsMotion>();
-	asteroid->addComponent<AsteroidsViewer>();*/
+	asteroid->addComponent<AsteroidsViewer>();
 	 
 	rightPaddle->addComponent<Rectangle,SDL_Color>({COLOR(0x0000AAFF)});
 	rightPaddleTR->setPos(game_->getWindowWidth() - 15,
@@ -87,9 +87,9 @@ void PingPong::initGame() {
 	ballTR->setWH(11, 11);
 
 	Entity *gameManager = entityManager_->addEntity();
-	//gameManager->addComponent<ScoreManager>(1);
-	//gameManager->addComponent<GameLogic>(fighterTR);
-	//gameManager->addComponent<ScoreViewer>();
+	gameManager->addComponent<ScoreManager>();
+	gameManager->addComponent<GameLogic>(fighterTR);
+	gameManager->addComponent<ScoreViewer>();
 	//gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
 }
 

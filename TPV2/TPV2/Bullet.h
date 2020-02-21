@@ -80,5 +80,9 @@ public:
 	{
 		use = usado;
 	}
+	bool isInUse()
+	{
+		return use;
+	}
 };
 

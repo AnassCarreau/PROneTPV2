@@ -21,7 +21,7 @@ public:
 		life = game_->getTextureMngr()->getTexture(Resources::Health);
 	}
 	virtual ~Health();
-	void RestaVida();
+	bool RestaVida();
 	void ResetVidas() {
 		vidas = 3;
 	};

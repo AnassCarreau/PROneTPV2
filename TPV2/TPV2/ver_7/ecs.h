@@ -25,6 +25,7 @@ enum CmpId : CmpIdType {
 	FighterMotion,
 	BulletsMotion,
 	Bullet,
+	BulletsPool,	
 	AsteroidPool ,
 	AsteroidsViewer,
 

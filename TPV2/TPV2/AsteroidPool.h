@@ -6,12 +6,18 @@
 
 class AsteroidPool:public Component
 {
-	ObjectPool<Asteroid, 30>ast;
+	ObjectPool<Asteroid, 30>ast_;
+	AsteroidPool* joder;
+	Asteroid tupm;
 	int astAct = 0;
 	public :
-		//AsteroidPool() :Component(ecs::AsteroidPool),
-		//	//	ast([](Asteroid* o) { return o->isUse(true); });
-		//;
+		/*AsteroidPool() : Component(ecs::AsteroidPool),
+			joder([](Asteroid*o)
+			 {
+		
+
+			return o->isUse(true); };*/
+		
 		void  generateAsteroids(int n);	
 
 		void disablAll();
