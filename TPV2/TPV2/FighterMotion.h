@@ -7,7 +7,7 @@
 class FighterMotion:public Component
 {
 private:
-	Transform *naveDelKibab;
+	Transform *nave;
 public:
 	FighterMotion() : Component(ecs::FighterMotion) {};
 	virtual ~FighterMotion() {};

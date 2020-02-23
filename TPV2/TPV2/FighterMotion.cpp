@@ -5,18 +5,17 @@
 
 void FighterMotion::update() {
 	
-	naveDelKibab->setPos(naveDelKibab->getPos() + naveDelKibab->getVel());
-	naveDelKibab->setVel(naveDelKibab->getVel() * 0.995);
-	if (naveDelKibab->getPos().getX() +naveDelKibab->getH() >= game_->getWindowWidth()
-		|| naveDelKibab->getPos().getX() <= 0 
-		|| naveDelKibab->getPos().getY() + naveDelKibab->getH() >= game_->getWindowHeight()
-		|| naveDelKibab->getPos().getY() <= 0)
+	nave->setPos(nave->getPos() + nave->getVel());
+	nave->setVel(nave->getVel() * 0.995);
+	if (nave->getPos().getX() +nave->getH() >= game_->getWindowWidth()
+		|| nave->getPos().getX() <= 0 
+		|| nave->getPos().getY() + nave->getH() >= game_->getWindowHeight()
+		|| nave->getPos().getY() <= 0)
 	{
-		std::cout<<  "jebab";
-		naveDelKibab->setVel(naveDelKibab->getVel() * -1);
+		nave->setVel(nave->getVel() * -1);
 	}
 }
 
 void FighterMotion::init() {
-	naveDelKibab = GETCMP2_(ecs::Transform,Transform);
+	nave = GETCMP2_(ecs::Transform,Transform);
 }

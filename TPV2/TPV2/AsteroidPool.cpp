@@ -4,7 +4,7 @@
  {
 	 for (int i = 0; i < n; i++)
 	 {
-		 Asteroid* o = ast.getObj();
+		 Asteroid* o = ast_.getObj();
 		 if (o!=nullptr)
 		 {
 			 o->isUse(true);
@@ -31,7 +31,7 @@
 
  void AsteroidPool::disablAll() {
 	 //deactivate all the asteroids
-	 for (auto& o : ast.getPool())
+	 for (auto& o : ast_.getPool())
 	 {
 		 o->isUse(false);
 	 }
@@ -39,8 +39,8 @@
 
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
 		 if (a->getGenerations() > 0) {
-			 Asteroid* astdiv1 = ast.getObj();
-			 Asteroid* astdiv2 = ast.getObj();
+			 Asteroid* astdiv1 = ast_.getObj();
+			 Asteroid* astdiv2 = ast_.getObj();
 
 			 Vector2D v = a->getVel().rotate(a->getRot() *45); //posible cambio de a->getRot()
 			 Vector2D p = a->getPos() + v.normalize();

@@ -7,16 +7,16 @@
 class AsteroidPool:public Component
 {
 	ObjectPool<Asteroid, 30>ast_;
-	AsteroidPool* joder;
-	Asteroid tupm;
+	
 	int astAct = 0;
 	public :
-		/*AsteroidPool() : Component(ecs::AsteroidPool),
-			joder([](Asteroid*o)
-			 {
+		/*AsteroidPool() : Component(ecs::AsteroidPool)
+		{
+			ast_ = ObjectPool<Asteroid, 30>(generateAsteroids(30));
+		};*/
 		
 
-			return o->isUse(true); };*/
+			
 		
 		void  generateAsteroids(int n);	
 
@@ -26,7 +26,7 @@ class AsteroidPool:public Component
 
 		vector<Asteroid*> getPool()
 		{
-			return ast.getPool();
+			return ast_.getPool();
 		}
 };
 
