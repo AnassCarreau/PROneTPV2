@@ -6,18 +6,12 @@
 
 class AsteroidPool:public Component
 {
-	ObjectPool<Asteroid, 30>ast_;
+	ObjectPool<Asteroid,10>ast;
 	
 	int astAct = 0;
 	public :
-		/*AsteroidPool() : Component(ecs::AsteroidPool)
-		{
-			ast_ = ObjectPool<Asteroid, 30>(generateAsteroids(30));
-		};*/
-		
+		AsteroidPool() :  Component(ecs::AsteroidPool),ast([](Asteroid* a) {return a->isInUse();}) {};
 
-			
-		
 		void  generateAsteroids(int n);	
 
 		void disablAll();
@@ -26,7 +20,7 @@ class AsteroidPool:public Component
 
 		vector<Asteroid*> getPool()
 		{
-			return ast_.getPool();
+			return ast.getPool();
 		}
 };
 
