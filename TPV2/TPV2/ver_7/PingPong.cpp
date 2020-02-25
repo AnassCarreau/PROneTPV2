@@ -23,6 +23,10 @@
 #include "..//Asteroid.h"
 #include "..//AsteroidsViewer.h"
 #include "..//AsteroidsMotion.h"
+#include "..//BulletsMotion.h"
+#include "..//BulletsPool.h"
+#include "..//BulletsViewer.h"
+#include "..//Bullet.h"
 #include "SDL_macros.h"
 
 using namespace std;
@@ -53,43 +57,23 @@ void PingPong::initGame() {
 	fighterTR->setPos(game_->getWindowWidth()/2, game_->getWindowHeight() / 2);
 	fighterTR->setWH(50, 50);
 
-	
-	Entity *leftPaddle = entityManager_->addEntity();
-	Transform *leftPaddleTR = leftPaddle->addComponent<Transform>();
-	leftPaddle->addComponent<PaddleKBCtrl>();
-	leftPaddle->addComponent<PaddleMoveBehaviour>();
-	leftPaddle->addComponent<Rectangle,SDL_Color>({COLOR(0xAA0000FF)});
-	leftPaddleTR->setPos(5, game_->getWindowHeight() / 2 - 25);
-	leftPaddleTR->setWH(10, 50);
-
-	Entity *rightPaddle = entityManager_->addEntity();
-	Transform *rightPaddleTR = rightPaddle->addComponent<Transform>();
-	rightPaddle->addComponent<PaddleMouseCtrl>();
-	rightPaddle->addComponent<PaddleMoveBehaviour>();
 
 	Entity* asteroid = entityManager_->addEntity();
-	asteroid->addComponent<AsteroidPool>();
-	//asteroid->addComponent<AsteroidsMotion>();
-	//asteroid->addComponent<AsteroidsViewer>();
+	AsteroidPool* ast = asteroid->addComponent<AsteroidPool>();
+	asteroid->addComponent<AsteroidsMotion>(ast);
+	asteroid->addComponent<AsteroidsViewer>(ast);
 	 
-	rightPaddle->addComponent<Rectangle,SDL_Color>({COLOR(0x0000AAFF)});
-	rightPaddleTR->setPos(game_->getWindowWidth() - 15,
-			game_->getWindowHeight() / 2 - 25);
-	rightPaddleTR->setWH(10, 50);
 
-	Entity *ball = entityManager_->addEntity();
-	Transform *ballTR = ball->addComponent<Transform>();
-	ball->addComponent<BallMoveBehaviour>();
-	ball->addComponent<Rectangle>();
-	ballTR->setPos(game_->getWindowWidth() / 2 - 6,
-			game_->getWindowHeight() / 2 - 6);
-	ballTR->setWH(11, 11);
+	Entity* bullet = entityManager_->addEntity();
+	BulletsPool* bull = bullet->addComponent<BulletsPool>();
+	bullet->addComponent<BulletsMotion>(bull);
+	bullet->addComponent<BulletsViewer>(bull);
 
 	Entity *gameManager = entityManager_->addEntity();
 	gameManager->addComponent<ScoreManager>();
-	//gameManager->addComponent<GameLogic>(fighterTR);
+	gameManager->addComponent<GameLogic>(fighterTR, ast, bull);
 	gameManager->addComponent<ScoreViewer>();
-	//gameManager->addComponent<GameCtrl>(GETCMP2(ball, Transform));
+	gameManager->addComponent<GameCtrl>(fighterTR);
 }
 
 void PingPong::closeGame() {

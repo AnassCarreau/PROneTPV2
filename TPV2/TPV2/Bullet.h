@@ -10,6 +10,7 @@ protected:
 	double rotation_;
 	bool use;
 public:
+	Bullet() {};
 	Bullet(Vector2D pos,
 		Vector2D vel,
 		double width,

@@ -5,10 +5,14 @@ Gun::~Gun() {
 }
 
 void Gun::canshoot() {
-	if (disparo && SDLK_SPACE)
+
+	InputHandler* ih = InputHandler::instance();
+
+	
+	if (ih->keyDownEvent() && disparo && ih->isKeyDown(SDLK_SPACE))
 	{
 		//balasowey
-		//shoot() de bulletspool
+		bala->shoot(tr_->getPos(),tr_->getVel(),50,50);
 		frame = game_->getTime() + shoot;
 		disparo = false;
 	}

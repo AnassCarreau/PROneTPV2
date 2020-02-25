@@ -23,11 +23,13 @@ enum CmpId : CmpIdType {
 	Health,
 	Gun,
 	FighterMotion,
-	BulletsMotion,
 	Bullet,
 	BulletsPool,	
+	BulletsViewer,
+	BulletsMotion,
 	AsteroidPool,
 	AsteroidsViewer,
+	AsteroidsMotion,
 
 	//
 	// don't touch the rest of this enum, it is to identify the max

@@ -11,6 +11,7 @@ class Asteroid
 	int generaciones_;
 	int use;
 public :
+	Asteroid() {};
 	Asteroid(Vector2D pos,
 		Vector2D vel,
 		double width,

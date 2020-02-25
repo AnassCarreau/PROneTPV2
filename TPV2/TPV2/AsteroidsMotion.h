@@ -3,16 +3,18 @@
 #include "ver_7/ObjectPool.h"
 #include "Asteroid.h"
 #include "ver_7/Entity.h"
+#include "AsteroidPool.h"
 class AsteroidsMotion : public Component {
 private:
-	ObjectPool<Asteroid, 30>ast;
+	AsteroidPool* ast;
 
 	Texture* asteroide;
 	SDL_Rect clip, destRect;
 public:
+	AsteroidsMotion(AsteroidPool* durum) : Component(ecs::AsteroidsMotion), ast(durum) {};
 	void update()override
 	{
-		for (auto& o : ast.getPool())
+		for (auto& o : ast->getPool())
 		{
 			o->setPos(o->getPos() + o->getVel());
 			o->setRot(o->getRot() + 0.5);

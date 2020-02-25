@@ -6,28 +6,28 @@
 #include "ver_7/Entity.h"
 #include "ver_7/SDL_macros.h"
 #include <SDL_rect.h>
-
+#include "AsteroidPool.h"
 
 class AsteroidsViewer :public Component
 {
 private:
-	ObjectPool<Asteroid, 30>ast;
+	AsteroidPool* ast;
 
 	Texture* asteroide;
 	SDL_Rect destRect;
 public:
-	AsteroidsViewer(ObjectPool<Asteroid,30>ast_) :Component(ecs::AsteroidsViewer),
+	AsteroidsViewer(AsteroidPool* ast_) :Component(ecs::AsteroidsViewer),
 	ast(ast_){
 	
 	};
-	virtual ~AsteroidsViewer();
+	virtual ~AsteroidsViewer() {};
 	void init() 
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);
 	};
 	void draw() override
 	{
-		for (auto& o : ast.getPool())
+		for (auto& o : ast->getPool())
 		{
 			if (o->isInUse())
 			{
