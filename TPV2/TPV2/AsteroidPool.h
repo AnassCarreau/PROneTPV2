@@ -6,7 +6,7 @@
 
 class AsteroidPool:public Component
 {
-	ObjectPool<Asteroid,10>ast;
+	ObjectPool<Asteroid,30>ast;
 	
 	int astAct = 0;
 	public :

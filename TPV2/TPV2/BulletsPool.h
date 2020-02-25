@@ -9,7 +9,7 @@ private:
 	  ObjectPool<Bullet,10>bull;
 
 public:
-	BulletsPool() : Component(ecs::BulletsPool), bull([](Bullet* a) {return a->isInUse(); }) {};
+	//BulletsPool() : Component(ecs::BulletsPool), bull([](Bullet* a) {return a->isInUse(); }) {};
 	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
 	  {
 		  //bull = new Bullet( pos,  vel,  w,  h, 0.0);

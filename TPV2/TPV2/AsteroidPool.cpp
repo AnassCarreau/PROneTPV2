@@ -8,7 +8,7 @@
 		 if (o!=nullptr)
 		 {
 			 o->isUse(true);
-			 RandomNumberGenerator* r= game->getRandGen();
+			 RandomNumberGenerator* r= game_->getRandGen();
 			 int px, py, m, rx, ry, g, wh;
 			 px = r->nextInt(0, game_->getWindowWidth());
 			 py = r->nextInt(0, game_->getWindowWidth());

@@ -1,182 +1,156 @@
-﻿  Bullet.cpp
-  BulletsPool.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,10>::array(void)': se está intentando hacer referencia a una función eliminada.
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,10>::array' aquí
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,10>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,10>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,10>::_Elems'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)"
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         ]
+﻿  BulletsPool.cpp
   FighterCtrl.cpp
+  FighterViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(21,33): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
   Gun.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Bullet,10>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,10>::array(void)': se está intentando hacer referencia a una función eliminada.
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,10>::array' aquí
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,10>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,10>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,10>::_Elems'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Bullet
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)"
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         ]
   Health.cpp
   AsteroidPool.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Bullet,10>" que se está compilando
-  AsteroidsMotion.cpp
-  FighterMotion.cpp
-  Component.cpp
-  FontsManager.cpp
-  GameCtrl.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.cpp(11,31): error C2065: 'game': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,10>::array(void)': se está intentando hacer referencia a una función eliminada.
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(22,33): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,30>::array(void)': se está intentando hacer referencia a una función eliminada.
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,10>::array' aquí
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,30>::array' aquí
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,10>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,10>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,30>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,30>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,10>::_Elems'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,30>::_Elems'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Asteroid,10>::ObjectPool(std::function<bool (T *)>)"
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)"
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Asteroid,10>::ObjectPool(std::function<bool (T *)>)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :             T=Asteroid
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         ]
+  AsteroidsMotion.cpp
+  AsteroidsViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Asteroid,30>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  BulletsMotion.cpp
+  FighterMotion.cpp
+  BallMoveBehaviour.cpp
+  Component.cpp
+  Entity.cpp
+  FontsManager.cpp
+  GameCtrl.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,30>::array(void)': se está intentando hacer referencia a una función eliminada.
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Asteroid
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,30>::array' aquí
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Asteroid
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,30>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,30>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Asteroid
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,30>::_Elems'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Asteroid
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)"
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Asteroid
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         ]
   GameLogic.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Asteroid,10>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,10>::array(void)': se está intentando hacer referencia a una función eliminada.
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Asteroid,30>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,30>::array(void)': se está intentando hacer referencia a una función eliminada.
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,10>::array' aquí
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,30>::array' aquí
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,10>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,10>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,30>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,30>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,10>::_Elems'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,30>::_Elems'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)"
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)"
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         ]
-  InputHandler.cpp
-  PaddleMouseCtrl.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :             T=Asteroid
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         ]
+  Manager.cpp
   PingPong.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Bullet,10>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Asteroid,30>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,10>::array(void)': se está intentando hacer referencia a una función eliminada.
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280: 'std::array<T,30>::array(void)': se está intentando hacer referencia a una función eliminada.
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22,1): error C2280:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,10>::array' aquí
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message : el compilador generó 'std::array<T,30>::array' aquí
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,10>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,10>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message : "std::array<T,30>::array(void)": la función se eliminó implícitamente porque un objeto "std::array<T,30>::_Elems" miembro de datos no tiene ningún elemento constructor predeterminado adecuado o la resolución de sobrecarga era ambigua.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(191,1): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,10>::_Elems'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message : vea la declaración de 'std::array<T,30>::_Elems'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :             T=Asteroid
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\array(190): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)"
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message : al compilar la función del miembro clase plantilla "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)"
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :             T=Asteroid
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\ObjectPool.h(22): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Bullet,10>::ObjectPool(std::function<bool (T *)>)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(12): message :         ]
-  RandomNumberGenerator.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message : vea la referencia a la creación de instancias de plantilla de función "ObjectPool<Asteroid,30>::ObjectPool(std::function<bool (T *)>)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :             T=Asteroid
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(13): message :         ]
+  Rectangle.cpp
   ScoreManager.cpp
-  SDLFontsManager.cpp
-  SDLTexturesManager.cpp
-  SimpleMoveBahviour.cpp
   Generando código...
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Bullet,10>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\SDLTexturesManager.cpp : fatal error C1090: No se pudo ejecutar la llamada API de PDB. Código de error "3": C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Debug\vc142.pdb
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(9): message : vea la referencia a la creación de instancias de clase plantilla "ObjectPool<Asteroid,30>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ver_7\Rectangle.cpp : fatal error C1090: No se pudo ejecutar la llamada API de PDB. Código de error "3": C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Debug\vc142.pdb
