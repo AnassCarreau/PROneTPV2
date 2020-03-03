@@ -1,28 +1,30 @@
-﻿  Bullet.cpp
-  BulletsPool.cpp
+﻿  BulletsPool.cpp
+  FighterCtrl.cpp
   Gun.cpp
   Health.cpp
-  Asteroid.cpp
   AsteroidPool.cpp
   AsteroidsMotion.cpp
-  AsteroidsViewer.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  BulletsMotion.cpp
+  BulletsViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
   GameCtrl.cpp
   GameLogic.cpp
-  Manager.cpp
-  PingPong.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  main.cpp
+  PaddleMoveBehaviour.cpp
+  Rectangle.cpp
+  Resources.cpp
+  ScoreManager.cpp
+  ScoreViewer.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  SimpleMoveBahviour.cpp
   Transform.cpp
   Generando código...
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-     Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(39,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
 FighterCtrl.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
+Gun.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 PaddleKBCtrl.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 PingPong.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 Gun.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: unsigned int __cdecl SDLGame::getTime(void)" (?getTime@SDLGame@@QEAAIXZ)
@@ -80,10 +82,10 @@ Texture.obj : error LNK2019: símbolo externo SDL_RenderCopyEx sin resolver al q
 Texture.obj : error LNK2019: símbolo externo SDL_DestroyTexture sin resolver al que se hace referencia en la función "public: void __cdecl Texture::close(void)" (?close@Texture@@QEAAXXZ)
 Texture.obj : error LNK2019: símbolo externo IMG_Load sin resolver al que se hace referencia en la función "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
 MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 51 externos sin resolver
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 51 externos sin resolver

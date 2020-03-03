@@ -73,7 +73,7 @@ void PingPong::initGame() {
 	gameManager->addComponent<ScoreManager>();
 	gameManager->addComponent<GameLogic>(fighterTR, ast, bull);
 	gameManager->addComponent<ScoreViewer>();
-	gameManager->addComponent<GameCtrl>(fighterTR);
+	//gameManager->addComponent<GameCtrl>(fighterTR);
 }
 
 void PingPong::closeGame() {

@@ -5,7 +5,6 @@
 
 GameCtrl::GameCtrl(Transform* ballTR) :
 	Component(ecs::GameCtrl), //
-	ballTR_(ballTR), //
 	scoreManager_(nullptr),
 	vida_(nullptr),
 	ast_(nullptr)//
@@ -19,6 +18,8 @@ void GameCtrl::init() {
 	scoreManager_ = GETCMP1_(ScoreManager);
 	vida_ = GETCMP1_(Health);
 	ast_ = GETCMP1_(AsteroidPool);
+	
+	ballTR_ = GETCMP1_(Transform);
 }
 
 void GameCtrl::update() {
