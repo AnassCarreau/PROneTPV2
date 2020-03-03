@@ -69,7 +69,6 @@
     <ClInclude Include="ver_7\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.cpp" />
@@ -77,10 +76,6 @@
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.cpp" />
     <ClCompile Include="Asteroid.cpp" />
     <ClCompile Include="AsteroidPool.cpp" />
-    <ClCompile Include="AsteroidsMotion.cpp" />
-    <ClCompile Include="AsteroidsViewer.cpp" />
-    <ClCompile Include="BulletsMotion.cpp" />
-    <ClCompile Include="BulletsViewer.cpp" />
     <ClCompile Include="FighterMotion.cpp" />
     <ClCompile Include="ver_7\AudioManager.cpp" />
     <ClCompile Include="ver_7\BallMoveBehaviour.cpp" />

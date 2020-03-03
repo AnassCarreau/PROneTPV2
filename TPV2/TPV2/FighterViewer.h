@@ -13,7 +13,7 @@ private:
 	Texture* fighter;
 	SDL_Rect clip, destRect;
 public:
-	FighterViewer(Texture* fig);
+	FighterViewer();
 	virtual ~FighterViewer();
 	void draw() override;
 	void init();

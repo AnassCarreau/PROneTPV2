@@ -48,15 +48,7 @@ void PingPong::initGame() {
 
 	entityManager_ = new EntityManager(game_);
 
-	Entity* fighter = entityManager_->addEntity();
-	Transform* fighterTR = fighter->addComponent<Transform>();
-	fighter->addComponent<FighterCtrl>();
-	fighter->addComponent<FighterMotion>();
-	fighter->addComponent<FighterViewer>(game_->getTextureMngr()->getTexture(Resources::Airplanes));
-	fighter->addComponent<Health>(3);
-	fighterTR->setPos(game_->getWindowWidth()/2, game_->getWindowHeight() / 2);
-	fighterTR->setWH(50, 50);
-
+	
 
 	Entity* asteroid = entityManager_->addEntity();
 	AsteroidPool* ast = asteroid->addComponent<AsteroidPool>();
@@ -69,11 +61,20 @@ void PingPong::initGame() {
 	bullet->addComponent<BulletsMotion>(bull);
 	bullet->addComponent<BulletsViewer>(bull);
 
+	Entity* fighter = entityManager_->addEntity();
+	Transform* fighterTR = fighter->addComponent<Transform>();
+	fighter->addComponent<FighterCtrl>(bull);
+	fighter->addComponent<FighterMotion>();
+	fighter->addComponent<FighterViewer>();
+	fighter->addComponent<Health>(3);
+	fighterTR->setPos(game_->getWindowWidth() / 2, game_->getWindowHeight() / 2);
+	fighterTR->setWH(50, 50);
+
 	Entity *gameManager = entityManager_->addEntity();
 	gameManager->addComponent<ScoreManager>();
-	gameManager->addComponent<GameLogic>(fighterTR, ast, bull);
+	gameManager->addComponent<GameLogic>(fighterTR, ast, bull, fighter->getComponent<Health>(ecs::Health));
 	gameManager->addComponent<ScoreViewer>();
-	//gameManager->addComponent<GameCtrl>(fighterTR);
+	gameManager->addComponent<GameCtrl>(fighterTR, ast);
 }
 
 void PingPong::closeGame() {

@@ -3,11 +3,11 @@
 #include "Entity.h"
 #include "InputHandler.h"
 
-GameCtrl::GameCtrl(Transform* ballTR) :
-	Component(ecs::GameCtrl), //
+GameCtrl::GameCtrl(Transform* fighterTR, AsteroidPool* ast) :
+	Component(ecs::GameCtrl), fighterTR_(fighterTR),//
 	scoreManager_(nullptr),
 	vida_(nullptr),
-	ast_(nullptr)//
+	ast_(ast)//
 {
 }
 
@@ -16,30 +16,26 @@ GameCtrl::~GameCtrl() {
 
 void GameCtrl::init() {
 	scoreManager_ = GETCMP1_(ScoreManager);
-	vida_ = GETCMP1_(Health);
-	ast_ = GETCMP1_(AsteroidPool);
 	
-	ballTR_ = GETCMP1_(Transform);
+	//ast_ = GETCMP1_(AsteroidPool);
 }
 
 void GameCtrl::update() {
 
-	if (InputHandler::instance()->keyDownEvent()) {
-		if (scoreManager_->getPausing()) {
-			scoreManager_->setPausing(false);
-			ast_->generateAsteroids(10);
-			
-		}
+	if (InputHandler::instance()->keyDownEvent() && scoreManager_->getPause()) {
+		scoreManager_->setPause(false);
+		scoreManager_->setPlay(true);
+		ast_->generateAsteroids(10);
 	}
-	if (!scoreManager_->getRunning()) {
-		vida_->ResetVidas();
+	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
+		//vida_->ResetVidas();
 		scoreManager_->setScore(0);
 	}
 }
 
 void GameCtrl::draw() {
 
-	if (scoreManager_->getPausing()) {
+	if (scoreManager_->getPause()) {
 		Texture* hitanykey = game_->getTextureMngr()->getTexture(
 			Resources::PressAnyKey);
 		hitanykey->render(
@@ -48,7 +44,7 @@ void GameCtrl::draw() {
 	}
 
 	// game over message when game is over
-	if (!scoreManager_->getRunning()) {
+	if (!scoreManager_->getPlay()) {
 		Texture* gameOver = game_->getTextureMngr()->getTexture(
 			Resources::GameOver);
 		gameOver->render(game_->getWindowWidth() / 2 - gameOver->getWidth() / 2,

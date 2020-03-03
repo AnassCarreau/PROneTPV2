@@ -14,9 +14,9 @@ private:
 	BulletsPool* bala;
 public:
 	bool disparo=true;
-	Gun():Component(ecs::Gun), tr_(nullptr) {};
+	Gun(Transform* fighter, BulletsPool* bullets):Component(ecs::Gun), tr_(fighter), bala(bullets) {};
 	virtual ~Gun();
 	void canshoot();
-	void init() { tr_ = GETCMP2_(ecs::Transform, Transform); };
+	void init() { tr_ = GETCMP2_(ecs::Transform, Transform);};
 };
 

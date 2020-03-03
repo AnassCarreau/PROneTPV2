@@ -1,8 +1,8 @@
 #include "FighterViewer.h"
 
-FighterViewer::FighterViewer(Texture* fig) :
+FighterViewer::FighterViewer() :
 	Component(ecs::FighterViewer) ,
-	fighter ( fig),
+	fighter (nullptr),
 	tr_(nullptr){
 	clip.x = 47;
 	clip.y = 90;
@@ -26,5 +26,6 @@ void FighterViewer::draw() {
 
 void FighterViewer::init() {
 	tr_ = GETCMP1_(Transform);
+	fighter = game_->getTextureMngr()->getTexture(Resources::Airplanes);
 	
 }

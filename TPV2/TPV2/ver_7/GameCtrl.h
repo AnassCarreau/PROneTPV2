@@ -7,13 +7,13 @@
 #include "..//AsteroidPool.h"
 class GameCtrl : public Component {
 public:
-	GameCtrl(Transform* ballTR);
+	GameCtrl(Transform* fighterTR, AsteroidPool* ast);
 	virtual ~GameCtrl();
 	void init() override;
 	void update() override;
 	void draw() override;
 private:
-	Transform* ballTR_;
+	Transform* fighterTR_;
 	ScoreManager* scoreManager_;
 	Health* vida_;
 	AsteroidPool* ast_;

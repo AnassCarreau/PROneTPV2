@@ -2,11 +2,12 @@
 
 #include "ver_7/Component.h"
 #include "ver_7/Transform.h"
-
+#include "Gun.h"
+#include "BulletsPool.h"
 class FighterCtrl:public Component
 {
 public:
-	FighterCtrl();
+	FighterCtrl(BulletsPool* bullets_);
 	FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left);
 	virtual ~FighterCtrl();
 
@@ -18,5 +19,7 @@ private:
 	SDL_Keycode right_;
 	SDL_Keycode left_;
 	Transform* tr_;
+	Gun* gun_;
+	BulletsPool* bullets;
 };
 

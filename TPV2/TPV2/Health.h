@@ -8,9 +8,6 @@ class Health: public Component
 private:
 	int vidas;
 	Texture* life;
-
-	
-	;
 public:
 	Health(int vidas_) :Component(ecs::Health),
 		vidas(vidas_)

@@ -3,11 +3,12 @@
 #include "Resources.h"
 #include "Entity.h"
 
-GameLogic::GameLogic(Transform* fighter, AsteroidPool* ast, BulletsPool* bala) :
+GameLogic::GameLogic(Transform* fighter, AsteroidPool* ast, BulletsPool* bala, Health* vida) :
 	Component(ecs::GameLogic), //
 	fighter_(fighter), //
 	ast_(ast),
 	bala_(bala),
+	vida_(vida),
 	scoreManager_(nullptr) //
 {
 }
@@ -16,15 +17,15 @@ GameLogic::~GameLogic() {
 }
 
 void GameLogic::init() {
-	// scoreManager_ = GETCMP2(ecs::ScoreManager,ScoreManager);
+	//scoreManager_ = GETCMP2(ecs::ScoreManager,ScoreManager);
 	scoreManager_ = GETCMP1_(ScoreManager);
-	//bala_ = GETCMP1_(BulletsPool);
-	//ast_ = GETCMP1_(AsteroidPool);
-	//vida_ = GETCMP1_(Health);
+	/*bala_ = GETCMP1_(BulletsPool);
+	ast_ = GETCMP1_(AsteroidPool);*/
+	/*vida_ = GETCMP2_(ecs::Health,fighter_);*/
 }
 
 void GameLogic::update() {
-	if (!scoreManager_->getPausing())
+	if (!scoreManager_->getPause())
 	{
 		for (auto& o : ast_->getPool())
 		{
@@ -38,18 +39,22 @@ void GameLogic::update() {
 				{
 					ast_->disablAll();
 					bala_->disablAll();
-
-					if (!vida_->RestaVida())
+					cout << "dado";
+					if (vida_->RestaVida())
 					{
-						scoreManager_->setPausing(true);
-						scoreManager_->setRunning(false);
+						scoreManager_->setPause(true);
+						scoreManager_->setPlay(false);
 						scoreManager_->isGameOver(false);
-						fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
-							game_->getWindowHeight() / 2));
-						fighter_->setVel(Vector2D(0.0, 0.0));
-						fighter_->setRot(0);
-
 					}
+					else { scoreManager_->isGameOver(true);
+					scoreManager_->setPlay(false);
+					scoreManager_->setPause(true);
+					vida_->ResetVidas();
+					}
+					fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
+						game_->getWindowHeight() / 2));
+					fighter_->setVel(Vector2D(0.0, 0.0));
+					fighter_->setRot(0);
 				}
 
 				for (auto& a : bala_->getPool())
@@ -66,8 +71,8 @@ void GameLogic::update() {
 							if (ast_->getNumOfAsteroid() == 0)
 							{
 								scoreManager_->isGameOver(true);
-								scoreManager_->setRunning(false);
-								scoreManager_->setPausing(true);
+								scoreManager_->setPlay(false);
+								scoreManager_->setPause(true);
 
 								fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
 									game_->getWindowHeight() / 2));

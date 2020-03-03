@@ -2,7 +2,7 @@
 
 bool Health::RestaVida() {
 
-		if (vidas > 0) {
+		if (vidas > 1) {
 			vidas--;
 			return true;
 		}

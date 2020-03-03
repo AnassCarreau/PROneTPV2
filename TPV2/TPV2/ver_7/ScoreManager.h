@@ -17,35 +17,31 @@ public:
 		score_ = score;
 	}
 
-
-
-
-	bool getRunning() const {
-		return running_;
+	bool getPlay() const {
+		return jugando;
 	}
 
-	void setRunning(bool running) {
-		running_ = running;
+	void setPlay(bool running) {
+		jugando = running;
 	}
-	bool getPausing() const {
-		return running_;
-	}
-
-	void setPausing(bool Pausing) {
-		pausing_ = Pausing;
+	bool getPause() const {
+		return pausado;
 	}
 
-	void isGameOver(bool ganar) {
-		ganado = ganar;
+	void setPause(bool Pausing) {
+		pausado = Pausing;
+	}
+
+	void isGameOver(bool fin) {
+		finJuego = fin;
 	}
 	bool getGameOver() const {
-		return ganado;
+		return finJuego;
 	}
 
 private:
-	bool running_;
-	bool pausing_;
+	bool jugando;
+	bool pausado;
 	int score_;
-	bool ganado;
-
+	bool finJuego;
 };

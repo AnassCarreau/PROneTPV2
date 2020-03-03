@@ -8,10 +8,9 @@ class AsteroidsMotion : public Component {
 private:
 	AsteroidPool* ast;
 
-	Texture* asteroide;
-	SDL_Rect clip, destRect;
 public:
-	AsteroidsMotion(AsteroidPool* durum) : Component(ecs::AsteroidsMotion), ast(durum) {};
+	AsteroidsMotion(AsteroidPool* durum) : Component(ecs::AsteroidsMotion), ast(durum){};
+	
 	void update()override
 	{
 		for (auto& o : ast->getPool())

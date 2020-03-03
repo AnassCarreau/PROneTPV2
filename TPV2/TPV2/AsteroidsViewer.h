@@ -12,20 +12,17 @@ class AsteroidsViewer :public Component
 {
 private:
 	AsteroidPool* ast;
-
 	Texture* asteroide;
-	SDL_Rect destRect;
 public:
 	AsteroidsViewer(AsteroidPool* ast_) :Component(ecs::AsteroidsViewer),
-	ast(ast_){
-	
+	ast(ast_), asteroide(nullptr){
 	};
 	virtual ~AsteroidsViewer() {};
 	void init() 
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);
 	};
-	void draw() override
+	void draw()
 	{
 		for (auto& o : ast->getPool())
 		{
@@ -37,8 +34,7 @@ public:
 				rect.w = o->getW();
 				rect.h = o->getH();
 				
-				
-				asteroide->render(destRect,o->getRot());
+				asteroide->render(rect,o->getRot());
 			}
 		}
 	}

@@ -263,9 +263,6 @@
     <ClCompile Include="ver_7\Vector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -284,22 +281,10 @@
     <ClCompile Include="FighterMotion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BulletsMotion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Asteroid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AsteroidPool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AsteroidsViewer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AsteroidsMotion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BulletsViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,10 +15,9 @@ class BulletsViewer: public Component
 private:
 	BulletsPool* bull;
 	Texture* bala;
-	SDL_Rect destRect;
 public:
 	BulletsViewer(BulletsPool* bull_) : Component(ecs::BulletsViewer),
-		bull(bull_) {
+		bull(bull_), bala(nullptr) {
 
 	};
 	virtual ~BulletsViewer() {};
@@ -39,7 +38,7 @@ public:
 				rect.h = o->getH();
 
 
-				bala->render(destRect, o->getRot());
+				bala->render(rect, o->getRot());
 			}
 		}
 	}

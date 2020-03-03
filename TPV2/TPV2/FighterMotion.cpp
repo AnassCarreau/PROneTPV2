@@ -17,5 +17,5 @@ void FighterMotion::update() {
 }
 
 void FighterMotion::init() {
-	nave = GETCMP2_(ecs::Transform,Transform);
+	nave = GETCMP1_(Transform);
 }
