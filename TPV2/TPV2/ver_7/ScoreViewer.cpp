@@ -24,14 +24,14 @@ void ScoreViewer::draw() {
 		{ COLOR(0x111122ff) });
 	score.render(
 		game_->getWindowWidth() / 2 - score.getWidth() / 2, 10);
-	if (!scoreManager_->getPlay()   )
+	if (!scoreManager_->getPlay() )
 	{
 		string texto;
-		if (!scoreManager_->getGameOver())
+		if (scoreManager_->getGameOver())
 		{
 			texto = "Game Over! You won!";
 		}
-		else
+		else if (!scoreManager_->getGameOver())
 		{
 			texto = "Game Over! You lost!";
 

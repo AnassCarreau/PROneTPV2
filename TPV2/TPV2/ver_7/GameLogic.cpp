@@ -42,15 +42,17 @@ void GameLogic::update() {
 					cout << "dado";
 					if (vida_->RestaVida())
 					{
-						scoreManager_->setPause(true);
-						scoreManager_->setPlay(false);
 						scoreManager_->isGameOver(false);
 					}
-					else { scoreManager_->isGameOver(true);
+					else { 
+					scoreManager_->isGameOver(true);
+					scoreManager_->isWin(false);
 					scoreManager_->setPlay(false);
-					scoreManager_->setPause(true);
 					vida_->ResetVidas();
 					}
+					scoreManager_->setPlay(false);
+					scoreManager_->setPause(true);
+
 					fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
 					game_->getWindowHeight() / 2));
 					fighter_->setVel(Vector2D(0.0, 0.0));

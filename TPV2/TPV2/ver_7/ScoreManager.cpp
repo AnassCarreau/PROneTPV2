@@ -7,7 +7,7 @@ ScoreManager::ScoreManager() :
 	jugando(false),
 	pausado(true),//
 	score_(0),
-	finJuego(false)//
+	finJuego(nullptr)//
 {
 }
 

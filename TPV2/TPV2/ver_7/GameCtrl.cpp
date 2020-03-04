@@ -26,10 +26,10 @@ void GameCtrl::update() {
 		scoreManager_->setPause(false);
 		scoreManager_->setPlay(true);
 		ast_->generateAsteroids(10);
-	
 	}
 	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
 		scoreManager_->setScore(0);
+		//vida_->ResetVidas();
 	}
 }
 
@@ -43,11 +43,4 @@ void GameCtrl::draw() {
 			game_->getWindowHeight() - hitanykey->getHeight() - 50);
 	}
 
-	// game over message when game is over
-	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
-		Texture* gameOver = game_->getTextureMngr()->getTexture(
-			Resources::GameOver);
-		gameOver->render(game_->getWindowWidth() / 2 - gameOver->getWidth() / 2,
-			game_->getWindowHeight() - gameOver->getHeight() - 150);
-	}
 }

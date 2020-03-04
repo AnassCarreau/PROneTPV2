@@ -50,7 +50,7 @@
     <ClInclude Include="ver_7\PaddleKBCtrl.h" />
     <ClInclude Include="ver_7\PaddleMouseCtrl.h" />
     <ClInclude Include="ver_7\PaddleMoveBehaviour.h" />
-    <ClInclude Include="ver_7\PingPong.h" />
+    <ClInclude Include="ver_7\Asteroids.h" />
     <ClInclude Include="ver_7\RandomNumberGenerator.h" />
     <ClInclude Include="ver_7\Rectangle.h" />
     <ClInclude Include="ver_7\Resources.h" />
@@ -94,7 +94,7 @@
     <ClCompile Include="ver_7\PaddleKBCtrl.cpp" />
     <ClCompile Include="ver_7\PaddleMouseCtrl.cpp" />
     <ClCompile Include="ver_7\PaddleMoveBehaviour.cpp" />
-    <ClCompile Include="ver_7\PingPong.cpp" />
+    <ClCompile Include="ver_7\Asteroids.cpp" />
     <ClCompile Include="ver_7\RandomNumberGenerator.cpp" />
     <ClCompile Include="ver_7\Rectangle.cpp" />
     <ClCompile Include="ver_7\Resources.cpp" />

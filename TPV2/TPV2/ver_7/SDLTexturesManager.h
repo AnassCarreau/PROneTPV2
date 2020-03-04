@@ -2,7 +2,7 @@
 
 #include "TexturesManager.h"
 #include <map>
-#include "PingPong.h"
+#include "Asteroids.h"
 /*
  *
  */

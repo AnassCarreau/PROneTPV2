@@ -38,10 +38,17 @@ public:
 	bool getGameOver() const {
 		return finJuego;
 	}
+	void isWin(bool win) {
+		ganar = win;
+	}
+	bool getWin() const {
+		return ganar;
+	}
 
 private:
 	bool jugando;
 	bool pausado;
 	int score_;
 	bool finJuego;
+	bool ganar;
 };
