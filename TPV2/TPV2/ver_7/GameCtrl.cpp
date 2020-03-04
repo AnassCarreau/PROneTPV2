@@ -44,7 +44,7 @@ void GameCtrl::draw() {
 	}
 
 	// game over message when game is over
-	if (!scoreManager_->getPlay()) {
+	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
 		Texture* gameOver = game_->getTextureMngr()->getTexture(
 			Resources::GameOver);
 		gameOver->render(game_->getWindowWidth() / 2 - gameOver->getWidth() / 2,

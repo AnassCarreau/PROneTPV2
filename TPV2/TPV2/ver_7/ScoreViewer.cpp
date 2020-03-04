@@ -24,20 +24,22 @@ void ScoreViewer::draw() {
 		{ COLOR(0x111122ff) });
 	score.render(
 		game_->getWindowWidth() / 2 - score.getWidth() / 2, 10);
-	if (!scoreManager_->getPlay())
+	if (!scoreManager_->getPlay()   )
 	{
-		string texto = "Game Over!";
-		if (scoreManager_->getGameOver())
+		string texto;
+		if (!scoreManager_->getGameOver())
 		{
-			texto += "You won!";
+			texto = "Game Over! You won!";
 		}
 		else
 		{
-			texto += "You lost!";
+			texto = "Game Over! You lost!";
 
 		}
 		Texture score(game_->getRenderer(),
 			texto,
 			game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0x111122ff) });
+		score.render(
+			game_->getWindowWidth() / 2 - score.getWidth() / 2, 50);
 	}
 }
