@@ -43,6 +43,7 @@
 	 a->isUse(false);
 	 astAct--;
 		 if (a->getGenerations() > 0) {
+			 int gen = a->getGenerations() - 1;
 			 for (int i = 0; i < 2; i++) {
 				 Asteroid* astdiv = ast.getObj();
 				 astdiv->isUse(true);
@@ -50,10 +51,10 @@
 				 Vector2D v = a->getVel().rotate(i * 45);
 				 Vector2D p = a->getPos() + v.normalize();
 
-				 int wh = 10 + 3 * (a->getGenerations() - 1);
+				 int wh = 10 + 3 * gen;
 				 astdiv->setVel(v);
 				 astdiv->setPos(p);
-				 astdiv->setGenerations(a->getGenerations() - 1);
+				 astdiv->setGenerations(gen);
 				 astdiv->setWH(wh, wh);
 
 				 astAct++;

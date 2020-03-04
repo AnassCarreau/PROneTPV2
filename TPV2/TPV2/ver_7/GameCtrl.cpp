@@ -16,7 +16,8 @@ GameCtrl::~GameCtrl() {
 
 void GameCtrl::init() {
 	scoreManager_ = GETCMP1_(ScoreManager);
-	
+	scoreManager_->setPlay(true);
+
 	//ast_ = GETCMP1_(AsteroidPool);
 }
 
@@ -25,9 +26,10 @@ void GameCtrl::update() {
 	if (InputHandler::instance()->keyDownEvent() && scoreManager_->getPause()) {
 		scoreManager_->setPause(false);
 		scoreManager_->setPlay(true);
+
 		ast_->generateAsteroids(10);
 	}
-	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
+	if (!scoreManager_->getPlay() ) {
 		scoreManager_->setScore(0);
 		//vida_->ResetVidas();
 	}

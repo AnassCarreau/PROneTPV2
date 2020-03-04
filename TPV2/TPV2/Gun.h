@@ -8,7 +8,7 @@
 class Gun:public Component
 {
 private:
-	Uint32 shoot = 250;
+	Uint32 shoot = 25;
 	Uint32 frame = 0;
 	Transform* tr_;
 	BulletsPool* bala;

@@ -32,12 +32,7 @@ public:
 		pausado = Pausing;
 	}
 
-	void isGameOver(bool fin) {
-		finJuego = fin;
-	}
-	bool getGameOver() const {
-		return finJuego;
-	}
+	
 	void isWin(bool win) {
 		ganar = win;
 	}
@@ -49,6 +44,5 @@ private:
 	bool jugando;
 	bool pausado;
 	int score_;
-	bool finJuego;
 	bool ganar;
 };

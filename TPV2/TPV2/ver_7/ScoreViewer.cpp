@@ -27,11 +27,11 @@ void ScoreViewer::draw() {
 	if (!scoreManager_->getPlay() )
 	{
 		string texto;
-		if (scoreManager_->getGameOver())
+		if (scoreManager_->getWin())
 		{
 			texto = "Game Over! You won!";
 		}
-		else if (!scoreManager_->getGameOver())
+		else
 		{
 			texto = "Game Over! You lost!";
 

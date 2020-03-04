@@ -6,8 +6,7 @@ ScoreManager::ScoreManager() :
 	Component(ecs::ScoreManager), //
 	jugando(false),
 	pausado(true),//
-	score_(0),
-	finJuego(nullptr)//
+	score_(0)
 {
 }
 

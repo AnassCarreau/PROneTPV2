@@ -40,17 +40,15 @@ void GameLogic::update() {
 					ast_->disablAll();
 					bala_->disablAll();
 					cout << "dado";
-					if (vida_->RestaVida())
+					if (!vida_->RestaVida())
 					{
-						scoreManager_->isGameOver(false);
+						scoreManager_->isWin(false);
+						scoreManager_->setPlay(false);
+						vida_->ResetVidas();
+
+
 					}
-					else { 
-					scoreManager_->isGameOver(true);
-					scoreManager_->isWin(false);
-					scoreManager_->setPlay(false);
-					vida_->ResetVidas();
-					}
-					scoreManager_->setPlay(false);
+					
 					scoreManager_->setPause(true);
 
 					fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
@@ -72,7 +70,7 @@ void GameLogic::update() {
 							scoreManager_->setScore(scoreManager_->getScore() + 1);
 							if (ast_->getNumOfAsteroid() == 0)
 							{
-								scoreManager_->isGameOver(true);
+								scoreManager_->isWin(true);
 								scoreManager_->setPlay(false);
 								scoreManager_->setPause(true);
 

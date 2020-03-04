@@ -47,12 +47,8 @@
     <ClInclude Include="ver_7\jute.h" />
     <ClInclude Include="ver_7\Manager.h" />
     <ClInclude Include="ver_7\ObjectPool.h" />
-    <ClInclude Include="ver_7\PaddleKBCtrl.h" />
-    <ClInclude Include="ver_7\PaddleMouseCtrl.h" />
-    <ClInclude Include="ver_7\PaddleMoveBehaviour.h" />
     <ClInclude Include="ver_7\Asteroids.h" />
     <ClInclude Include="ver_7\RandomNumberGenerator.h" />
-    <ClInclude Include="ver_7\Rectangle.h" />
     <ClInclude Include="ver_7\Resources.h" />
     <ClInclude Include="ver_7\ScoreManager.h" />
     <ClInclude Include="ver_7\ScoreViewer.h" />
@@ -61,7 +57,6 @@
     <ClInclude Include="ver_7\SDLGame.h" />
     <ClInclude Include="ver_7\SDLTexturesManager.h" />
     <ClInclude Include="ver_7\SDL_macros.h" />
-    <ClInclude Include="ver_7\SimpleMoveBahviour.h" />
     <ClInclude Include="ver_7\SRandBasedGenerator.h" />
     <ClInclude Include="ver_7\Texture.h" />
     <ClInclude Include="ver_7\TexturesManager.h" />
@@ -91,12 +86,8 @@
     <ClCompile Include="ver_7\main.cpp" />
     <ClCompile Include="ver_7\Manager.cpp" />
     <ClCompile Include="ver_7\ObjectPool.cpp" />
-    <ClCompile Include="ver_7\PaddleKBCtrl.cpp" />
-    <ClCompile Include="ver_7\PaddleMouseCtrl.cpp" />
-    <ClCompile Include="ver_7\PaddleMoveBehaviour.cpp" />
     <ClCompile Include="ver_7\Asteroids.cpp" />
     <ClCompile Include="ver_7\RandomNumberGenerator.cpp" />
-    <ClCompile Include="ver_7\Rectangle.cpp" />
     <ClCompile Include="ver_7\Resources.cpp" />
     <ClCompile Include="ver_7\ScoreManager.cpp" />
     <ClCompile Include="ver_7\ScoreViewer.cpp" />
@@ -105,7 +96,6 @@
     <ClCompile Include="ver_7\SDLGame.cpp" />
     <ClCompile Include="ver_7\SDLTexturesManager.cpp" />
     <ClCompile Include="ver_7\sdl_macros.cpp" />
-    <ClCompile Include="ver_7\SimpleMoveBahviour.cpp" />
     <ClCompile Include="ver_7\SRandBasedGenerator.cpp" />
     <ClCompile Include="ver_7\Texture.cpp" />
     <ClCompile Include="ver_7\TexturesManager.cpp" />

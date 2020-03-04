@@ -60,19 +60,7 @@
     <ClInclude Include="ver_7\ObjectPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ver_7\PaddleKBCtrl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\PaddleMouseCtrl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\PaddleMoveBehaviour.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ver_7\RandomNumberGenerator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\Rectangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ver_7\Resources.h">
@@ -97,9 +85,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ver_7\SDLTexturesManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ver_7\SimpleMoveBahviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ver_7\SRandBasedGenerator.h">
@@ -203,19 +188,7 @@
     <ClCompile Include="ver_7\ObjectPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\PaddleKBCtrl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ver_7\PaddleMouseCtrl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ver_7\PaddleMoveBehaviour.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ver_7\RandomNumberGenerator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ver_7\Rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ver_7\Resources.cpp">
@@ -240,9 +213,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ver_7\SDLTexturesManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ver_7\SimpleMoveBahviour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ver_7\SRandBasedGenerator.cpp">
