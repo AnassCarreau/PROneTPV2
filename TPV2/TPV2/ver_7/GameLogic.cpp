@@ -52,7 +52,7 @@ void GameLogic::update() {
 					vida_->ResetVidas();
 					}
 					fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
-						game_->getWindowHeight() / 2));
+					game_->getWindowHeight() / 2));
 					fighter_->setVel(Vector2D(0.0, 0.0));
 					fighter_->setRot(0);
 				}

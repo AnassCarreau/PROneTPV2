@@ -34,28 +34,32 @@
 	 for (auto& o : ast.getPool())
 	 {
 		 o->isUse(false);
+		 
 	 }
+	 astAct = 0;
  }
 
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
+	 a->isUse(false);
+	 astAct--;
 		 if (a->getGenerations() > 0) {
-			 Asteroid* astdiv1 = ast.getObj();
-			 Asteroid* astdiv2 = ast.getObj();
+			 for (int i = 0; i < 2; i++) {
+				 Asteroid* astdiv = ast.getObj();
+				 astdiv->isUse(true);
 
-			 Vector2D v = a->getVel().rotate(a->getRot() *45); //posible cambio de a->getRot()
-			 Vector2D p = a->getPos() + v.normalize();
+				 Vector2D v = a->getVel().rotate(i * 45);
+				 Vector2D p = a->getPos() + v.normalize();
 
-			 int wh = 10 + 3 * (a->getGenerations() - 1);
-			 astdiv1->setVel(v);
-			 astdiv1->setPos(p);
-			 astdiv1->setGenerations(a->getGenerations() - 1);
-			 astdiv1->setWH(wh, wh);
-			 astdiv2->setVel(v);
-			 astdiv2->setPos(p);
-			 astdiv2->setGenerations(a->getGenerations() - 1);
-			 astdiv2->setWH(wh, wh);
+				 int wh = 10 + 3 * (a->getGenerations() - 1);
+				 astdiv->setVel(v);
+				 astdiv->setPos(p);
+				 astdiv->setGenerations(a->getGenerations() - 1);
+				 astdiv->setWH(wh, wh);
+
+				 astAct++;
+			 }
 		 }
-		 a->isUse(false);
-		 astAct++;
+		 cout << astAct;
+		 
  }
  

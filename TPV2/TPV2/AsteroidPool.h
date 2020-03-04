@@ -13,7 +13,7 @@ class AsteroidPool:public Component
 		AsteroidPool() :  Component(ecs::AsteroidPool),ast([](Asteroid* a) {return a->isInUse();}) {};
 
 		void  generateAsteroids(int n);	
-
+		
 		void disablAll();
 		void  onCollision(Asteroid* a, Bullet* b);
 		int getNumOfAsteroid() { return astAct; }

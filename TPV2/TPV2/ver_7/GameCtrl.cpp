@@ -26,9 +26,9 @@ void GameCtrl::update() {
 		scoreManager_->setPause(false);
 		scoreManager_->setPlay(true);
 		ast_->generateAsteroids(10);
+	
 	}
 	if (!scoreManager_->getPlay() && scoreManager_->getGameOver()) {
-		//vida_->ResetVidas();
 		scoreManager_->setScore(0);
 	}
 }

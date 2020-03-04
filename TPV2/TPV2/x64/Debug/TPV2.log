@@ -1,38 +1,28 @@
-﻿  Bullet.cpp
+﻿  FighterCtrl.cpp
   FighterViewer.cpp
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(21,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  AsteroidsViewer.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(22,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  BulletsMotion.cpp
-  BulletsViewer.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Gun.cpp
+  Health.cpp
+  AsteroidPool.cpp
   FighterMotion.cpp
-  BallMoveBehaviour.cpp
-  Component.cpp
-  Entity.cpp
-  Manager.cpp
-  PaddleKBCtrl.cpp
-  PaddleMouseCtrl.cpp
+  GameCtrl.cpp
+  GameLogic.cpp
   PingPong.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(39,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(22,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(32,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  SDLTexturesManager.cpp
+  ScoreManager.cpp
+  ScoreViewer.cpp
   Generando código...
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(39,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
      Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
 FighterCtrl.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
-Gun.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 PaddleKBCtrl.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 PingPong.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 Gun.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: unsigned int __cdecl SDLGame::getTime(void)" (?getTime@SDLGame@@QEAAIXZ)
