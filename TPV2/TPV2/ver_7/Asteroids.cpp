@@ -38,7 +38,7 @@ Asteroids::~Asteroids() {
 
 void Asteroids::initGame() {
 
-	game_ = SDLGame::init("Ping Pong", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
+	game_ = SDLGame::init("Asteroids", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
 
 	entityManager_ = new EntityManager(game_);
 
@@ -57,19 +57,19 @@ void Asteroids::initGame() {
 
 	Entity* fighter = entityManager_->addEntity();
 	Transform* fighterTR = fighter->addComponent<Transform>();
+	Health* vida = fighter->addComponent<Health>(3);
 	fighter->addComponent<FighterCtrl>();
 	fighter->addComponent<FighterMotion>();
 	fighter->addComponent<FighterViewer>();
-	fighter->addComponent<Health>(3);
 	fighter->addComponent<Gun>(bull);
 	fighterTR->setPos(game_->getWindowWidth() / 2, game_->getWindowHeight() / 2);
 	fighterTR->setWH(50, 50);
 
 	Entity *gameManager = entityManager_->addEntity();
 	gameManager->addComponent<ScoreManager>();
-	gameManager->addComponent<GameLogic>(fighterTR, ast, bull, fighter->getComponent<Health>(ecs::Health));
+	gameManager->addComponent<GameLogic>(fighterTR, ast, bull,vida);
 	gameManager->addComponent<ScoreViewer>();
-	gameManager->addComponent<GameCtrl>(fighterTR, ast);
+	gameManager->addComponent<GameCtrl>(vida, ast);
 }
 
 void Asteroids::closeGame() {

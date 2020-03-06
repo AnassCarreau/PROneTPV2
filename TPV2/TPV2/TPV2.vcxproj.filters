@@ -149,9 +149,6 @@
     <ClCompile Include="ver_7\AudioManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ver_7\BallMoveBehaviour.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ver_7\Collisions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -17,16 +17,14 @@ GameLogic::~GameLogic() {
 }
 
 void GameLogic::init() {
-	//scoreManager_ = GETCMP2(ecs::ScoreManager,ScoreManager);
 	scoreManager_ = GETCMP1_(ScoreManager);
-	/*bala_ = GETCMP1_(BulletsPool);
-	ast_ = GETCMP1_(AsteroidPool);*/
-	/*vida_ = GETCMP2_(ecs::Health,fighter_);*/
+	
 }
 
 void GameLogic::update() {
 	if (!scoreManager_->getPause())
 	{
+
 		for (auto& o : ast_->getPool())
 		{
 			if (o->isInUse())
@@ -44,13 +42,12 @@ void GameLogic::update() {
 					{
 						scoreManager_->isWin(false);
 						scoreManager_->setPlay(false);
-						vida_->ResetVidas();
-
+						game_->getAudioMngr()->resumeMusic();
 
 					}
 					
 					scoreManager_->setPause(true);
-
+					game_->getAudioMngr()->haltMusic();
 					fighter_->setPos(Vector2D(game_->getWindowWidth() / 2,
 					game_->getWindowHeight() / 2));
 					fighter_->setVel(Vector2D(0.0, 0.0));

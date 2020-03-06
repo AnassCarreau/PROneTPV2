@@ -31,13 +31,11 @@ public:
 
 	enum AudioId : std::size_t {
 		// music
-		Beat,
-		Cheer,
-		Boooo,
+		Imperial,
 
 		// sound effects
-		Wall_Hit,
-		Paddle_Hit
+		Gun_Shoot,
+		Explosion
 	};
 
 	enum FontId : std::size_t {

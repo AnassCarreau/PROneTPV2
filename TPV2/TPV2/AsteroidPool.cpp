@@ -42,6 +42,8 @@
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
 	 a->isUse(false);
 	 astAct--;
+	 game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
+
 		 if (a->getGenerations() > 0) {
 			 int gen = a->getGenerations() - 1;
 			 for (int i = 0; i < 2; i++) {

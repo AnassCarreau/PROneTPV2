@@ -73,7 +73,6 @@
     <ClCompile Include="AsteroidPool.cpp" />
     <ClCompile Include="FighterMotion.cpp" />
     <ClCompile Include="ver_7\AudioManager.cpp" />
-    <ClCompile Include="ver_7\BallMoveBehaviour.cpp" />
     <ClCompile Include="ver_7\Collisions.cpp" />
     <ClCompile Include="ver_7\Component.cpp" />
     <ClCompile Include="ver_7\Entity.cpp" />
