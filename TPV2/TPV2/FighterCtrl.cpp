@@ -2,9 +2,8 @@
 #include "ver_7/InputHandler.h"
 #include "ver_7/Entity.h"
 
-FighterCtrl::FighterCtrl(BulletsPool* bullets_) :
+FighterCtrl::FighterCtrl() :
 	FighterCtrl(SDLK_UP, SDLK_RIGHT, SDLK_LEFT) {
-	bullets = bullets_;
 }
 
 FighterCtrl::FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left) :
@@ -23,7 +22,6 @@ FighterCtrl::~FighterCtrl() {
 
 void FighterCtrl::init() {
 	tr_ = GETCMP1_(Transform);
-	gun_ = new Gun(tr_, bullets);
 }
 
 void FighterCtrl::update() {
@@ -50,9 +48,6 @@ void FighterCtrl::update() {
 		else if (ih->isKeyDown(left_)) {
 			tr_->setRot(tr_->getRot() -5);
 		}
-		else if (ih->isKeyDown(SDLK_SPACE))
-		{
-			gun_->canshoot();
-		}
+		
 	}
 }

@@ -14,13 +14,14 @@ private:
 	AsteroidPool* ast;
 	Texture* asteroide;
 public:
-	AsteroidsViewer(AsteroidPool* ast_) :Component(ecs::AsteroidsViewer),
-	ast(ast_), asteroide(nullptr){
+	AsteroidsViewer() :Component(ecs::AsteroidsViewer),
+	asteroide(nullptr){
 	};
 	virtual ~AsteroidsViewer() {};
 	void init() 
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);
+			ast = GETCMP1_(AsteroidPool);
 	};
 	void draw()
 	{

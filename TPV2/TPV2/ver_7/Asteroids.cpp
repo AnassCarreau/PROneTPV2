@@ -46,21 +46,22 @@ void Asteroids::initGame() {
 
 	Entity* asteroid = entityManager_->addEntity();
 	AsteroidPool* ast = asteroid->addComponent<AsteroidPool>();
-	asteroid->addComponent<AsteroidsMotion>(ast);
-	asteroid->addComponent<AsteroidsViewer>(ast);
+	asteroid->addComponent<AsteroidsMotion>();
+	asteroid->addComponent<AsteroidsViewer>();
 	 
 
 	Entity* bullet = entityManager_->addEntity();
 	BulletsPool* bull = bullet->addComponent<BulletsPool>();
-	bullet->addComponent<BulletsMotion>(bull);
-	bullet->addComponent<BulletsViewer>(bull);
+	bullet->addComponent<BulletsMotion>();
+	bullet->addComponent<BulletsViewer>();
 
 	Entity* fighter = entityManager_->addEntity();
 	Transform* fighterTR = fighter->addComponent<Transform>();
-	fighter->addComponent<FighterCtrl>(bull);
+	fighter->addComponent<FighterCtrl>();
 	fighter->addComponent<FighterMotion>();
 	fighter->addComponent<FighterViewer>();
 	fighter->addComponent<Health>(3);
+	fighter->addComponent<Gun>(bull);
 	fighterTR->setPos(game_->getWindowWidth() / 2, game_->getWindowHeight() / 2);
 	fighterTR->setWH(50, 50);
 

@@ -8,15 +8,15 @@
 class Gun:public Component
 {
 private:
-	Uint32 shoot = 25;
+	Uint32 shoot = 2500;
 	Uint32 frame = 0;
 	Transform* tr_;
 	BulletsPool* bala;
 public:
 	bool disparo=true;
-	Gun(Transform* fighter, BulletsPool* bullets):Component(ecs::Gun), tr_(fighter), bala(bullets) {};
+	Gun( BulletsPool* bullets):Component(ecs::Gun), bala(bullets) {};
 	virtual ~Gun();
-	void canshoot();
+	void update()override;
 	void init() { tr_ = GETCMP2_(ecs::Transform, Transform);};
 };
 

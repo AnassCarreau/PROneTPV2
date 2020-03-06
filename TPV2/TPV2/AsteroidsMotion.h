@@ -9,8 +9,11 @@ private:
 	AsteroidPool* ast;
 
 public:
-	AsteroidsMotion(AsteroidPool* durum) : Component(ecs::AsteroidsMotion), ast(durum){};
-	
+	AsteroidsMotion() : Component(ecs::AsteroidsMotion){};
+	void init()override
+	{
+		ast = GETCMP1_(AsteroidPool);
+	}
 	void update()override
 	{
 		for (auto& o : ast->getPool())

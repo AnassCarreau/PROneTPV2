@@ -16,13 +16,13 @@ private:
 	BulletsPool* bull;
 	Texture* bala;
 public:
-	BulletsViewer(BulletsPool* bull_) : Component(ecs::BulletsViewer),
-		bull(bull_), bala(nullptr) {
+	BulletsViewer() : Component(ecs::BulletsViewer),bala(nullptr) {
 
 	};
 	virtual ~BulletsViewer() {};
 	void init()
 	{
+		bull = GETCMP1_(BulletsPool);
 		bala = game_->getTextureMngr()->getTexture(Resources::Bullet);
 	};
 	void draw() override

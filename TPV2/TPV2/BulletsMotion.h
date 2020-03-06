@@ -10,8 +10,12 @@ class BulletsMotion :public Component
 private:
 	BulletsPool* balas;
 public:
-	BulletsMotion(BulletsPool* balas_) : Component(ecs::BulletsMotion), balas(balas_) {};
+	BulletsMotion() : Component(ecs::BulletsMotion) {};
 	virtual ~BulletsMotion() {};
+	void init()override
+	{
+		balas = GETCMP1_(BulletsPool);
+	}
 	void update()override
 	{
 		for (auto& o : balas->getPool())

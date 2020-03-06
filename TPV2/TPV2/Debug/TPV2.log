@@ -1,10 +1,10 @@
 ﻿  FighterCtrl.cpp
   Gun.cpp
   Asteroids.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(32,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
