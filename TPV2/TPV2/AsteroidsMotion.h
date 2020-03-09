@@ -1,15 +1,21 @@
 #pragma once
-#include "ver_7/Component.h"
-#include "ver_7/ObjectPool.h"
+#include "Component.h"
+#include "ObjectPool.h"
 #include "Asteroid.h"
-#include "ver_7/Entity.h"
+#include "Entity.h"
 #include "AsteroidPool.h"
 class AsteroidsMotion : public Component {
 private:
 	AsteroidPool* ast;
 
 public:
-	AsteroidsMotion() : Component(ecs::AsteroidsMotion){};
+	AsteroidsMotion() : Component(ecs::AsteroidsMotion),ast(nullptr){};
+
+	virtual ~AsteroidsMotion()
+	{
+		delete ast;
+		ast = nullptr;
+	}
 	void init()override
 	{
 		ast = GETCMP1_(AsteroidPool);

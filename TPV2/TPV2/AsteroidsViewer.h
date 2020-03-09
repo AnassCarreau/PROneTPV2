@@ -1,13 +1,12 @@
 #pragma once
-#include "ver_7/Component.h"
-#include "ver_7/Texture.h"
-#include "ver_7/ObjectPool.h"
+#include "Component.h"
+#include "Texture.h"
+#include "ObjectPool.h"
 #include "Asteroid.h"
-#include "ver_7/Entity.h"
-#include "ver_7/SDL_macros.h"
+#include "Entity.h"
+#include "SDL_macros.h"
 #include <SDL_rect.h>
 #include "AsteroidPool.h"
-
 class AsteroidsViewer :public Component
 {
 private:
@@ -15,10 +14,16 @@ private:
 	Texture* asteroide;
 public:
 	AsteroidsViewer() :Component(ecs::AsteroidsViewer),
-	asteroide(nullptr){
+	asteroide(nullptr),ast(nullptr){
 	};
-	virtual ~AsteroidsViewer() {};
-	void init() 
+	virtual ~AsteroidsViewer()
+	{
+		delete ast;
+		ast = nullptr;
+		delete asteroide;
+		asteroide = nullptr;
+	}	
+	void init()
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);
 			ast = GETCMP1_(AsteroidPool);

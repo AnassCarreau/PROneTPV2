@@ -1,5 +1,5 @@
 #pragma once
-#include "ver_7/Vector2D.h"
+#include "Vector2D.h"
 class Bullet
 {
 protected:
@@ -16,6 +16,7 @@ public:
 		double width,
 		double height,
 		double rotation);
+	virtual ~Bullet() {};
 	const Vector2D& getPos() const {
 		return position_;
 	}

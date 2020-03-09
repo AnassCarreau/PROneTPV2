@@ -1,7 +1,7 @@
 #pragma once
 
-#include "ver_7/Component.h"
-#include "ver_7/Transform.h"
+#include "Component.h"
+#include "Transform.h"
 #include "Gun.h"
 #include "BulletsPool.h"
 class FighterCtrl:public Component
@@ -9,7 +9,7 @@ class FighterCtrl:public Component
 public:
 	FighterCtrl();
 	FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left);
-	virtual ~FighterCtrl();
+	virtual ~FighterCtrl() { delete tr_; tr_ = nullptr; };
 
 	void init();
 	void update();

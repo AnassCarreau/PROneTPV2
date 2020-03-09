@@ -1,14 +1,13 @@
 #pragma once
-#include "ver_7/Component.h"
-#include "ver_7/Texture.h"
-#include "ver_7/ObjectPool.h"
+#include "Component.h"
+#include "Texture.h"
+#include "ObjectPool.h"
 #include "Bullet.h"
-#include "ver_7/Entity.h"
-#include "ver_7/SDL_macros.h"
+#include "Entity.h"
+#include "SDL_macros.h"
 #include <SDL_rect.h>
 #include "BulletsPool.h"
-#include "ver_7/Transform.h"
-
+#include "Transform.h"
 
 class BulletsViewer: public Component
 {
@@ -19,7 +18,7 @@ public:
 	BulletsViewer() : Component(ecs::BulletsViewer),bala(nullptr) {
 
 	};
-	virtual ~BulletsViewer() {};
+	virtual ~BulletsViewer() { delete bull; bull = nullptr; delete bala; bala = nullptr; };
 	void init()
 	{
 		bull = GETCMP1_(BulletsPool);

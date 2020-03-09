@@ -1,6 +1,5 @@
 #pragma once
-#include "ver_7/Vector2D.h"
-
+#include "Vector2D.h"
 class Asteroid
 {
 	Vector2D position_;
@@ -17,6 +16,7 @@ public :
 		double width,
 		double height,
 		double rotation);
+	virtual ~Asteroid() {};
 	void setGenerations(int generaciones) {
 		generaciones_ = generaciones;
 	}

@@ -1,17 +1,16 @@
 #pragma once
 
-#include "ver_7/Component.h"
-#include "ver_7/Transform.h"
+#include "Component.h"
+#include "Transform.h"
 #include "BulletsPool.h"
-#include "ver_7/Entity.h"
-
+#include "Entity.h"
 class BulletsMotion :public Component
 {
 private:
 	BulletsPool* balas;
 public:
-	BulletsMotion() : Component(ecs::BulletsMotion) {};
-	virtual ~BulletsMotion() {};
+	BulletsMotion() : Component(ecs::BulletsMotion), balas(nullptr) {};
+	virtual ~BulletsMotion() { delete balas; balas = nullptr; };
 	void init()override
 	{
 		balas = GETCMP1_(BulletsPool);

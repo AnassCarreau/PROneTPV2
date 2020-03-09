@@ -1,9 +1,9 @@
 #pragma once
 
-#include "ver_7/Component.h"
-#include "ver_7/Transform.h"
+#include "Component.h"
+#include "Transform.h"
 #include "BulletsPool.h"
-#include "ver_7/Entity.h"
+#include "Entity.h"
 
 class Gun:public Component
 {
@@ -14,8 +14,8 @@ private:
 	BulletsPool* bala;
 public:
 	bool disparo=true;
-	Gun( BulletsPool* bullets):Component(ecs::Gun), bala(bullets) {};
-	virtual ~Gun();
+	Gun( BulletsPool* bullets):Component(ecs::Gun), bala(bullets), tr_(nullptr) {};
+	virtual ~Gun() { delete tr_; tr_ = nullptr; delete bala; bala = nullptr; };
 	void update()override;
 	void init() { tr_ = GETCMP2_(ecs::Transform, Transform);};
 };

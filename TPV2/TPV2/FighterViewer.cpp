@@ -13,9 +13,7 @@ FighterViewer::FighterViewer() :
 	
 }
 
-FighterViewer::~FighterViewer() {
 
-}
 
 void FighterViewer::draw() {
 	destRect.x = tr_->getPos().getX();

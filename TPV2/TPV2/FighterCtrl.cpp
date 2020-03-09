@@ -1,6 +1,6 @@
 #include "FighterCtrl.h"
-#include "ver_7/InputHandler.h"
-#include "ver_7/Entity.h"
+#include "InputHandler.h"
+#include "Entity.h"
 
 FighterCtrl::FighterCtrl() :
 	FighterCtrl(SDLK_UP, SDLK_RIGHT, SDLK_LEFT) {
@@ -16,9 +16,7 @@ FighterCtrl::FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left) :
 	
 }
 
-FighterCtrl::~FighterCtrl() {
 
-}
 
 void FighterCtrl::init() {
 	tr_ = GETCMP1_(Transform);

@@ -1,16 +1,15 @@
 #pragma once
 
-#include "ver_7/Component.h"
-#include "ver_7/Transform.h"
-#include "ver_7/Entity.h"
-
+#include "Component.h"
+#include "Transform.h"
+#include "Entity.h"
 class FighterMotion:public Component
 {
 private:
 	Transform *nave;
 public:
-	FighterMotion() : Component(ecs::FighterMotion) {};
-	virtual ~FighterMotion() {};
+	FighterMotion() : Component(ecs::FighterMotion), nave(nullptr) {};
+	virtual ~FighterMotion() { delete nave; nave = nullptr; };
 	void update();
 	void init();
 };

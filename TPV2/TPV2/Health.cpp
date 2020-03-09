@@ -12,9 +12,6 @@ bool Health::RestaVida() {
 		}
 }
 
-Health::~Health() {
-	//no se sabe que hara xd
-}
 
 void Health::draw() {
 	int x = 15;

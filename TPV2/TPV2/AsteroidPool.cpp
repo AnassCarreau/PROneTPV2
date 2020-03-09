@@ -1,5 +1,5 @@
 #include "AsteroidPool.h"
-#include "ver_7/Collisions.h"
+#include "Collisions.h"
  void AsteroidPool::generateAsteroids(int n)
  {
 	 for (int i = 0; i < n; i++)

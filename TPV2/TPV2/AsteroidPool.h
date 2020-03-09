@@ -1,6 +1,6 @@
 #pragma once
-#include "ver_7/Component.h"
-#include "ver_7/ObjectPool.h"
+#include "Component.h"
+#include "ObjectPool.h"
 #include"Asteroid.h"
 #include "Bullet.h"
 
@@ -11,7 +11,11 @@ class AsteroidPool:public Component
 	int astAct = 0;
 	public :
 		AsteroidPool() :  Component(ecs::AsteroidPool),ast([](Asteroid* a) {return a->isInUse();}) {};
-
+		virtual ~AsteroidPool() {
+			for (int i = 0; i < 30; i++) {
+				 
+			}
+		}
 		void  generateAsteroids(int n);	
 		
 		void disablAll();

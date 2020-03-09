@@ -1,15 +1,15 @@
 #pragma once
-#include "ver_7/ObjectPool.h"
+#include "ObjectPool.h"
 #include "Bullet.h"
-#include "ver_7/Component.h"
+#include "Component.h"
 #include "Asteroid.h"
-
 class BulletsPool:public Component
 {
 private:
 	  ObjectPool<Bullet,10>bull;
 public:
 	BulletsPool() : Component(ecs::BulletsPool), bull([](Bullet* a) {return a->isInUse(); }) {};
+	virtual ~BulletsPool() {};
 	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
 	{
 		  Bullet* b = bull.getObj();
