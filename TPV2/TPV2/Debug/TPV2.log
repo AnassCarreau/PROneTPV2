@@ -1,5 +1,31 @@
-﻿  Gun.cpp
+﻿  Asteroids.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  SDLGame.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
   SDLTexturesManager.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  main.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos

@@ -24,7 +24,6 @@
 #include "BulletsPool.h"
 #include "BulletsViewer.h"
 #include "Bullet.h"
-#include "checkML.h"
 
 class Asteroids {
 
