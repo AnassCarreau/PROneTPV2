@@ -1,12 +1,9 @@
 #include "SDLTexturesManager.h"
 #include <SDL_image.h>
 #include <assert.h>
-#include "Resources.h"
-#include "SDLGame.h"
 
 SDLTexturesManager::SDLTexturesManager() :
 		initialized_(false) {
-	
 }
 
 SDLTexturesManager::~SDLTexturesManager() {

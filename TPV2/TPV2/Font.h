@@ -2,6 +2,7 @@
 
 #include <SDL_ttf.h>
 #include <string>
+
 using namespace std;
 
 class Font {

@@ -12,7 +12,7 @@ class SDLAudioManager: public AudioManager {
 public:
 	SDLAudioManager();
 	SDLAudioManager(int channels);
-	virtual ~SDLAudioManager();
+	~SDLAudioManager();
 
 	// supposed to be called before start using the object
 	bool init() override;

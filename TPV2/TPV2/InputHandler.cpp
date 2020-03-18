@@ -8,7 +8,6 @@ InputHandler::InputHandler() {
 }
 
 InputHandler::~InputHandler() {
-
 }
 
 void InputHandler::update() {

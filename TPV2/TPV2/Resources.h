@@ -19,8 +19,7 @@ public:
 		SpaceShips,
 		Airplanes,
 		Star,
-		Health,
-		Bullet,
+		PacMan,
 		Asteroid,
 
 		// text
@@ -31,11 +30,13 @@ public:
 
 	enum AudioId : std::size_t {
 		// music
-		Imperial,
+		Beat,
+		Cheer,
+		Boooo,
 
 		// sound effects
-		Gun_Shoot,
-		Explosion
+		Wall_Hit,
+		Paddle_Hit
 	};
 
 	enum FontId : std::size_t {

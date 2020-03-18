@@ -16,12 +16,9 @@ vector<Resources::ImageInfo> Resources::images_ {
 		{ AIIcon, "resources/images/ai.png" }, //
 		{ SpaceShips, "resources/images/spaceships.png" }, //
 		{ Airplanes, "resources/images/airplanes.png" }, //
-		{ Star, "resources/images/star.png" },//
-		{ Health,"resources/images/heart.png"},//
-	    { Bullet,"resources/images/whiterect.png"},//
-	    { Asteroid,"resources/images/asteroid.png"}//
-
-
+		{ Star, "resources/images/star.png" }, //
+		{ PacMan, "resources/images/pacman.png" }, //
+		{ Asteroid, "resources/images/asteroid.png" } //
 };
 
 vector<Resources::TextMsgInfo> Resources::messages_ {
@@ -33,12 +30,14 @@ vector<Resources::TextMsgInfo> Resources::messages_ {
 
 vector<Resources::MusicInfo> Resources::musics_ {
 //
-		{ Imperial, "resources/sound/imperial_march.wav" } //
+		{ Beat, "resources/sound/beat.wav" }, //
+		{ Cheer, "resources/sound/cheer.wav" }, //
+		{ Boooo, "resources/sound/boooo.wav" } //
 };
 
 vector<Resources::SoundInfo> Resources::sounds_ {
 //
-		{ Gun_Shoot, "resources/sound/GunShot.wav" }, //
-		{ Explosion, "resources/sound/explosion.wav" } //
+		{ Wall_Hit, "resources/sound/wall_hit.wav" }, //
+		{ Paddle_Hit, "resources/sound/paddle_hit.wav" } //
 };
 
