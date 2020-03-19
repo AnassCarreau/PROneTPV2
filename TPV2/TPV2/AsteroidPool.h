@@ -22,6 +22,7 @@ private:
 			e->addComponent<Transform>();
 			e->addComponent<Asteroid>();
 			e->addComponent<Rotation>();
+		//	e->addComponent<AsteroidLifeTime>();
 			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
 		}
 	}
@@ -37,11 +38,11 @@ public :
 
 		template<typename ...Targs>
 		inline static Entity* construct(Targs&& ...args) {
-			return StarsPool::instance()->construct_(std::forward<Targs>(args)...);
+			return AsteroidPool::instance()->construct_(std::forward<Targs>(args)...);
 		}
 
 		inline static void destroy(Entity* p) {
-			StarsPool::instance()->destroy_(p);
+			AsteroidPool::instance()->destroy_(p);
 		}
 
 		inline Entity* construct_(Vector2D pos, Vector2D vel, double width, double height, double r, int generations) {
