@@ -15,14 +15,6 @@ class BulletsPool : public Singleton<BulletsPool>
 {
 	friend Singleton<BulletsPool>;
 private:
-public:
-	//BulletsPool() : Component(ecs::BulletsPool), bull([](Bullet* a) {return a->isInUse(); }) {};
-	//virtual ~BulletsPool() {};
-	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
-	{
-		//mngr_->addEntity<BulletsPool>()
-		construct_(pos, vel, w, h);
-	};
 	BulletsPool() : BulletsPool(10) {};
 	BulletsPool(std::size_t n) :
 		bul(n) {
@@ -33,14 +25,16 @@ public:
 		}
 	}
 	ObjectPool<Entity>bul;
-	inline void destroy_(Entity* p) {
-		bul.relObj(p);
-	}
 public:
+	
+	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
+	{
+		//mngr_->addEntity<Bullet>();
+		construct_(pos, vel, w, h);
+	};
 	
 	virtual ~BulletsPool() {
 	}
-
 
 	template<typename ...Targs>
 	inline static Entity* construct(Targs&& ...args) {
@@ -50,15 +44,7 @@ public:
 	inline static void destroy(Entity* p) {
 		BulletsPool::instance()->destroy_(p);
 	}
-	/*  void  disablAll()
-	  {
-
-		  for (auto& o : bul.getPool())
-		  {
-			  o->isUse(false);
-		  }
-	  };
-	  void onCollision(Bullet* b, Asteroid* a);
+	/*
 	  vector<Bullet*> getPool()
 	  {
 		  return bull.getPool();
@@ -85,7 +71,6 @@ public:
 		bul.relObj(p);
 	}
 
-	void disablAll();
 	void onCollision(Bullet* b, Asteroid* a) {
 		b->isUse(false);
 	}
