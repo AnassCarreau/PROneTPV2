@@ -3,12 +3,12 @@
 class Bullet
 {
 protected:
-	Vector2D position_;
-	Vector2D velocity_;
-	double width_;
-	double height_;
-	double rotation_;
-	bool use;
+	Vector2D position_ = Vector2D(0, 0);
+	Vector2D velocity_ = Vector2D(0, 0);
+	double width_ = 0;
+	double height_ = 0;
+	double rotation_ = 0;
+	bool use = false;
 public:
 	Bullet() {};
 	Bullet(Vector2D pos,

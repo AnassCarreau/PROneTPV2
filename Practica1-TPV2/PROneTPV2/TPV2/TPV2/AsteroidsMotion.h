@@ -11,11 +11,7 @@ private:
 public:
 	AsteroidsMotion() : Component(ecs::AsteroidsMotion),ast(nullptr){};
 
-	virtual ~AsteroidsMotion()
-	{
-		delete ast;
-		ast = nullptr;
-	}
+	virtual ~AsteroidsMotion(){}
 	void init()override
 	{
 		ast = GETCMP1_(AsteroidPool);

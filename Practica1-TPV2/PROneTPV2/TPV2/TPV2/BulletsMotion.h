@@ -10,7 +10,7 @@ private:
 	BulletsPool* balas;
 public:
 	BulletsMotion() : Component(ecs::BulletsMotion), balas(nullptr) {};
-	virtual ~BulletsMotion() { delete balas; balas = nullptr; };
+	virtual ~BulletsMotion() {};
 	void init()override
 	{
 		balas = GETCMP1_(BulletsPool);

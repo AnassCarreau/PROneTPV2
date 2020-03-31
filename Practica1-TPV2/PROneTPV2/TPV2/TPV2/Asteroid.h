@@ -2,13 +2,13 @@
 #include "Vector2D.h"
 class Asteroid
 {
-	Vector2D position_;
-	Vector2D velocity_;
-	double width_;
-	double height_;
-	double rotation_;
-	int generaciones_;
-	int use;
+	Vector2D position_ = Vector2D(0,0);
+	Vector2D velocity_ = Vector2D(0, 0);
+	double width_ = 0;
+	double height_ = 0;
+	double rotation_ = 0;
+	int generaciones_ = 0;
+	int use = 0;
 public :
 	Asteroid() {};
 	Asteroid(Vector2D pos,

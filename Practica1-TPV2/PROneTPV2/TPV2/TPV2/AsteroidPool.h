@@ -12,8 +12,8 @@ class AsteroidPool:public Component
 	public :
 		AsteroidPool() :  Component(ecs::AsteroidPool),ast([](Asteroid* a) {return a->isInUse();}) {};
 		virtual ~AsteroidPool() {
-			for (int i = 0; i < 30; i++) {
-				 
+			for (auto asteroid : ast.getPool()) {
+				delete asteroid; asteroid = nullptr;
 			}
 		}
 		void  generateAsteroids(int n);	

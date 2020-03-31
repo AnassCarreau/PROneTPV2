@@ -53,17 +53,7 @@ void Asteroids::initGame() {
 
 void Asteroids::closeGame() {
 	delete entityManager_;
-	delete game_; game_ = nullptr;
 	entityManager_ = nullptr;
-	delete asteroid; asteroid = nullptr;
-	delete bullet; bullet = nullptr;
-	delete fighter; fighter = nullptr;
-	delete gameManager; gameManager = nullptr;
-	delete ast; ast = nullptr;
-	delete bull; bull = nullptr;
-	delete fighterTR; fighterTR = nullptr;
-	delete vida; vida = nullptr;
-	
 }
 
 void Asteroids::start() {

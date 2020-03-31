@@ -16,13 +16,7 @@ public:
 	AsteroidsViewer() :Component(ecs::AsteroidsViewer),
 	asteroide(nullptr),ast(nullptr){
 	};
-	virtual ~AsteroidsViewer()
-	{
-		delete ast;
-		ast = nullptr;
-		delete asteroide;
-		asteroide = nullptr;
-	}	
+	virtual ~AsteroidsViewer(){}	
 	void init()
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);

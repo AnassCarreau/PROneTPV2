@@ -40,7 +40,7 @@
  }
 
  void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
-	 a->isUse(false);
+	
 	 astAct--;
 	 game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
 
@@ -48,21 +48,23 @@
 			 int gen = a->getGenerations() - 1;
 			 for (int i = 0; i < 2; i++) {
 				 Asteroid* astdiv = ast.getObj();
-				 astdiv->isUse(true);
+				 if (astdiv != nullptr) {
+					 astdiv->isUse(true);
 
-				 Vector2D v = a->getVel().rotate(i * 45);
-				 Vector2D p = a->getPos() + v.normalize();
+					 Vector2D v = a->getVel().rotate(i * 45);
+					 Vector2D p = a->getPos() + v.normalize();
 
-				 int wh = 10 + 3 * gen;
-				 astdiv->setVel(v);
-				 astdiv->setPos(p);
-				 astdiv->setGenerations(gen);
-				 astdiv->setWH(wh, wh);
+					 int wh = 10 + 3 * gen;
+					 astdiv->setVel(v);
+					 astdiv->setPos(p);
+					 astdiv->setGenerations(gen);
+					 astdiv->setWH(wh, wh);
 
-				 astAct++;
+					 astAct++;
+				 }
 			 }
 		 }
 		 cout << astAct;
-		 
+		 a->isUse(false);
  }
  
