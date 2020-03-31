@@ -1,5 +1,7 @@
 #pragma once
 #include "Vector2D.h"
+#include "checkML.h"
+
 class Bullet
 {
 protected:

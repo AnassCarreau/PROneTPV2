@@ -4,6 +4,7 @@
 #include <array>
 #include "Component.h"
 #include "Manager.h"
+#include "checkML.h"
 #include "SDLGame.h"
 class EntityManager;
 

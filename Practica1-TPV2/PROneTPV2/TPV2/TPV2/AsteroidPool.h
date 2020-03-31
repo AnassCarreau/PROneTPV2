@@ -2,6 +2,7 @@
 #include "Component.h"
 #include "ObjectPool.h"
 #include"Asteroid.h"
+#include "checkML.h"
 #include "Bullet.h"
 
 class AsteroidPool:public Component

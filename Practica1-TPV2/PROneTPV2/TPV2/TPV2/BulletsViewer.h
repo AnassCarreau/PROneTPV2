@@ -7,6 +7,7 @@
 #include "SDL_macros.h"
 #include <SDL_rect.h>
 #include "BulletsPool.h"
+#include "checkML.h"
 #include "Transform.h"
 
 class BulletsViewer: public Component

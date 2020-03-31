@@ -21,7 +21,7 @@ void GameLogic::init() {
 }
 
 void GameLogic::update() {
-	if (!scoreManager_->getPause() && fighter_ != nullptr)
+	if (!scoreManager_->isPause() && fighter_ != nullptr)
 	{
 
 		for (auto& o : ast_->getPool())
@@ -83,6 +83,7 @@ void GameLogic::update() {
 			}
 		}
 	}
+	
 }
 
 

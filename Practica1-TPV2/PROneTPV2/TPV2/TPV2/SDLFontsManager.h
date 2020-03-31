@@ -1,6 +1,7 @@
 #pragma once
 
 #include "FontsManager.h"
+#include "checkML.h"
 #include <map>
 
 /*

@@ -1,29 +1,35 @@
 #pragma once
 
 #include <vector>
-
-#include "Manager.h"
 #include "SDLGame.h"
+#include "Manager.h"
+
+#include "InputHandler.h"
+#include "SDL_macros.h"
+#include <assert.h>
+
+
 #include "GameCtrl.h"
 #include "GameLogic.h"
-#include "InputHandler.h"
+#include "Transform.h"
+
 #include "ScoreManager.h"
 #include "ScoreViewer.h"
-#include "Transform.h"
-#include "SDLGame.h"
+
 #include "FighterCtrl.h"
 #include "FighterViewer.h"
 #include "FighterMotion.h"
 #include "Health.h"
-#include "ObjectPool.h"
+
 #include "AsteroidPool.h"
-#include "Asteroid.h"
 #include "AsteroidsViewer.h"
 #include "AsteroidsMotion.h"
+
 #include "BulletsMotion.h"
 #include "BulletsPool.h"
 #include "BulletsViewer.h"
-#include "Bullet.h"
+#include "checkML.h"
+
 
 class Asteroids {
 

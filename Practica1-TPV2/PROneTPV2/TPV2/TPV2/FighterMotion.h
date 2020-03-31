@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Component.h"
+#include "checkML.h"
 #include "Transform.h"
 #include "Entity.h"
 class FighterMotion:public Component

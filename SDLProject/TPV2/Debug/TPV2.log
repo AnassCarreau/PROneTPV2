@@ -1,1 +1,61 @@
-﻿
+﻿  AsteroidEntity.cpp
+  AsteroidPool.cpp
+  Asteroids.cpp
+  AsteroidsMotion.cpp
+  AsteroidsViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\AsteroidsViewer.cpp(15,44): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  AudioManager.cpp
+  Bullet.cpp
+  BulletsMotion.cpp
+  BulletsPool.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\AsteroidsViewer.cpp(15,88): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\BulletsPool.cpp(19,38): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  BulletsViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\BulletsPool.cpp(19,35): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\BulletsViewer.cpp(15,40): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Collisions.cpp
+  Component.cpp
+  Entity.cpp
+  FighterCtrl.cpp
+  FighterMotion.cpp
+  FighterViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\BulletsViewer.cpp(15,80): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Font.cpp
+  FontsManager.cpp
+  GameCtrl.cpp
+  GameLogic.cpp
+  Generando código...
+  Compilando...
+  Gun.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\FighterViewer.cpp(1,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\Gun.cpp(15,10): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+  Heart.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\Gun.cpp(15,31): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\Heart.cpp(14,25): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\Heart.cpp(14,55): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  InputHandler.cpp
+  jute.cpp
+  main.cpp
+  Manager.cpp
+  ObjectPool.cpp
+  RandomNumberGenerator.cpp
+  Resources.cpp
+  ScoreManager.cpp
+  ScoreViewer.cpp
+  SDLAudioManager.cpp
+  SDLFontsManager.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  sdl_macros.cpp
+  SRandBasedGenerator.cpp
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\Heart.cpp(19,32): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+  Texture.cpp
+  TexturesManager.cpp
+  Transform.cpp
+  Generando código...
+  Compilando...
+  Vector2D.cpp
+  Generando código...
+C:\Users\anass\Desktop\PROneTPV2\SDLProject\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244: 'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\SDLProject\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\SDLProject\bin\TPV2Debug.exp
+  TPV2.vcxproj -> C:\Users\anass\Desktop\PROneTPV2\SDLProject\bin\TPV2Debug.exe

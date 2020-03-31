@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Component.h"
+#include "checkML.h"
 
 class ScoreManager : public Component {
 public:
@@ -17,14 +18,14 @@ public:
 		score_ = score;
 	}
 
-	bool getPlay() const {
-		return jugando;
+	bool isPlay() const {
+		return playing;
 	}
 
 	void setPlay(bool running) {
-		jugando = running;
+		playing = running;
 	}
-	bool getPause() const {
+	bool isPause() const {
 		return pausado;
 	}
 
@@ -41,7 +42,7 @@ public:
 	}
 
 private:
-	bool jugando;
+	bool playing;
 	bool pausado;
 	int score_;
 	bool ganar;

@@ -1,5 +1,6 @@
 #pragma once
 #include "Vector2D.h"
+#include "checkML.h"
 class Asteroid
 {
 	Vector2D position_ = Vector2D(0,0);

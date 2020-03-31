@@ -1,5 +1,6 @@
 #pragma once
 
+#include "checkML.h"
 #include "Component.h"
 #include "ScoreManager.h"
 
@@ -11,4 +12,6 @@ public:
 	void draw() override;
 private:
 	ScoreManager* scoreManager_;
+	string texto;
+
 };

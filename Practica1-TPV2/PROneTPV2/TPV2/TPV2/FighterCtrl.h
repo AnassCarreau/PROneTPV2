@@ -2,6 +2,7 @@
 
 #include "Component.h"
 #include "Transform.h"
+#include "checkML.h"
 #include "Gun.h"
 #include "BulletsPool.h"
 class FighterCtrl:public Component

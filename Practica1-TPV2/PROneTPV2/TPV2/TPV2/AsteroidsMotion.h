@@ -3,6 +3,7 @@
 #include "ObjectPool.h"
 #include "Asteroid.h"
 #include "Entity.h"
+#include "checkML.h"
 #include "AsteroidPool.h"
 class AsteroidsMotion : public Component {
 private:

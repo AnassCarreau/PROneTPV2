@@ -1,7 +1,6 @@
-#include "SDL_macros.h"
-#include "Asteroids.h"
-#include <assert.h>
 
+#include "Asteroids.h"
+#include "checkML.h"
 using namespace std;
 
 Asteroids::Asteroids() :

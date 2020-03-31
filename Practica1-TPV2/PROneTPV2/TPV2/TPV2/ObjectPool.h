@@ -2,6 +2,7 @@
 #include <array>
 #include <vector>
 #include <functional>
+#include "checkML.h"
 
 // The size of the pool is static, provided by the template parameter.
 // We can instead pass it to the constructor so we can decide the size

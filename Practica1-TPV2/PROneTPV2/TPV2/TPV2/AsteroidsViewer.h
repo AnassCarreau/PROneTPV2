@@ -6,6 +6,7 @@
 #include "Entity.h"
 #include "SDL_macros.h"
 #include <SDL_rect.h>
+#include "checkML.h"
 #include "AsteroidPool.h"
 class AsteroidsViewer :public Component
 {

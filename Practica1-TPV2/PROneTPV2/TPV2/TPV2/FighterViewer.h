@@ -3,6 +3,7 @@
 #include "Texture.h"
 #include "Transform.h"
 #include "SDL_macros.h"
+#include "checkML.h"
 #include "Entity.h"
 #include <SDL_rect.h>
 class FighterViewer:public Component

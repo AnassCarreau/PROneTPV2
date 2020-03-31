@@ -14,27 +14,28 @@ GameCtrl::GameCtrl(Health* vida, AsteroidPool* ast) :
 
 void GameCtrl::init() {
 	scoreManager_ = GETCMP1_(ScoreManager);
-	scoreManager_->setPlay(true);
 }
 
 void GameCtrl::update() {
 
-	if (InputHandler::instance()->keyDownEvent() && scoreManager_->getPause()) {
+	if (InputHandler::instance()->keyDownEvent() && scoreManager_->isPause()) {
 		scoreManager_->setPause(false);
-		scoreManager_->setPlay(true);
 		game_->getAudioMngr()->playMusic(Resources::Imperial, 5);
 
 		ast_->generateAsteroids(10);
+		if (!scoreManager_->isPlay()) {
+			scoreManager_->setPlay(true);
+
+			scoreManager_->setScore(0);
+			vida_->ResetVidas();
+		}
 	}
-	if (!scoreManager_->getPlay() ) {
-		scoreManager_->setScore(0);
-		vida_->ResetVidas();
-	}
+	
 }
 
 void GameCtrl::draw() {
 
-	if (scoreManager_->getPause()) {
+	if (scoreManager_->isPause()) {
 		Texture* hitanykey = game_->getTextureMngr()->getTexture(
 			Resources::PressAnyKey);
 		hitanykey->render(
