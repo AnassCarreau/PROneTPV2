@@ -12,18 +12,14 @@ class AsteroidPool:public Component
 	int astAct = 0;
 	public :
 		AsteroidPool() :  Component(ecs::AsteroidPool),ast([](Asteroid* a) {return a->isInUse();}) {};
-		virtual ~AsteroidPool() {
-			for (auto asteroid : ast.getPool()) {
-				delete asteroid; asteroid = nullptr;
-			}
-		}
+		virtual ~AsteroidPool() {};
 		void  generateAsteroids(int n);	
 		
 		void disablAll();
 		void  onCollision(Asteroid* a, Bullet* b);
 		int getNumOfAsteroid() { return astAct; }
 
-		vector<Asteroid*> getPool()
+		const vector<Asteroid*>& getPool()
 		{
 			return ast.getPool();
 		}

@@ -11,7 +11,7 @@ private:
 public:
 	FighterMotion() : Component(ecs::FighterMotion), nave(nullptr) {};
 	virtual ~FighterMotion() { delete nave; nave = nullptr; };
-	void update();
-	void init();
+	void update()override;
+	void init()override;
 };
 

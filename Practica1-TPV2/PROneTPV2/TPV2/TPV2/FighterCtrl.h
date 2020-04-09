@@ -12,8 +12,8 @@ public:
 	FighterCtrl(SDL_Keycode up, SDL_Keycode right, SDL_Keycode left);
 	virtual ~FighterCtrl() { delete tr_; tr_ = nullptr; };
 
-	void init();
-	void update();
+	void init()override;
+	void update()override;
 
 private:
 	SDL_Keycode up_;

@@ -19,8 +19,8 @@ public:
 	BulletsViewer() : Component(ecs::BulletsViewer),bala(nullptr) {
 
 	};
-	virtual ~BulletsViewer() { delete bull; bull = nullptr; delete bala; bala = nullptr; };
-	void init()
+	virtual ~BulletsViewer() { delete bull; bull = nullptr;};
+	void init()override
 	{
 		bull = GETCMP1_(BulletsPool);
 		bala = game_->getTextureMngr()->getTexture(Resources::Bullet);

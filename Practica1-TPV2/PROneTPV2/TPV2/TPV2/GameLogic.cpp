@@ -36,7 +36,6 @@ void GameLogic::update() {
 				{
 					ast_->disablAll();
 					bala_->disablAll();
-					cout << "dado";
 					if (!vida_->RestaVida())
 					{
 						scoreManager_->isWin(false);

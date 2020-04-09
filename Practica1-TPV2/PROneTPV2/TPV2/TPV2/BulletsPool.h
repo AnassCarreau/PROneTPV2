@@ -30,7 +30,7 @@ public:
 		  }
 	  };
 	  void onCollision(Bullet* b, Asteroid* a);
-	  vector<Bullet*> getPool()
+	  const vector<Bullet*>& getPool()
 	  {
 		  return bull.getPool();
 	  }

@@ -24,7 +24,6 @@ void Gun::update()
 			if (!disparo)
 			{
 				disparo = true;
-				cout << "dispara";
 			}
 		}
 	

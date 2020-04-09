@@ -16,6 +16,6 @@ public:
 	FighterViewer();
 	virtual ~FighterViewer() { delete tr_; tr_ = nullptr; delete fighter; fighter = nullptr; };
 	void draw() override;
-	void init();
+	void init()override;
 };
 

@@ -64,7 +64,6 @@
 				 }
 			 }
 		 }
-		 cout << astAct;
 		 a->isUse(false);
  }
  

@@ -15,7 +15,7 @@ public:
 	{
 		
 	};
-	void init() {
+	void init() override {
 		life = game_->getTextureMngr()->getTexture(Resources::Health);
 	}
 	virtual ~Health() { delete life; life = nullptr; };

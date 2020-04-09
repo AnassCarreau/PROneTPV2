@@ -18,12 +18,12 @@ public:
 	asteroide(nullptr),ast(nullptr){
 	};
 	virtual ~AsteroidsViewer(){}	
-	void init()
+	void init()override
 	{
 		asteroide = game_->getTextureMngr()->getTexture(Resources::Asteroid);
 			ast = GETCMP1_(AsteroidPool);
 	};
-	void draw()
+	void draw()override
 	{
 		for (auto& o : ast->getPool())
 		{

@@ -8,75 +8,91 @@ C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\Fig
   AsteroidPool.cpp
   Asteroids.cpp
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(20,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
   AudioManager.cpp
   Collisions.cpp
   Component.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): warning C4150:  eliminación de puntero a tipo 'Entity' incompleto; no se ha llamado a un destructor
   Entity.cpp
   FighterMotion.cpp
   Font.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\Component.h(8): message :  vea la declaración de 'Entity'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
   FontsManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
   GameCtrl.cpp
   GameLogic.cpp
   InputHandler.cpp
-  jute.cpp
-  main.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\Component.h(7): message :  vea la declaración de 'Entity'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Manager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
+  ObjectPool.cpp
   Generando código...
   Compilando...
-  Manager.cpp
-  ObjectPool.cpp
   RandomNumberGenerator.cpp
   Resources.cpp
-  ScoreManager.cpp
-  ScoreViewer.cpp
   SDLAudioManager.cpp
   SDLFontsManager.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(38,19): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(47,26): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
   SDLGame.cpp
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(50,13): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
   SDLTexturesManager.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  sdl_macros.cpp
-  SRandBasedGenerator.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  SRandBasedGenerator.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  ScoreManager.cpp
+  ScoreViewer.cpp
   Texture.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244:  'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
   TexturesManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005:  '_malloca': redefinición de macro
   Transform.cpp
   Vector2D.cpp
+  jute.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message :  vea la definición anterior de '_malloca'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+  sdl_macros.cpp
   Generando código...
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244:  'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\TPV2\BulletsViewer.h(38,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
      Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\Practica1-TPV2\PROneTPV2\TPV2\bin\TPV2Debug.exp
 FighterCtrl.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
 Gun.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver

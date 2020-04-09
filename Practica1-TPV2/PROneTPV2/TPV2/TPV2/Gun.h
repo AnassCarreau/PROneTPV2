@@ -18,6 +18,6 @@ public:
 	Gun( BulletsPool* bullets):Component(ecs::Gun), bala(bullets), tr_(nullptr) {};
 	virtual ~Gun() {};
 	void update()override;
-	void init() { tr_ = GETCMP2_(ecs::Transform, Transform);};
+	void init() override { tr_ = GETCMP2_(ecs::Transform, Transform);};
 };
 
