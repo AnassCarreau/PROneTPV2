@@ -4,14 +4,23 @@
 #include "StarsSystem.h"
 #include "System.h"
 #include "Score.h"
+#include "AsteroidPool.h"
+#include "BulletsPool.h"
+#include "Health.h"
 
 
 class GameCtrlSystem: public System {
+private:
+	AsteroidPool* ast_;
+	BulletsPool* bullets_;
+	Health* vida_;
 public:
 	void onFighterDeath() {
 		// - a este método se le va a llamar cuando muere el caza.
 		// - desactivar todos los asteroides y las balas.
 		// - actualizar los componentes correspondientes (Score, GameState, …).
+		ast_->disablAll();
+		bullets_->disablAll();
 	}
 	void onAsteroidsExtenction() {
 		// - crear una entidad, añade sus componentes (Score y GameState) y asociarla

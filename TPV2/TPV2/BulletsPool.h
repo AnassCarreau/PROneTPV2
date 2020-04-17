@@ -74,5 +74,14 @@ public:
 	void onCollision(Bullet* b, Asteroid* a) {
 		b->isUse(false);
 	}
+
+	void disablAll() {
+		//deactivate all the bullets
+		for (auto& o : bul.getPool())
+		{
+			Bullet* a = o->getComponent<Bullet>();
+			a->isUse(false);
+		}
+	}
 };
 
