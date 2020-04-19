@@ -34,7 +34,7 @@ public:
 		Beat,
 		Cheer,
 		Boooo,
-
+		Imperial,
 		// sound effects
 		Wall_Hit,
 		Paddle_Hit

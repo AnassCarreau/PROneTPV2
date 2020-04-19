@@ -7,6 +7,7 @@
 #include "AsteroidPool.h"
 #include "BulletsPool.h"
 #include "Health.h"
+#include "ScoreManager.h"
 
 
 class GameCtrlSystem: public System {
@@ -14,6 +15,7 @@ private:
 	AsteroidPool* ast_;
 	BulletsPool* bullets_;
 	Health* vida_;
+	ScoreManager* scoreManager_;
 public:
 	void onFighterDeath() {
 		// - a este método se le va a llamar cuando muere el caza.
@@ -35,10 +37,16 @@ public:
 	}
 
 	void update() override {
-		auto ih = game_->getInputHandler();
+		if (InputHandler::instance()->keyDownEvent() && scoreManager_->getPause()) {
+			scoreManager_->setPause(false);
+			scoreManager_->setPlay(true);
+			//game_->getAudioMngr()->playMusic(Resources::Imperial, 5);
 
-		if ( ih->keyDownEvent() && ih->isKeyDown(SDLK_RETURN)) {
-			mngr_->getSystem<StarsSystem>()->addStars(10);
+			//ast_->generateAsteroids(10);
+		}
+		if (!scoreManager_->getPlay()) {
+			scoreManager_->setScore(0);
+			vida_->ResetVidas();
 		}
 	}
 

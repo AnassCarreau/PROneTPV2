@@ -1,143 +1,552 @@
 ﻿  BulletsPool.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,23): error C2238:  símbolos (token) inesperados delante de ';'
   FighterCtrl.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,3): error C2065:  'bullets_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,23): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,3): error C2065:  'bullets_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(19,7): error C3668:  'Gun::update': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2275:  'Gun': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,22): error C3861:  'GETCMP2_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(10,28): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(10,28): error C2275:  'FighterCtrl': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(22,26): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(22,8): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(31,33): error C2039:  'getVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(31,72): error C2039:  'getRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(38,15): error C2039:  'setVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(42,15): error C2039:  'setRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(42,27): error C2039:  'getRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(47,15): error C2039:  'setRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp(47,27): error C2039:  'getRot': no es un miembro de 'Transform'
   FighterViewer.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(19,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.h(17,7): error C3668:  'FighterViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(4,30): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(4,30): error C2275:  'FighterViewer': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(19,26): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(20,26): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(21,39): error C2039:  'getRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(26,26): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(26,8): error C3861:  'GETCMP1_': no se encontró el identificador
   Gun.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(27,12): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,13): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(16,23): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,3): error C2065:  'bullets_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(19,7): error C3668:  'Gun::update': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2275:  'Gun': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,22): error C3861:  'GETCMP2_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,31): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,54): error C2039:  'getW': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,71): error C2039:  'getH': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,104): error C2039:  'getH': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,117): error C2440:  '<function-style-cast>': no se puede realizar la conversión de 'int' a 'Vector2D'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,117): message :  Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(14,137): error C2039:  'getRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(15,54): error C2039:  'getRot': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(18,13): error C2065:  'game_': identificador no declarado
   Health.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.cpp(22,21): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,15): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(13,18): error C2614:  'Health': inicialización de miembro no válida: 'life' no es una base o miembro
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,3): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2653:  'Resources': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,29): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,20): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,35): error C2065:  'life': identificador no declarado
   Asteroid.cpp
   AsteroidPool.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(21,3): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,20): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24,3): error C2065:  'ast_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.cpp(39,3): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.cpp(44,3): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.cpp(64,6): error C2065:  'astAct': identificador no declarado
   Asteroids.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(20,33): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  AudioManager.cpp
-  Collisions.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.cpp(67,12): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,20): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24,3): error C2065:  'ast_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(10,7): error C3668:  'ScoreViewer::init': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(11,7): error C3668:  'ScoreViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(19,7): error C3668:  'Gun::update': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(17,28): error C2275:  'Gun': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,14): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Transform.h(6): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Gun.h(20,22): error C3861:  'GETCMP2_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.h(17,7): error C3668:  'FighterViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2275:  'FighterMotion': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(16,20): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(16,20): error C2275:  'AsteroidsViewer': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(28,15): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(29,1): error C2275:  'AsteroidPool': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(14): message :  vea la declaración de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(29,10): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(33,1): error C2039:  'getPool': no es un miembro de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(14): message :  vea la declaración de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(35,8): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(43,28): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(19,7): error C3668:  'AsteroidsMotion::init': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(23,7): error C3668:  'AsteroidsMotion::update': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(12,20): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(12,20): error C2275:  'AsteroidsMotion': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(21,1): error C2275:  'AsteroidPool': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(14): message :  vea la declaración de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(21,9): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(25,1): error C2039:  'getPool': no es un miembro de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(14): message :  vea la declaración de 'AsteroidPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(27,4): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(27,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(27,28): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(28,4): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(28,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(29,8): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(29,29): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(31,5): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(33,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(33,35): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(35,5): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(37,13): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(39,5): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(39,16): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(41,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(43,5): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsMotion.h(43,16): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(14,7): error C3668:  'BulletsMotion::init': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(18,7): error C3668:  'BulletsMotion::update': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(12,18): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(12,18): error C2275:  'BulletsMotion': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(16,1): error C2275:  'BulletsPool': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(14): message :  vea la declaración de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(16,11): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(20,1): error C2039:  'getPool': no es un miembro de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(14): message :  vea la declaración de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(22,8): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(23,5): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(23,15): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(23,29): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(24,9): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(24,31): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(25,9): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(26,9): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(26,31): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(27,9): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsMotion.h(30,6): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(27,7): error C3668:  'BulletsViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(18,18): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(18,18): error C2275:  'BulletsViewer': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(24,1): error C2275:  'BulletsPool': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(14): message :  vea la declaración de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(24,10): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(25,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(29,1): error C2039:  'getPool': no es un miembro de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(14): message :  vea la declaración de 'BulletsPool'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(31,8): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,14): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(40,24): error C2065:  'o': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.h(46,15): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.h(46,15): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.h(46,31): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(9,3): error C2614:  'Asteroids': inicialización de miembro no válida: 'entityManager_' no es una base o miembro
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(22,2): error C2065:  'entityManager_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(22,36): error C2061:  error de sintaxis: identificador 'EntityManager'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(26,13): error C2065:  'entityManager_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(32,11): error C2065:  'entityManager_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(37,12): error C2065:  'entityManager_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(44,19): error C2039:  'setPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Transform.h(6): message :  vea la declaración de 'Transform'
+  AsteroidsSystem.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Asteroids.cpp(44,19): error C1003:  el recuento de errores supera 100; se detiene la compilación
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2027:  uso del tipo 'Manager' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(14): message :  vea la declaración de 'Manager'
+  CollisionSystem.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(15,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(16,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(38,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(42,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(45,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(50,1): error C2027:  uso del tipo 'Transform' sin definir
   Component.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): warning C4150:  eliminación de puntero a tipo 'Entity' incompleto; no se ha llamado a un destructor
-  Entity.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,33): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,27): error C2065:  'CmpId': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,33): error C2146:  error de sintaxis: falta ')' delante del identificador 'id'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,18): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,19): error C2440:  'inicializando': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,10): message :  Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,16): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,17): error C2440:  'inicializando': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,8): message :  Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(6,7): error C2065:  'id': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(6,9): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(7,1): error C2448:  'id_': el inicializador de estilo de función parece ser una definición de función
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(10,25): error C2600:  'Component::~Component': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): message :  Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,19): error C2440:  '=': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,12): message :  Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,19): message :  Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(13,14): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(13,14): message :  Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,17): error C2440:  '=': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,10): message :  Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+  DefFactory.cpp
   FighterMotion.cpp
-  Font.cpp
-  FontsManager.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,17): message :  Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2275:  'FighterMotion': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(8,14): error C2039:  'setPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(8,27): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(8,44): error C2039:  'getVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(9,14): error C2039:  'setVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(9,27): error C2039:  'getVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(10,5): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(10,5): error C2039:  'getH': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(10,45): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(11,1): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(12,1): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(12,1): error C2039:  'getH': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(12,46): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(13,1): error C2039:  'getPos': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(15,15): error C2039:  'setVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(15,28): error C2039:  'getVel': no es un miembro de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(20,27): error C2275:  'Transform': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+  FighterSystem.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.cpp(20,9): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(15,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(16,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(21,1): error C2027:  uso del tipo 'Manager' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(14): message :  vea la declaración de 'Manager'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27,1): error C2027:  uso del tipo 'Manager' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(14): message :  vea la declaración de 'Manager'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(38,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(42,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(45,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(50,1): error C2027:  uso del tipo 'Transform' sin definir
   GameCtrl.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,15): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(13,18): error C2614:  'Health': inicialización de miembro no válida: 'life' no es una base o miembro
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,3): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2653:  'Resources': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,29): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,20): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,35): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,20): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24,3): error C2065:  'ast_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrl.cpp(7,25): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+  GameCtrlSystem.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrl.cpp(7,25): error C2275:  'GameCtrl': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
   GameLogic.cpp
-  InputHandler.cpp
-  jute.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,9): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(10,15): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(13,18): error C2614:  'Health': inicialización de miembro no válida: 'life' no es una base o miembro
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,3): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2653:  'Resources': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,29): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,20): error C2541:  'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(20,35): error C2065:  'life': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C2143:  error de sintaxis: falta ';' delante de '*'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,14): error C4430:  falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(15,20): error C2238:  símbolos (token) inesperados delante de ';'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24,3): error C2065:  'ast_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
   main.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Component.h(7): message :  vea la declaración de 'Entity'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(15,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(16,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(38,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(42,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(45,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(50,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+  PacMan.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,33): error C2065:  'AsteroidPool': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19): error C2672:  'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(19,1): error C2974:  'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message :  vea la declaración de 'Manager::addEntity'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(15,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(16,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065:  'Health': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672:  'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974:  'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :  vea la declaración de 'Entity::addComponent'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(38,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(42,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(45,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(50,1): error C2027:  uso del tipo 'Transform' sin definir
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message :  vea la declaración de 'Transform'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(61,5): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(72,35): error C2065:  'astAct': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(25,7): error C3668:  'Health::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(12,21): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,10): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,57): error C2039:  'Health': no es un miembro de 'Resources'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Resources.h(9): message :  vea la declaración de 'Resources'
+  PacManSystem.cpp
   Generando código...
   Compilando...
-  Manager.cpp
-  ObjectPool.cpp
-  RandomNumberGenerator.cpp
-  Resources.cpp
+  RenderSystem.cpp
   ScoreManager.cpp
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\Health.h(18,1): error C2275:  'Health': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.cpp(6,29): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
   ScoreViewer.cpp
-  SDLAudioManager.cpp
-  SDLFontsManager.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(38,19): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(47,26): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.cpp(6,29): error C2275:  'ScoreManager': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(10,7): error C3668:  'ScoreViewer::init': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(11,7): error C3668:  'ScoreViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(8,28): error C2653:  'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(8,28): error C2275:  'ScoreViewer': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(18,39): error C2275:  'ScoreManager': uso no válido de este tipo como expresión
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.h(5): message :  vea la declaración de 'ScoreManager'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(18,18): error C3861:  'GETCMP1_': no se encontró el identificador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(23,16): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(25,3): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(23,15): error C2664:  'Texture::Texture(const Texture &)': el argumento 1 no puede convertirse de 'std::string' a 'SDL_Renderer *'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(24,12): message :  No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(28,3): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(41,17): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(43,4): error C2065:  'game_': identificador no declarado
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(41,16): error C2664:  'Texture::Texture(const Texture &)': el argumento 1 no puede convertirse de 'std::string' a 'SDL_Renderer *'
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(42,4): message :  No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
   SDLGame.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\SDLFontsManager.cpp(50,13): warning C4267:  'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  SDLTexturesManager.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  sdl_macros.cpp
-  SRandBasedGenerator.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  Texture.cpp
-  TexturesManager.cpp
-  Transform.cpp
-  Vector2D.cpp
+  System.cpp
   Generando código...
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244:  'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-     Creando biblioteca C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
-FighterCtrl.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
-Gun.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
-Asteroids.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
-Gun.obj : error LNK2019: símbolo externo SDL_GetTicks sin resolver al que se hace referencia en la función "public: unsigned int __cdecl SDLGame::getTime(void)" (?getTime@SDLGame@@QEAAIXZ)
-Asteroids.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
-Asteroids.obj : error LNK2019: símbolo externo SDL_GetWindowFlags sin resolver al que se hace referencia en la función "private: void __cdecl Asteroids::handleInput(void)" (?handleInput@Asteroids@@AEAAXXZ)
-Asteroids.obj : error LNK2019: símbolo externo SDL_SetWindowFullscreen sin resolver al que se hace referencia en la función "private: void __cdecl Asteroids::handleInput(void)" (?handleInput@Asteroids@@AEAAXXZ)
-Asteroids.obj : error LNK2019: símbolo externo SDL_SetRenderDrawColor sin resolver al que se hace referencia en la función "private: void __cdecl Asteroids::render(void)" (?render@Asteroids@@AEAAXXZ)
-SDLGame.obj : error LNK2001: símbolo externo SDL_SetRenderDrawColor sin resolver
-Asteroids.obj : error LNK2019: símbolo externo SDL_RenderClear sin resolver al que se hace referencia en la función "private: void __cdecl Asteroids::render(void)" (?render@Asteroids@@AEAAXXZ)
-SDLGame.obj : error LNK2001: símbolo externo SDL_RenderClear sin resolver
-Asteroids.obj : error LNK2019: símbolo externo SDL_RenderPresent sin resolver al que se hace referencia en la función "private: void __cdecl Asteroids::render(void)" (?render@Asteroids@@AEAAXXZ)
-SDLGame.obj : error LNK2001: símbolo externo SDL_RenderPresent sin resolver
-Asteroids.obj : error LNK2019: símbolo externo SDL_Delay sin resolver al que se hace referencia en la función "public: void __cdecl Asteroids::start(void)" (?start@Asteroids@@QEAAXXZ)
-Font.obj : error LNK2019: símbolo externo TTF_OpenFont sin resolver al que se hace referencia en la función "public: bool __cdecl Font::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?load@Font@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
-Font.obj : error LNK2019: símbolo externo TTF_RenderText_Solid sin resolver al que se hace referencia en la función "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
-Font.obj : error LNK2019: símbolo externo TTF_CloseFont sin resolver al que se hace referencia en la función "public: void __cdecl Font::close(void)" (?close@Font@@QEAAXXZ)
-InputHandler.obj : error LNK2019: símbolo externo SDL_GetKeyboardState sin resolver al que se hace referencia en la función "private: __cdecl InputHandler::InputHandler(void)" (??0InputHandler@@AEAA@XZ)
-InputHandler.obj : error LNK2019: símbolo externo SDL_PollEvent sin resolver al que se hace referencia en la función "public: void __cdecl InputHandler::update(void)" (?update@InputHandler@@QEAAXXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo SDL_RWFromFile sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::loadSound(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSound@SDLAudioManager@@UEAA_NHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_Init sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_Quit sin resolver al que se hace referencia en la función "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_OpenAudio sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_AllocateChannels sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_LoadWAV_RW sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::loadSound(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSound@SDLAudioManager@@UEAA_NHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_LoadMUS sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLAudioManager::loadMusic(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadMusic@SDLAudioManager@@UEAA_NHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_FreeChunk sin resolver al que se hace referencia en la función "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_FreeMusic sin resolver al que se hace referencia en la función "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_PlayChannelTimed sin resolver al que se hace referencia en la función "public: virtual int __cdecl SDLAudioManager::playChannel(int,int,int)" (?playChannel@SDLAudioManager@@UEAAHHHH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_PlayMusic sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::playMusic(int,int)" (?playMusic@SDLAudioManager@@UEAAXHH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_Volume sin resolver al que se hace referencia en la función "public: virtual int __cdecl SDLAudioManager::setChannelVolume(int,int)" (?setChannelVolume@SDLAudioManager@@UEAAHHH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_VolumeMusic sin resolver al que se hace referencia en la función "public: virtual int __cdecl SDLAudioManager::setMusicVolume(int)" (?setMusicVolume@SDLAudioManager@@UEAAHH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_HaltChannel sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::haltChannel(int)" (?haltChannel@SDLAudioManager@@UEAAXH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_HaltMusic sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::haltMusic(void)" (?haltMusic@SDLAudioManager@@UEAAXXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_Pause sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::pauseChannel(int)" (?pauseChannel@SDLAudioManager@@UEAAXH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_Resume sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::resumeChannel(int)" (?resumeChannel@SDLAudioManager@@UEAAXH@Z)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_PauseMusic sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::pauseMusic(void)" (?pauseMusic@SDLAudioManager@@UEAAXXZ)
-SDLAudioManager.obj : error LNK2019: símbolo externo Mix_ResumeMusic sin resolver al que se hace referencia en la función "public: virtual void __cdecl SDLAudioManager::resumeMusic(void)" (?resumeMusic@SDLAudioManager@@UEAAXXZ)
-SDLFontsManager.obj : error LNK2019: símbolo externo TTF_Init sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLFontsManager::init(void)" (?init@SDLFontsManager@@UEAA_NXZ)
-SDLFontsManager.obj : error LNK2019: símbolo externo TTF_Quit sin resolver al que se hace referencia en la función "public: virtual __cdecl SDLFontsManager::~SDLFontsManager(void)" (??1SDLFontsManager@@UEAA@XZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_CreateWindow sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_DestroyWindow sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_ShowCursor sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_CreateRenderer sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_DestroyRenderer sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_Init sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
-SDLGame.obj : error LNK2019: símbolo externo SDL_Quit sin resolver al que se hace referencia en la función "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
-SDLTexturesManager.obj : error LNK2019: símbolo externo IMG_Init sin resolver al que se hace referencia en la función "public: virtual bool __cdecl SDLTexturesManager::init(void)" (?init@SDLTexturesManager@@UEAA_NXZ)
-SDLTexturesManager.obj : error LNK2019: símbolo externo IMG_Quit sin resolver al que se hace referencia en la función "public: virtual __cdecl SDLTexturesManager::~SDLTexturesManager(void)" (??1SDLTexturesManager@@UEAA@XZ)
-Texture.obj : error LNK2019: símbolo externo SDL_FreeSurface sin resolver al que se hace referencia en la función "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: símbolo externo SDL_CreateTextureFromSurface sin resolver al que se hace referencia en la función "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Texture.obj : error LNK2019: símbolo externo SDL_RenderCopy sin resolver al que se hace referencia en la función "public: void __cdecl Texture::render(struct SDL_Rect const &,struct SDL_Rect const &)const " (?render@Texture@@QEBAXAEBUSDL_Rect@@0@Z)
-Texture.obj : error LNK2019: símbolo externo SDL_RenderCopyEx sin resolver al que se hace referencia en la función "public: void __cdecl Texture::render(struct SDL_Rect const &,double,struct SDL_Rect const &)const " (?render@Texture@@QEBAXAEBUSDL_Rect@@N0@Z)
-Texture.obj : error LNK2019: símbolo externo SDL_DestroyTexture sin resolver al que se hace referencia en la función "public: void __cdecl Texture::close(void)" (?close@Texture@@QEAAXXZ)
-Texture.obj : error LNK2019: símbolo externo IMG_Load sin resolver al que se hace referencia en la función "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe : fatal error LNK1120: 50 externos sin resolver
+C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(45,4): error C2065:  'game_': identificador no declarado

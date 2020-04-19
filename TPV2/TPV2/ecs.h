@@ -20,33 +20,36 @@ mpl::TypeList<Transform,ImageComponent,Rotation,Score,LifeTime>;
 //
 // start them with _grp_ to avoid conflicts (or make a name space)
 //
-struct _grp_Star;
+struct _grp_Asteroid;
+struct _grp_Bullet;
 
 using GroupsList =
-mpl::TypeList<_grp_Star>;
+mpl::TypeList<_grp_Asteroid, _grp_Bullet>;
 
 // ** handlers
 //
 // start them with _grp_ to avoid conflicts (or make a name space)
 //
-struct _hdlr_PacMan;
+struct _hdlr_Fighter;
 struct _hdlr_GameState;
 
 using HandlersList =
-mpl::TypeList<_hdlr_PacMan,_hdlr_GameState>;
+mpl::TypeList<_hdlr_Fighter,_hdlr_GameState>;
 
 // ** Systems
 //
 // they must match the name of the systems classes
 
-class CollisionSystem;
-class GameCtrlSystem;
-class PacManSystem;
-class StarsSystem;
-class RenderSystem;
+class GameCtrlSystem; // sistema de control del juego (para empezar el juego, etc.)
+class AsteroidsSystem; // sistema de los asteroids (para mover los asteroides)
+class BulletsSystem; // sistema de las balas (para mover las balas)
+class FighterSystem; // sistema del caza (para gestionar el movimiento del caza)
+class FighterGunSystem; // sistema del arma (para disparar -- arma para el caza)
+class CollisionSystem; // sistema de colisiones (para comprobar todas las colisiones)
+class RenderSystem; // sistema de rendering (para dibujar las entidades, etc.)
 
 using SystemsList =
-mpl::TypeList<CollisionSystem,GameCtrlSystem,PacManSystem,StarsSystem,RenderSystem>;
+mpl::TypeList<CollisionSystem,GameCtrlSystem,AsteroidsSystem,BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>;
 
 constexpr std::size_t maxComponents = ComponentsList::size;
 constexpr std::size_t maxGroups = GroupsList::size;

@@ -9,9 +9,9 @@ class GameCtrl : public Component {
 public:
 	GameCtrl(Health* fighterTR, AsteroidPool* ast);
 	virtual ~GameCtrl() { delete scoreManager_; scoreManager_ = nullptr; };
-	void init() override;
-	void update() override;
-	void draw() override;
+	//void init() override;
+	//void update() override;
+	//void draw() override;
 private:
 	ScoreManager* scoreManager_;
 	Health* vida_;

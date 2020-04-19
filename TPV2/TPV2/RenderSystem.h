@@ -37,13 +37,13 @@ public:
 
 	void update() override {
 
-		// draw stars
-		for (auto &e : mngr_->getGroupEntities<_grp_Star>()) {
+		// draw Asteroids
+		for (auto &e : mngr_->getGroupEntities<_grp_Asteroid>()) {
 			draw(e);
 		}
 
-		// draw pacman
-		draw(mngr_->getHandler<_hdlr_PacMan>());
+		// draw fighter
+		draw(mngr_->getHandler<_hdlr_Fighter>());
 
 		// draw score
 		drawScore();

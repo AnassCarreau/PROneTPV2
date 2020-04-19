@@ -68,7 +68,7 @@ public :
 		}
 
 		void disablAll();
-		void  onCollision(Asteroid* a, Bullet* b);
+		//void  onCollision(Asteroid* a, Bullet* b);
 		int getNumOfAsteroid() { return astAct; }
 };
 

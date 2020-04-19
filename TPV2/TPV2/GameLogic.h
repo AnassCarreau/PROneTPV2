@@ -9,15 +9,15 @@
 
 class GameLogic : public Component {
 public:
-	GameLogic(Transform* fighter, AsteroidPool* ast, BulletsPool* bala, Health* vida);
-	virtual ~GameLogic() { delete fighter_; fighter_ = nullptr; delete ast_; ast_ = nullptr; delete bala_; bala_ = nullptr; delete vida_; vida_ = nullptr; delete scoreManager_; scoreManager_ = nullptr; };
-	void init() override;
-	void update() override;
-private:
-	Transform* fighter_;
-	AsteroidPool* ast_;
-	BulletsPool* bala_;
-	Health* vida_;
-	ScoreManager* scoreManager_;
+//	GameLogic(Transform* fighter, AsteroidPool* ast, BulletsPool* bala, Health* vida);
+//	virtual ~GameLogic() { delete fighter_; fighter_ = nullptr; delete ast_; ast_ = nullptr; delete bala_; bala_ = nullptr; delete vida_; vida_ = nullptr; delete scoreManager_; scoreManager_ = nullptr; };
+//	/*void init() override;
+//	void update() override;*/
+//private:
+//	Transform* fighter_;
+//	AsteroidPool* ast_;
+//	BulletsPool* bala_;
+//	Health* vida_;
+//	ScoreManager* scoreManager_;
 };
 

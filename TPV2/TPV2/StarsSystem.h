@@ -17,7 +17,7 @@
 class StarsSystem: public System {
 public:
 
-	void onCollision(Entity *s) {
+	/*void onCollision(Entity *s) {
 		s->setActive(false);
 		auto sc = mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>();
 		sc->points_++;
@@ -72,6 +72,6 @@ public:
 
 		}
 
-	}
+	}*/
 };
 

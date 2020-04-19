@@ -39,32 +39,32 @@
 	 astAct = 0;
  }
 
- void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
-	 a->isUse(false);
-	 astAct--;
-	 //game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
+ //void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
+	// a->isUse(false);
+	// astAct--;
+	// //game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
 
-		 if (a->getGenerations() > 0) {
-			 int gen = a->getGenerations() - 1;
-			 for (int i = 0; i < 2; i++) {
-				 Asteroid* astdiv = ast.getObj()->getComponent<Asteroid>();
-				 Transform* astd = ast.getObj()->getComponent<Transform>();
-				 astdiv->isUse(true);
+	//	 if (a->getGenerations() > 0) {
+	//		 int gen = a->getGenerations() - 1;
+	//		 for (int i = 0; i < 2; i++) {
+	//			 Asteroid* astdiv = ast.getObj()->getComponent<Asteroid>();
+	//			 Transform* astd = ast.getObj()->getComponent<Transform>();
+	//			 astdiv->isUse(true);
 
-				 Vector2D v = ast.getObj()->getComponent<Transform>()->velocity_.rotate(i * 45);
-				 Vector2D p = ast.getObj()->getComponent<Transform>()->position_ + v.normalize();
+	//			 Vector2D v = ast.getObj()->getComponent<Transform>()->velocity_.rotate(i * 45);
+	//			 Vector2D p = ast.getObj()->getComponent<Transform>()->position_ + v.normalize();
 
-				 int wh = 10 + 3 * gen;
-				 astd->velocity_ = v;
-				 astd->position_ = p;
-				 astdiv->setGenerations(gen);
-				 astd->width_ = wh;
-				 astd->height_ = wh;
+	//			 int wh = 10 + 3 * gen;
+	//			 astd->velocity_ = v;
+	//			 astd->position_ = p;
+	//			 astdiv->setGenerations(gen);
+	//			 astd->width_ = wh;
+	//			 astd->height_ = wh;
 
-				 astAct++;
-			 }
-		 }
-		 cout << astAct;
-		 
- }
+	//			 astAct++;
+	//		 }
+	//	 }
+	//	 cout << astAct;
+	//	 
+ //}
  
