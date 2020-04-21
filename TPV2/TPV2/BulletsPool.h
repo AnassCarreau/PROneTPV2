@@ -29,8 +29,7 @@ public:
 	
 	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
 	{
-		//mngr_->addEntity<Bullet>();
-		construct_(pos, vel, w, h);
+		
 	};
 	
 	virtual ~BulletsPool() {

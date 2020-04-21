@@ -2,6 +2,8 @@
 #include "System.h"
 #include "Entity.h"
 #include "ScoreManager.h"
+#include "Transform.h"
+#include "Manager.h"
 class FighterSystem : public System {
 private:
 	Transform* tr_;

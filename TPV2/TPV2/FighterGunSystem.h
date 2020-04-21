@@ -1,12 +1,47 @@
 #pragma once
 #include "System.h"
 #include "Entity.h"
+#include "ScoreManager.h"
+#include "Transform.h"
+#include "Manager.h"
 
 class FighterGunSystem : public System {
 public:
 	// - si el juego está parado no hacer nada.
 	// - si el jugador pulsa SPACE, llamar a shoot(...) del BulletsSystem para añadir
 	// una bala al juego -- se puede disparar sólo una bala cada 0.25sec.
-	void update() override {};
-};
+	void update() override {
+		if (!scoreManager_->getPause()) {
+			InputHandler* ih = InputHandler::instance();
+			if (ih->isKeyDown(SDLK_SPACE))
+			{
+				for (auto& b : mngr_->getGroupEntities<_grp_Bullet>()) {
+					if (b->isActive() && disparo)
+					{
+						Transform* tr = b->getComponent<Transform>();
+						Vector2D pos = tr->position_ + Vector2D(tr->width_ / 2, tr->height_ / 2) + Vector2D(0, -(tr->height_ / 2 + 5.0)).rotate(tr->rotation_);
+						Vector2D vel = Vector2D(0, -1).rotate(tr->rotation_) * 2;
+						//shoot(pos, vel, 10, 10);
+
+						frame = game_->getTime() + shootTime;
+						disparo = false;
+					}
+				}
+			}
+			else if (frame <= game_->getTime())
+			{
+				if (!disparo)
+				{
+					disparo = true;
+				}
+			}
+		}
+	};
+private:
+	ScoreManager* scoreManager_;
+	bool disparo = true;
+	Uint32 shootTime = 2500;
+	Uint32 frame = 0;
+};
+
 

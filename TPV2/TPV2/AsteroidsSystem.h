@@ -2,7 +2,8 @@
 #include "System.h"
 #include "Entity.h"
 #include "ScoreManager.h"
-
+#include "Transform.h"
+#include "Manager.h"
 class AsteroidsSystem : public System {
 public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
@@ -52,25 +53,28 @@ public:
 	// - mover los asteroides como en la práctica 1.
 	void update() override {
 		if (!scoreManager_->getPause()) {
-			for (auto& o : ast->getPool())
+			for (auto& o : mngr_->getGroupEntities<_grp_Asteroid>())
 			{
-				o->setPos(o->getPos() + o->getVel());
-				o->setRot(o->getRot() + 0.5);
-				if (o->getPos().getX() > game_->getWindowWidth())
+				if (!o->isActive())
+					return;
+				Transform* tr = o->getComponent<Transform>();
+				tr->position_ = tr->position_ + tr->velocity_;
+				tr->rotation_ = tr->rotation_ + 0.5;
+				if (tr->position_.getX() > game_->getWindowWidth())
 				{
-					o->setPosX(0);
+					tr->position_.setX(0);
 				}
-				else  if (o->getPos().getY() > game_->getWindowHeight())
+				else  if (tr->position_.getY() > game_->getWindowHeight())
 				{
-					o->setPosY(0);
+					tr->position_.setY(0);
 				}
-				else if (o->getPos().getX() < 0)
+				else if (tr->position_.getX() < 0)
 				{
-					o->setPosX(game_->getWindowWidth());
+					tr->position_.setX((game_->getWindowWidth()));
 				}
-				else  if (o->getPos().getY() < 0)
+				else  if (tr->position_.getY() < 0)
 				{
-					o->setPosY(game_->getWindowHeight());
+					tr->position_.setY((game_->getWindowHeight()));
 				}
 			}
 		}

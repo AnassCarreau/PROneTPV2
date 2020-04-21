@@ -43,7 +43,7 @@ private:
 	void render();
 
 	SDLGame* game_;
-	EntityManager* entityManager_;
+	//EntityManager* entityManager_;
 	Entity* asteroid;
 	Entity* bullet;
 	Entity* fighter;
