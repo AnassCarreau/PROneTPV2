@@ -4,6 +4,8 @@
 #include "ScoreManager.h"
 #include "Transform.h"
 #include "Manager.h"
+#include "GameState.h"
+#include "AsteroidPool.h"
 class AsteroidsSystem : public System {
 public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
@@ -14,12 +16,18 @@ public:
 		{
 			int x = game_->getRandGen()->nextInt(0, game_->getWindowWidth());
 			int y = game_->getRandGen()->nextInt(0, game_->getWindowHeight());
+			Vector2D pos = Vector2D(x, y);
+			int vx = game_->getRandGen()->nextInt(-50,50);
+			int vy = game_->getRandGen()->nextInt(-50, 50);
+			int m = game_->getRandGen()->nextInt(1, 10);
+			Vector2D c = Vector2D((game_->getWindowWidth() / 2) + vx, (game_->getWindowHeight() / 2) + vy);
+			Vector2D vel = (c - pos).normalize() * (m / 10.0);
 			int w = game_->getRandGen()->nextInt(25, 50);
 			int h = w;
 			int r = game_->getRandGen()->nextInt(1, 2);
-			Uint32 lt = game_->getRandGen()->nextInt(5, 10);
+			int generations = game_->getRandGen()->nextInt(5, 10);
 
-			Entity* e = mngr_->addEntity<AsteroidPool>(x, y, w, h, r, lt);
+			Entity* e = mngr_->addEntity<AsteroidPool>(pos, vel,w, h, r, generations);
 			if (e != nullptr)
 				e->addToGroup<_grp_Asteroid>();
 		}

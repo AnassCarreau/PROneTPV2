@@ -2,8 +2,8 @@
 
 bool Health::RestaVida() {
 
-		if (vidas > 1) {
-			vidas--;
+		if (vidas_ > 1) {
+			vidas_--;
 			return true;
 		}
 		else
@@ -15,7 +15,7 @@ bool Health::RestaVida() {
 
 void Health::draw() {
 	int x = 15;
-	for (int i = 0; i < vidas; i++) {
+	for (int i = 0; i < vidas_; i++) {
 		
 		
 		life->render(x,10);

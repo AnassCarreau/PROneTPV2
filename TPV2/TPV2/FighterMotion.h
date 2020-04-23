@@ -8,9 +8,9 @@ class FighterMotion:public Component
 private:
 	Transform *nave;
 public:
-	FighterMotion() : Component(ecs::FighterMotion), nave(nullptr) {};
+	//FighterMotion() : Component(ecs::FighterMotion), nave(nullptr) {};
 	virtual ~FighterMotion() { delete nave; nave = nullptr; };
-	void update();
-	void init();
+	/*void update();
+	void init();*/
 };
 

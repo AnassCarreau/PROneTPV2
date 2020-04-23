@@ -4,6 +4,8 @@
 #include "ScoreManager.h"
 #include "Transform.h"
 #include "Manager.h"
+#include "GameState.h"
+#include "BulletsPool.h"
 class BulletsSystem : public System {
 public:
 	// - añadir una bala al juego, como en la práctica 1 pero usando entidades.

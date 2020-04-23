@@ -4,6 +4,8 @@
 #include "ScoreManager.h"
 #include "Transform.h"
 #include "Manager.h"
+#include "GameState.h"
+#include "Health.h"
 class FighterSystem : public System {
 private:
 	Transform* tr_;

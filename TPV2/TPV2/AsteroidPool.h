@@ -10,6 +10,7 @@
 #include"Asteroid.h"
 #include "Bullet.h"
 #include "PacMan.h"
+#include "AsteroidLifeTime.h"
 #include "System.h"
 class AsteroidPool: public Singleton<AsteroidPool>
 {
@@ -22,7 +23,7 @@ private:
 			e->addComponent<Transform>();
 			e->addComponent<Asteroid>();
 			e->addComponent<Rotation>();
-		//	e->addComponent<AsteroidLifeTime>();
+		   e->addComponent<AsteroidLifeTime>();
 			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
 		}
 	}
@@ -45,7 +46,7 @@ public :
 			AsteroidPool::instance()->destroy_(p);
 		}
 
-		inline Entity* construct_(Vector2D pos, Vector2D vel, double width, double height, double r, int generations) {
+		inline Entity* construct_(Vector2D pos, Vector2D vel, double width, double height, int generations) {
 			Entity* e = ast.getObj();
 			if (e != nullptr) {
 				e->setActive(true);
@@ -55,9 +56,9 @@ public :
 				tr->width_ = width;
 				tr->height_ = height;
 				Asteroid* as = e->getComponent<Asteroid>();
-				as->setGenerations(generations);
 				as->isUse(true);
-				e->getComponent<Rotation>()->rotation_ = r;
+				e->getComponent<AsteroidLifeTime>()->generaciones_ = generations;
+				//e->getComponent<Rotation>()->rotation_ = r;
 				astAct++;
 			}
 			return e;
@@ -69,6 +70,6 @@ public :
 
 		void disablAll();
 		//void  onCollision(Asteroid* a, Bullet* b);
-		int getNumOfAsteroid() { return astAct; }
+		//int getNumOfAsteroid() { return astAct; }
 };
 
