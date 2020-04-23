@@ -23,7 +23,7 @@ private:
 			e->addComponent<Transform>();
 			e->addComponent<Asteroid>();
 			e->addComponent<Rotation>();
-		   e->addComponent<AsteroidLifeTime>();
+		    e->addComponent<AsteroidLifeTime>();
 			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
 		}
 	}

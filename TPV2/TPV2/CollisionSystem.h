@@ -28,6 +28,7 @@ public:
 					if (Collisions::collides(etr->position_, etr->width_, etr->height_, bull->position_, bull->width_, bull->height_)) {
 						mngr_->getSystem<AsteroidsSystem>()->onCollisionWithBullet(a, b);
 						mngr_->getSystem<BulletsSystem>()->onCollisionWithAsteroid(b, a);
+						
 					}
 				}
 			}

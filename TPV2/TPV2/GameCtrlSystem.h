@@ -9,14 +9,13 @@
 #include "Health.h"
 #include "ScoreManager.h"
 #include "GameState.h"
+#include "Singleton.h"
 
 
 class GameCtrlSystem: public System {
 private:
-	AsteroidPool* ast_;
 	AsteroidsSystem* a;
 	GameState* game_;
-	BulletsPool* bullets_;
 	Health* vida_;
 	Entity* e;
 public:
@@ -24,12 +23,10 @@ public:
 		// - a este método se le va a llamar cuando muere el caza.
 		// - desactivar todos los asteroides y las balas.
 		// - actualizar los componentes correspondientes (Score, GameState, …).
-		ast_->disablAll();
-		//::mngr_->getEntities()
-		bullets_->disablAll();
+		//AsteroidPool::instance() ;
+		//BulletsPool::instance()->disablAll();
 		vida_->vidas_--;
-		//scoreManager_->setScore(0);
-		//game_->estado;
+		
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		state->estado = state->pausado;
 		
@@ -39,7 +36,7 @@ public:
 		// - a este método se le va a llamar cuando no haya más asteroides.
 // - desactivar todas las balas.
 // - actualizar los componentes correspondientes (Score, GameState, …).
-		bullets_->disablAll();
+		//BulletsPool::instance()->disablAll();
 		vida_->vidas_=3;
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		state->win = true;
@@ -60,6 +57,7 @@ public:
 	void update() override {
 		
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		
 		
 		if (InputHandler::instance()->keyDownEvent() && state->estado == state->pausado) {
 			state->estado == state->jugando;

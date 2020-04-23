@@ -14,20 +14,19 @@ public:
 	void addAsteroids(int n) {
 		for (int i = 0; i < n; i++)
 		{
-			int x = game_->getRandGen()->nextInt(0, game_->getWindowWidth());
-			int y = game_->getRandGen()->nextInt(0, game_->getWindowHeight());
-			Vector2D pos = Vector2D(x, y);
-			int vx = game_->getRandGen()->nextInt(-50,50);
-			int vy = game_->getRandGen()->nextInt(-50, 50);
+			int px = game_->getRandGen()->nextInt(0, game_->getWindowWidth());
+			int py= game_->getRandGen()->nextInt(0, game_->getWindowHeight());
+			Vector2D pos = Vector2D(px, py);
+			int rx = game_->getRandGen()->nextInt(-50,50);
+			int ry = game_->getRandGen()->nextInt(-50, 50);
 			int m = game_->getRandGen()->nextInt(1, 10);
-			Vector2D c = Vector2D((game_->getWindowWidth() / 2) + vx, (game_->getWindowHeight() / 2) + vy);
+			Vector2D c = Vector2D((game_->getWindowWidth() / 2) + rx, (game_->getWindowHeight() / 2) + ry);
 			Vector2D vel = (c - pos).normalize() * (m / 10.0);
-			int w = game_->getRandGen()->nextInt(25, 50);
+			int g = game_->getRandGen()->nextInt(1, 3);
+			int w =10+3*g;
 			int h = w;
-			int r = game_->getRandGen()->nextInt(1, 2);
-			int generations = game_->getRandGen()->nextInt(5, 10);
 
-			Entity* e = mngr_->addEntity<AsteroidPool>(pos, vel,w, h, r, generations);
+			auto e=  mngr_->addEntity<AsteroidPool>(pos, vel,w, h, g);
 			if (e != nullptr)
 				e->addToGroup<_grp_Asteroid>();
 		}
