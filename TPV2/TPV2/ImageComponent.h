@@ -4,7 +4,7 @@
 #include "Texture.h"
 
 struct ImageComponent: Component {
-	ImageComponent(Texture *tex) :
+	ImageComponent(Texture* tex) :
 			tex_(tex) //
 	{
 	}

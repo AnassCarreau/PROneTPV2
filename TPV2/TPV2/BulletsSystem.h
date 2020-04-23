@@ -21,18 +21,22 @@ public:
 		// - si el juego está parado no hacer nada.
 		// - mover las balas y desactivar las que se salen de la ventana
 	void update() override {
-		for (auto& o : mngr_->getGroupEntities<_grp_Bullet>())
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		if (state->estado == state->jugando)
 		{
-			if (o->isActive()) {
-				Transform* tr_ = o->getComponent<Transform>();
-				tr_->position_ = tr_->position_ + tr_->velocity_;
-				if (tr_->position_.getX() >= game_->getWindowWidth()
-					|| tr_->position_.getX() <= 0
-					|| tr_->position_.getY() >= game_->getWindowHeight()
-					|| tr_->position_.getY() <= 0)
-				{
+			for (auto& o : mngr_->getGroupEntities<_grp_Bullet>())
+			{
+				if (o->isActive()) {
+					Transform* tr_ = o->getComponent<Transform>();
+					tr_->position_ = tr_->position_ + tr_->velocity_;
+					if (tr_->position_.getX() >= game_->getWindowWidth()
+						|| tr_->position_.getX() <= 0
+						|| tr_->position_.getY() >= game_->getWindowHeight()
+						|| tr_->position_.getY() <= 0)
+					{
 
-					o->setActive(false);
+						o->setActive(false);
+					}
 				}
 			}
 		}

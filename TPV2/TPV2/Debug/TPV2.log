@@ -1,38 +1,751 @@
-﻿  Asteroids.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  SDLGame.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  SDLTexturesManager.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  main.cpp
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(38,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(39,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(40,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsViewer.h(41,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(34,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(35,30): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(36,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
+﻿  BulletsPool.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,23): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(30,3): error C2065: 'bullets_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(43,3): error C2065: 'bullets_': identificador no declarado
+  FighterCtrl.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,23): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(30,3): error C2065: 'bullets_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(43,3): error C2065: 'bullets_': identificador no declarado
+  FighterViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.h(17,7): error C3668: 'FighterViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(4,30): error C2653: 'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(4,30): error C2275: 'FighterViewer': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(19,26): error C2039: 'getPos': no es un miembro de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message : vea la declaración de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(20,26): error C2039: 'getPos': no es un miembro de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message : vea la declaración de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(21,39): error C2039: 'getRot': no es un miembro de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message : vea la declaración de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(26,26): error C2275: 'Transform': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(10): message : vea la declaración de 'Transform'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(26,8): error C3861: 'GETCMP1_': no se encontró el identificador
+  Gun.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterViewer.cpp(27,12): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,13): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(20,23): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(30,3): error C2065: 'bullets_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(43,3): error C2065: 'bullets_': identificador no declarado
+  Health.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(3,14): error C2039: 'RestaVida': no es un miembro de 'Health'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.h(5): message : vea la declaración de 'Health'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(5,7): error C2065: 'vidas': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(6,4): error C2065: 'vidas': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(16,14): error C2039: 'draw': no es un miembro de 'Health'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.h(5): message : vea la declaración de 'Health'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(18,22): error C2065: 'vidas': identificador no declarado
+  Asteroid.cpp
+  AsteroidPool.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(21,3): error C2065: 'life': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(28,3): error C2065: 'ast_': identificador no declarado
+  Asteroids.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,23): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,30): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,5): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,15): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,40): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(38,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(46,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+  AsteroidsSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,23): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,30): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,5): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,15): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,40): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(38,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(46,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+  AudioManager.cpp
+  BulletsSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+  Collisions.cpp
+  CollisionSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,23): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,30): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,5): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,15): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,40): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(38,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(46,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+  Component.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,33): error C2653: 'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,27): error C2065: 'CmpId': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(3,33): error C2146: error de sintaxis: falta ')' delante del identificador 'id'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,19): error C2440: 'inicializando': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(4,10): message : Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,16): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,17): error C2440: 'inicializando': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(5,8): message : Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(6,7): error C2065: 'id': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(6,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(7,1): error C2448: 'id_': el inicializador de estilo de función parece ser una definición de función
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(10,25): error C2600: 'Component::~Component': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): error C2541: 'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(11,16): message : Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,19): error C2440: '=': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,12): message : Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(12,19): message : Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(13,14): error C2541: 'delete': no se pueden eliminar objetos que no sean punteros
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(13,14): message : Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,17): error C2440: '=': no se puede realizar la conversión de 'nullptr' a 'int'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,10): message : Un elemento nullptr nativo solo se puede convertir en bool o, si se usa reinterpret_cast, en un tipo entero
+  DefFactory.cpp
+  FighterGunSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Component.cpp(14,17): message : Diagnóstico en la función 'Component::~Component(void)' generada por el compilador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  FighterMotion.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2653: 'ecs': no es un nombre de clase o espacio de nombres
+  FighterSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterMotion.h(11,18): error C2275: 'FighterMotion': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+  Font.cpp
+  GameCtrl.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(28,3): error C2065: 'ast_': identificador no declarado
   Generando código...
-C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\TPV2\BulletsViewer.h(37,21): warning C4244:  '=': conversión de 'double' a 'int'; posible pérdida de datos
-  TPV2.vcxproj -> C:\Users\forev\OneDrive\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe
+  Compilando...
+  GameCtrlSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+  GameLogic.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,14): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(17,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(28,3): error C2065: 'ast_': identificador no declarado
+  main.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,23): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,30): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,5): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,15): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,40): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(38,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(46,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+  PacMan.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,33): error C2065: 'AsteroidPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(22,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,23): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(33,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,30): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,5): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,15): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,40): error C2065: 'Asteroid': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(36,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(38,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(46,5): error C2065: 'astdiv': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(58,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(59,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,25): error C2065: 'Health': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26): error C2672: 'Entity::addComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(26,1): error C2974: 'Entity::addComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la declaración de 'Entity::addComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(34,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(35,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,32): error C2065: 'BulletsPool': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(12,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(24,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(25,1): error C3536: 'state': no se puede usar antes de inicializarse
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,67): error C2065: 'GameState': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14): error C2672: 'Entity::getComponent': no se encontró una función sobrecargada que coincida
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(14,1): error C2974: 'Entity::getComponent': argumento de plantilla no válido para 'T'; se esperaba un tipo
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(48): message : vea la declaración de 'Entity::getComponent'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(15,1): error C3536: 'state': no se puede usar antes de inicializarse
+  PacManSystem.cpp
+  RenderSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(66,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  ScoreManager.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.cpp(6,29): error C2653: 'ecs': no es un nombre de clase o espacio de nombres
+  ScoreViewer.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.cpp(6,29): error C2275: 'ScoreManager': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(10,7): error C3668: 'ScoreViewer::init': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.h(11,7): error C3668: 'ScoreViewer::draw': el método con el especificador de invalidación 'override' no invalidó ningún método de clase base
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(8,28): error C2653: 'ecs': no es un nombre de clase o espacio de nombres
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(8,28): error C2275: 'ScoreViewer': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(18,39): error C2275: 'ScoreManager': uso no válido de este tipo como expresión
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreManager.h(5): message : vea la declaración de 'ScoreManager'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(18,18): error C3861: 'GETCMP1_': no se encontró el identificador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(23,16): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(25,3): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(23,15): error C2664: 'Texture::Texture(const Texture &)': el argumento 1 no puede convertirse de 'std::string' a 'SDL_Renderer *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(24,12): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Texture.h(12,2): message : vea la declaración de 'Texture::Texture'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(28,3): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(41,17): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(43,4): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(41,16): error C2664: 'Texture::Texture(const Texture &)': el argumento 1 no puede convertirse de 'std::string' a 'SDL_Renderer *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(42,4): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Texture.h(12,2): message : vea la declaración de 'Texture::Texture'
+  SDLAudioManager.cpp
+  StarsPool.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ScoreViewer.cpp(45,4): error C2065: 'game_': identificador no declarado
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  StarsSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<LifeTime>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  System.cpp
+  Vector2D.cpp
+  Generando código...
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<LifeTime>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         ]

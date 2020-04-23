@@ -1,29 +1,15 @@
 #pragma once
 
 #include <vector>
-
+#include "CollisionSystem.h"
+#include "GameCtrlSystem.h"
 #include "Manager.h"
-#include "SDLGame.h"
-#include "GameCtrl.h"
-#include "GameLogic.h"
-#include "InputHandler.h"
-#include "ScoreManager.h"
-#include "ScoreViewer.h"
-#include "Transform.h"
-#include "SDLGame.h"
 #include "FighterCtrl.h"
-#include "FighterViewer.h"
-#include "FighterMotion.h"
-#include "Health.h"
-#include "ObjectPool.h"
-#include "AsteroidPool.h"
-#include "Asteroid.h"
-#include "AsteroidsViewer.h"
-#include "AsteroidsMotion.h"
-#include "BulletsMotion.h"
-#include "BulletsPool.h"
-#include "BulletsViewer.h"
-#include "Bullet.h"
+#include "FighterGunSystem.h"
+#include "RenderSystem.h"
+#include "SDLGame.h"
+#include "AsteroidsSystem.h"
+#include "BulletsSystem.h"
 
 class Asteroids {
 
@@ -38,21 +24,18 @@ public:
 private:
 	void initGame();
 	void closeGame();
-	void handleInput();
-	void update();
-	void render();
+	
+
+	RenderSystem* renderSystem_;
+	AsteroidsSystem* asteroidSystem_;
+	BulletsSystem* bulletSystem_;
+	FighterSystem* fighterSystem_;
+	FighterGunSystem* fighterGunSystem;
+	CollisionSystem* collisionSystem_;
+	GameCtrlSystem* gameCtrlSystem_;
 
 	SDLGame* game_;
-	//EntityManager* entityManager_;
-	Entity* asteroid;
-	Entity* bullet;
-	Entity* fighter;
-	Entity* gameManager;
-	AsteroidPool* ast;
-	BulletsPool* bull;
-	Transform* fighterTR;
-	Health* vida;
-
+	Manager* mngr_;
 	bool exit_;
 
 	const static int _WINDOW_WIDTH_ = 640;

@@ -11,10 +11,10 @@ struct Transform;
 struct ImageComponent;
 struct Rotation;
 struct Score;
-struct LifeTime;
+struct LifeTimeAsteroid;
 
 using ComponentsList =
-mpl::TypeList<Transform,ImageComponent,Rotation,Score,LifeTime>;
+mpl::TypeList<Transform,ImageComponent,Rotation,Score,LifeTimeAsteroid>;
 
 // ** Groups
 //

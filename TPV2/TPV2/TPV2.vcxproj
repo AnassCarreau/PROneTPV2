@@ -26,6 +26,7 @@
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.h" />
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h" />
     <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="AsteroidLifeTime.h" />
     <ClInclude Include="AsteroidPool.h" />
     <ClInclude Include="Asteroids.h" />
     <ClInclude Include="AsteroidsMotion.h" />
@@ -50,6 +51,7 @@
     <ClInclude Include="GameCtrl.h" />
     <ClInclude Include="GameCtrlSystem.h" />
     <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="ImageComponent.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="jute.h" />
@@ -63,6 +65,7 @@
     <ClInclude Include="PacManSystem.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Resources.h" />
     <ClInclude Include="Rotation.h" />
     <ClInclude Include="Score.h" />
@@ -136,6 +139,9 @@
     <ClCompile Include="TexturesManager.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TPV2.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -9,15 +9,16 @@
 #include "BulletsPool.h"
 #include "Health.h"
 #include "ScoreManager.h"
+#include "GameState.h"
 
 
 class GameCtrlSystem: public System {
 private:
 	AsteroidPool* ast_;
 	AsteroidsSystem* a;
+	GameState* game_;
 	BulletsPool* bullets_;
 	Health* vida_;
-	ScoreManager* scoreManager_;
 	Entity* e;
 public:
 	void onFighterDeath() {
@@ -25,17 +26,26 @@ public:
 		// - desactivar todos los asteroides y las balas.
 		// - actualizar los componentes correspondientes (Score, GameState, …).
 		ast_->disablAll();
+		//::mngr_->getEntities()
 		bullets_->disablAll();
-		vida_->RestaVida();
+		vida_->vidas_--;
+		//scoreManager_->setScore(0);
+		//game_->estado;
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		state->estado = state->pausado;
+		
+		
 	}
 	void onAsteroidsExtenction() {
 		// - a este método se le va a llamar cuando no haya más asteroides.
 // - desactivar todas las balas.
 // - actualizar los componentes correspondientes (Score, GameState, …).
 		bullets_->disablAll();
-		vida_->ResetVidas();
-		auto sc = e->addComponent<Score>();
-		sc->points_ = 0;
+		vida_->vidas_=3;
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		state->win = true;
+		 e->getComponent<Score>()->points_=0;
+		
 	}
 
 	void init() override {
@@ -49,15 +59,17 @@ public:
 // 2) actualizar el estado del juego y el número de vidas (si es necesario)
 // en los componentes correspondientes (Score, Heath, GameState, …).
 	void update() override {
-		if (InputHandler::instance()->keyDownEvent() && scoreManager_->getPause()) {
-			scoreManager_->setPause(false);
-			scoreManager_->setPlay(true);
+		
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		
+		if (InputHandler::instance()->keyDownEvent() && state->estado == state->pausado) {
+			state->estado == state->jugando;
 			//game_->getAudioMngr()->playMusic(Resources::Imperial, 5);
-			a->addAsteroids(10);
+			mngr_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 		}
-		if (!scoreManager_->getPlay()) {
-			scoreManager_->setScore(0);
-			vida_->ResetVidas();
+		if (state->estado == state->terminado) {
+			
+			vida_->vidas_=3;
 		}
 	}
 

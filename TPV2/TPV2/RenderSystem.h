@@ -11,6 +11,7 @@
 #include "Score.h"
 #include "SDLGame.h"
 #include "Texture.h"
+#include "GameState.h"
 
 class RenderSystem: public System {
 public:
@@ -18,10 +19,12 @@ public:
 	void draw(Entity *e) {
 		Transform *tr = e->getComponent<Transform>();
 		ImageComponent *img = e->getComponent<ImageComponent>();
+		
 		SDL_Rect dest =
-		RECT(tr->position_.getX(), tr->position_.getY(), tr->width_,
+			RECT(tr->position_.getX(), tr->position_.getY(), tr->width_,
 				tr->height_);
 		img->tex_->render(dest, tr->rotation_);
+		
 	}
 
 	void drawScore() {
@@ -38,19 +41,39 @@ public:
 	void update() override {
 
 		// draw Asteroids
-		for (auto &e : mngr_->getGroupEntities<_grp_Asteroid>()) {
-			draw(e);
-		}
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		if (state->estado == state->jugando)
+		{
+			for (auto& e : mngr_->getGroupEntities<_grp_Asteroid>()) {
+				draw(e);
+			}
 
-		// draw fighter
-		draw(mngr_->getHandler<_hdlr_Fighter>());
+			// draw fighter
+			draw(mngr_->getHandler<_hdlr_Fighter>());
+		}
 
 		// draw score
 		drawScore();
+		//drawvidas
 
 		// info message
-		Texture msg(game_->getRenderer(),"Press ENTER to add More Stars", game_->getFontMngr()->getFont(Resources::ARIAL24),{COLOR(0xff0000ff)});
-		msg.render(game_->getWindowWidth()/2-msg.getWidth()/2,game_->getWindowHeight()-msg.getHeight()-10);
+		
+		if (state->estado == state->pausado)
+		{
+			Texture msg(game_->getRenderer(), "Press ENTER to add More Stars", game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0xff0000ff) });
+			msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
+		}
+		else if(state->estado == state->terminado)
+		{
+			if (state->win)
+			{
+				cout << "win";
+			}
+			else
+			{
+				cout << "lose";
+			}
+		}
 	}
 };
 

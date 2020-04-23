@@ -8,6 +8,7 @@ class AsteroidsSystem : public System {
 public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir los asteroides al grupo _grp_Asteroid.
+	int numAsteroids() { return numOfAsteroids_; }
 	void addAsteroids(int n) {
 		for (int i = 0; i < n; i++)
 		{
@@ -26,6 +27,7 @@ public:
 
 	// - desactivar el asteroide “a” y crear 2 asteroides como en la práctica 1.
 	void onCollisionWithBullet(Entity* a, Entity* b) {
+		
 		a->setActive(false);
 		numOfAsteroids_--;
 		if (a->getComponent<Asteroid>()->getGenerations() > 0) {
@@ -52,7 +54,10 @@ public:
 	// - si el juego está parado no hacer nada.
 	// - mover los asteroides como en la práctica 1.
 	void update() override {
-		if (!scoreManager_->getPause()) {
+		//mngr_->getHandler<_hdlr_GameState>();
+		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
+		if (state->estado == state->jugando)
+		{
 			for (auto& o : mngr_->getGroupEntities<_grp_Asteroid>())
 			{
 				if (!o->isActive())
@@ -78,8 +83,8 @@ public:
 				}
 			}
 		}
+	
 	};
 private:
 	std::size_t numOfAsteroids_;
-	ScoreManager* scoreManager_;
 };
