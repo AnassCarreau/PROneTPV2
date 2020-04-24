@@ -5,6 +5,7 @@
 #include "Manager.h"
 #include "GameState.h"
 #include "Health.h"
+#include "ImageComponent.h"
 class FighterSystem : public System {
 private:
 	Transform* tr_;

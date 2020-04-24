@@ -11,10 +11,12 @@ struct Transform;
 struct ImageComponent;
 struct Rotation;
 struct Score;
-struct LifeTimeAsteroid;
+struct AsteroidLifeTime;
+struct Health;
+struct GameState;
 
 using ComponentsList =
-mpl::TypeList<Transform,ImageComponent,Rotation,Score,LifeTimeAsteroid>;
+mpl::TypeList<Transform, ImageComponent, Rotation, Score, AsteroidLifeTime, Health, GameState>;
 
 // ** Groups
 //
@@ -34,7 +36,7 @@ struct _hdlr_Fighter;
 struct _hdlr_GameState;
 
 using HandlersList =
-mpl::TypeList<_hdlr_Fighter,_hdlr_GameState>;
+mpl::TypeList<_hdlr_Fighter, _hdlr_GameState>;
 
 // ** Systems
 //
@@ -58,7 +60,7 @@ class RenderSystem; // sistema de rendering (para dibujar las entidades, etc.)
 //	class _sys_Render; // sistema de rendering (para dibujar las entidades, etc.)
 
 using SystemsList =
-mpl::TypeList<GameCtrlSystem, AsteroidsSystem, BulletsSystem, FighterSystem,FighterGunSystem, CollisionSystem,RenderSystem>;
+mpl::TypeList<GameCtrlSystem, AsteroidsSystem, BulletsSystem, FighterSystem, FighterGunSystem, CollisionSystem, RenderSystem>;
 /*using SystemsList =
 mpl::TypeList<_sys_GameCtrl, _sys_Asteroids, _sys_Bullets, _sys_Fighter, _sys_FighterGun, _sys_Collisions, _sys_Render>;*/
 
