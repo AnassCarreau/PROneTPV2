@@ -3,7 +3,6 @@
 #include "ecs.h"
 #include "System.h"
 #include "Score.h"
-#include "AsteroidPool.h"
 #include "AsteroidsSystem.h"
 #include "BulletsPool.h"
 #include "Health.h"
@@ -14,19 +13,16 @@
 
 class GameCtrlSystem: public System {
 private:
-	AsteroidsSystem* a;
-	GameState* game_;
-	Health* vida_;
 	Entity* e;
 public:
 	void onFighterDeath() {
 		// - a este método se le va a llamar cuando muere el caza.
 		// - desactivar todos los asteroides y las balas.
 		// - actualizar los componentes correspondientes (Score, GameState, …).
-		//AsteroidPool::instance() ;
-		//BulletsPool::instance()->disablAll();
-		vida_->vidas_--;
-		
+		AsteroidPool::instance()->disablAll();
+		BulletsPool::instance()->disablAll();
+		 mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_--;
+
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		state->estado = state->pausado;
 		
@@ -37,7 +33,7 @@ public:
 // - desactivar todas las balas.
 // - actualizar los componentes correspondientes (Score, GameState, …).
 		//BulletsPool::instance()->disablAll();
-		vida_->vidas_=3;
+		mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_=3;
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		state->win = true;
 		 e->getComponent<Score>()->points_=0;
@@ -66,7 +62,7 @@ public:
 		}
 		if (state->estado == state->terminado) {
 			
-			vida_->vidas_=3;
+			mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_=3;
 		}
 	}
 

@@ -10,7 +10,7 @@
 #include "SDLGame.h"
 #include "StarsSystem.h"
 
-class PacMan {
+/*class PacMan {
 
 public:
 	PacMan();
@@ -39,4 +39,4 @@ private:
 	const static int _WINDOW_WIDTH_ = 640;
 	const static int _WINDOW_HEIGHT_ = 480;
 
-};
+};*/

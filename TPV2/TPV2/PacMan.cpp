@@ -1,4 +1,4 @@
-#include "SDL_macros.h"
+/*#include "SDL_macros.h"
 #include "PacMan.h"
 #include <assert.h>
 
@@ -75,6 +75,6 @@ void PacMan::start() {
 		if (frameTime < 10)
 			SDL_Delay(10 - frameTime);
 	}
-}
+}*/
 
 

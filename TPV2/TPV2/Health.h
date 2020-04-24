@@ -8,9 +8,7 @@ struct Health : Component {
 		vidas_(0) //
 	{
 	}
-	bool RestaVida();
-	void draw();
+	
 	unsigned int vidas_;
-	Texture* life;
 };
 

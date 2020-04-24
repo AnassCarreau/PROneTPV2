@@ -1,322 +1,13 @@
 ﻿  BulletsPool.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,32): error C2065: 'BulletsPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,16): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,16): error C3861: 'instance': no se encontró el identificador
   FighterCtrl.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,32): error C2065: 'BulletsPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,16): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,16): error C3861: 'instance': no se encontró el identificador
   FighterViewer.cpp
   Gun.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,32): error C2065: 'BulletsPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(14,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,16): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,16): error C3861: 'instance': no se encontró el identificador
-  Health.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
   AsteroidPool.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Health.cpp(18,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,33): error C2065: 'AsteroidPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-  Asteroids.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(63,1): error C2027: uso del tipo 'AsteroidsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(44): message : vea la declaración de 'AsteroidsSystem'
-  AsteroidsSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(29,1): error C2027: uso del tipo 'AsteroidsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(44): message : vea la declaración de 'AsteroidsSystem'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(63,1): error C2027: uso del tipo 'AsteroidsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(44): message : vea la declaración de 'AsteroidsSystem'
-  AudioManager.cpp
-  BulletsSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.h(30,1): error C2027: uso del tipo 'BulletsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(45): message : vea la declaración de 'BulletsSystem'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(26,16): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,1): error C2653: 'BulletsPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(38,16): error C3861: 'instance': no se encontró el identificador
-  Collisions.cpp
-  CollisionSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(63,1): error C2027: uso del tipo 'AsteroidsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(44): message : vea la declaración de 'AsteroidsSystem'
-  Component.cpp
-  FighterGunSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
-  FighterMotion.cpp
-  FighterSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=ImageComponent
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<ImageComponent,DefFactory<T>,Texture*>(Texture *&&)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :             T=ImageComponent
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664: 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr(const std::unique_ptr<Component,std::function<void (Component *)>> &)': el argumento 1 no puede convertirse de 'T *' a 'Component *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=ImageComponent
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1823,5): message : vea la declaración de 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<Health,DefFactory<T>,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
-  Font.cpp
-  GameCtrl.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,33): error C2065: 'AsteroidPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-  GameCtrlSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,33): error C2065: 'AsteroidPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-  GameLogic.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,33): error C2065: 'AsteroidPool': identificador no declarado
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30): error C2672: 'Manager::addEntity': no se encontró una función sobrecargada que coincida
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(30,1): error C2974: 'Manager::addEntity': argumento de plantilla no válido para 'FT'; se esperaba un tipo
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(24): message : vea la declaración de 'Manager::addEntity'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-  Generando código...
-  Compilando...
-  InputHandler.cpp
-  main.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,1): error C2653: 'AsteroidPool': no es un nombre de clase o espacio de nombres
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(25,17): error C3861: 'instance': no se encontró el identificador
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(63,1): error C2027: uso del tipo 'AsteroidsSystem' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ecs.h(44): message : vea la declaración de 'AsteroidsSystem'
-  Manager.cpp
-  PacMan.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(13,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(61,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(24): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<Asteroid,DefFactory<T>,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(24): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(24): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(24): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(24): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664: 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr(const std::unique_ptr<Component,std::function<void (Component *)>> &)': el argumento 1 no puede convertirse de 'T *' a 'Component *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1823,5): message : vea la declaración de 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=AsteroidLifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -347,27 +38,59 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(26): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(26): message :             T=AsteroidLifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,10): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(58): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<Asteroid>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(58): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(58): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(58): message :             T=Asteroid
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(58): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+  Asteroids.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(12,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(59,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -398,16 +121,16 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(66): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(66): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(66): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(66): message :             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(66): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=Health
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -446,214 +169,103 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :       
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<Bullet,DefFactory<T>,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(23): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(23): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(23): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<BulletsPool,DefFactory<T>,Vector2D&,Vector2D&,double&,double&>(Vector2D &,Vector2D &,double &,double &)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664: 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr(const std::unique_ptr<Component,std::function<void (Component *)>> &)': el argumento 1 no puede convertirse de 'T *' a 'Component *'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1823,5): message : vea la declaración de 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+  AsteroidsSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(12,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=Bullet
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,1): error C2440:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(50,10): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(61): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<Bullet>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(61): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(61): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(61): message :             T=Bullet
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsPool.h(61): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<LifeTime>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<AsteroidsSystem,BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<GameCtrlSystem,AsteroidsSystem,BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,SystemsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(36): message : vea la referencia a la creación de instancias de plantilla de función "T *Manager::addSystem<StarsSystem,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(36): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(36): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(36): message :             T=StarsSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(36): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<AsteroidsSystem,BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<GameCtrlSystem,AsteroidsSystem,BulletsSystem,FighterGunSystem,FighterSystem,RenderSystem>>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,SystemsList>" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(61): message :         ]
-  PacManSystem.cpp
-  RenderSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(37): message : vea la referencia a la creación de instancias de plantilla de función "T *Manager::addSystem<PacManSystem,>(void)" que se está compilando
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(37): message :         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(37): message :         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(37): message :             T=PacManSystem
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\PacMan.cpp(37): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=GameState
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -684,18 +296,583 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
-  ScoreManager.cpp
+  Entity.cpp
+  FighterGunSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  FighterSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterGunSystem.h(15): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=ImageComponent
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<ImageComponent,DefFactory<T>,Texture*>(Texture *&&)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :             T=ImageComponent
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(27): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664: 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr(const std::unique_ptr<Component,std::function<void (Component *)>> &)': el argumento 1 no puede convertirse de 'T *' a 'Component *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=ImageComponent
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1823,5): message : vea la declaración de 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<Health,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  GameCtrl.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(36): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+  GameCtrlSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(12,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(59,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  GameLogic.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<Health>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(24): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+  main.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(12,21): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(59,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<AsteroidLifeTime,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :             T=AsteroidLifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidPool.h(23): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\AsteroidsSystem.h(67): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<Health,DefFactory<T>,>(void)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :             T=Health
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FighterSystem.h(28): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440: 'static_cast': no se puede realizar la conversión de 'Component *' a 'T *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): error C2440:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(65,16): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::addComponent<BulletsPool,DefFactory<T>,Vector2D&,Vector2D&,double&,double&>(Vector2D &,Vector2D &,double &,double &)" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\BulletsSystem.h(22): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664: 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr(const std::unique_ptr<Component,std::function<void (Component *)>> &)': el argumento 1 no puede convertirse de 'T *' a 'Component *'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,16): error C2664:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(64,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1823,5): message : vea la declaración de 'std::unique_ptr<Component,std::function<void (Component *)>>::unique_ptr'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+  Manager.cpp
+  PacManSystem.cpp
+  RenderSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :             T=BulletsPool
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(60): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,mpl::TypeList<ImageComponent,Rotation,Score,LifeTimeAsteroid>>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message : vea la referencia a la creación de instancias de clase plantilla "mpl::IndexOf<T,ComponentsList>" que se está compilando
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=GameState
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  ScoreViewer.cpp
   StarsPool.cpp
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<GameState>(void)" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :             T=GameState
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\RenderSystem.h(44): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -732,11 +909,11 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         wi
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :             T=LifeTime
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         ]
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         with
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         [
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:             T=LifeTime
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,34): error C2027:         ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027: uso del tipo 'mpl::IndexOf<T,mpl::TypeList<>>' sin definir
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         with
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         [
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:             T=LifeTime
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26,35): error C2027:         ]
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message : vea la declaración de 'mpl::IndexOf<T,mpl::TypeList<>>'
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\mpl.h(26): message :         [
@@ -767,8 +944,9 @@ C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         with
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         [
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :             T=LifeTime
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Entity.h(49): message :         ]
+  Generando código...
+  Compilando...
   System.cpp
-  Vector2D.cpp
   Generando código...
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message : vea la referencia a la creación de instancias de plantilla de función "T *Entity::getComponent<LifeTime>(void)" que se está compilando
 C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\StarsPool.h(35): message :         with

@@ -4,13 +4,8 @@
 #include "ImageComponent.h"
 #include "ObjectPool.h"
 #include "Singleton.h"
-#include "LifeTime.h"
-#include "Rotation.h"
 #include "Transform.h"
-#include"Asteroid.h"
-#include "Bullet.h"
-#include "PacMan.h"
-#include "System.h"
+
 class BulletsPool : public Singleton<BulletsPool>
 {
 	friend Singleton<BulletsPool>;
@@ -20,17 +15,13 @@ private:
 		bul(n) {
 		for (Entity* e : bul.getPool()) {
 			e->addComponent<Transform>();
-			e->addComponent<Bullet>();
 			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Bullet));
 		}
 	}
 	ObjectPool<Entity>bul;
 public:
 	
-	void  shoot(Vector2D pos, Vector2D vel, double w, double h)
-	{
-		
-	};
+	
 	
 	virtual ~BulletsPool() {
 	}
@@ -43,12 +34,7 @@ public:
 	inline static void destroy(Entity* p) {
 		BulletsPool::instance()->destroy_(p);
 	}
-	/*
-	  vector<Bullet*> getPool()
-	  {
-		  return bull.getPool();
-	  }
-		  ;*/
+	
 	inline Entity* construct_(Vector2D pos, Vector2D vel, double width, double height) {
 		Entity* e = bul.getObj();
 		if (e != nullptr) {
@@ -58,8 +44,7 @@ public:
 			tr->velocity_.set(vel);
 			tr->width_ = width;
 			tr->height_ = height;
-			Bullet* as = e->getComponent<Bullet>();
-			as->isUse(true);
+			
 			//game_->getAudioMngr()->playChannel(Resources::Gun_Shoot, 0);
 
 		}
@@ -70,16 +55,15 @@ public:
 		bul.relObj(p);
 	}
 
-	void onCollision(Bullet* b, Asteroid* a) {
+	/*void onCollision(Bullet* b, Asteroid* a) {
 		b->isUse(false);
-	}
+	}*/
 
 	void disablAll() {
 		//deactivate all the bullets
 		for (auto& o : bul.getPool())
 		{
-			Bullet* a = o->getComponent<Bullet>();
-			a->isUse(false);
+			o->setActive(false);
 		}
 	}
 };

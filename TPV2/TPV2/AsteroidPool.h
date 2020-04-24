@@ -7,11 +7,8 @@
 #include "LifeTime.h"
 #include "Rotation.h"
 #include "Transform.h"
-#include"Asteroid.h"
-#include "Bullet.h"
-#include "PacMan.h"
 #include "AsteroidLifeTime.h"
-#include "System.h"
+
 class AsteroidPool: public Singleton<AsteroidPool>
 {
 	friend Singleton<AsteroidPool>;
@@ -21,10 +18,11 @@ private:
 		ast(n) {
 		for (Entity* e : ast.getPool()) {
 			e->addComponent<Transform>();
-			e->addComponent<Asteroid>();
+			//e->addComponent<Asteroid>();
 			e->addComponent<Rotation>();
 		    e->addComponent<AsteroidLifeTime>();
-			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
+			Texture* o = SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid);
+			e->addComponent<ImageComponent>(o);
 		}
 	}
 	ObjectPool<Entity>ast;
@@ -35,7 +33,6 @@ public :
 		virtual ~AsteroidPool() {
 		}
 
-		/*void  generateAsteroids(int n);	*/
 
 		template<typename ...Targs>
 		inline static Entity* construct(Targs&& ...args) {
@@ -55,10 +52,7 @@ public :
 				tr->velocity_.set(vel);
 				tr->width_ = width;
 				tr->height_ = height;
-				Asteroid* as = e->getComponent<Asteroid>();
-				as->isUse(true);
 				e->getComponent<AsteroidLifeTime>()->generaciones_ = generations;
-				//e->getComponent<Rotation>()->rotation_ = r;
 				astAct++;
 			}
 			return e;
@@ -68,7 +62,7 @@ public :
 			ast.relObj(p);
 		}
 
-		void disablAll();
+	 	void disablAll();
 		//void  onCollision(Asteroid* a, Bullet* b);
 		//int getNumOfAsteroid() { return astAct; }
 };

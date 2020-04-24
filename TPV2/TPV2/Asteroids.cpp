@@ -20,9 +20,10 @@ void Asteroids::initGame() {
 	game_ = SDLGame::init("Asteroids", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
 
 	AsteroidPool::init(10);
+	BulletsPool::init(30);
 
 	mngr_ = new Manager(game_);
-
+	
 	renderSystem_= mngr_->addSystem<RenderSystem>();
 	 asteroidSystem_= mngr_->addSystem<AsteroidsSystem>();
 	 bulletSystem_= mngr_->addSystem<BulletsSystem>();
@@ -55,7 +56,7 @@ void Asteroids::start() {
 		asteroidSystem_->update();
 		bulletSystem_->update();
 		fighterSystem_->update();
-		//fighterGunSystem;
+	    fighterGunSystem->update();
 		collisionSystem_->update();
 		renderSystem_->update();
 

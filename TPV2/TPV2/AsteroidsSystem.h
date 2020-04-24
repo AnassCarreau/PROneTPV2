@@ -1,11 +1,10 @@
 #pragma once
-#include "System.h"
 #include "Entity.h"
-#include "ScoreManager.h"
 #include "Transform.h"
 #include "Manager.h"
 #include "GameState.h"
 #include "AsteroidPool.h"
+#include "AsteroidLifeTime.h"
 class AsteroidsSystem : public System {
 public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
@@ -26,7 +25,7 @@ public:
 			int w =10+3*g;
 			int h = w;
 
-			auto e=  mngr_->addEntity<AsteroidPool>(pos, vel,w, h, g);
+			Entity* e=  mngr_->addEntity<AsteroidPool>(pos, vel,w, h, g);
 			if (e != nullptr)
 				e->addToGroup<_grp_Asteroid>();
 		}
@@ -37,22 +36,25 @@ public:
 		
 		a->setActive(false);
 		numOfAsteroids_--;
-		if (a->getComponent<Asteroid>()->getGenerations() > 0) {
-			int gen = a->getComponent<Asteroid>()->getGenerations() - 1;
+		int gen= a->getComponent<AsteroidLifeTime>()->generaciones_;
+		if (gen > 0) {
+			 gen--;
 			for (int i = 0; i < 2; i++) {
-				Asteroid* astdiv = a->getComponent<Asteroid>();
+				//Asteroid* astdiv = a->getComponent<Asteroid>();
 				Transform* astd = a->getComponent<Transform>();
-				astdiv->isUse(true);
+				//astdiv->isUse(true);
 
 				Vector2D v = a->getComponent<Transform>()->velocity_.rotate(i * 45);
 				Vector2D p = a->getComponent<Transform>()->position_ + v.normalize();
 
 				int wh = 10 + 3 * gen;
+				int h = wh;
 				astd->velocity_ = v;
 				astd->position_ = p;
-				astdiv->setGenerations(gen);
 				astd->width_ = wh;
 				astd->height_ = wh;
+				Entity* e = mngr_->addEntity<AsteroidPool>(p, v, wh, h, gen);
+				e->setActive(true);
 
 				numOfAsteroids_++;
 			}

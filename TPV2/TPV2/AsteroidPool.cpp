@@ -31,12 +31,11 @@
 
  void AsteroidPool::disablAll() {
 	 //deactivate all the asteroids
-	 for (auto& o : ast.getPool())
-	 {
-		 Asteroid* a = o->getComponent<Asteroid>();
-		 a->isUse(false);
-	 }
-	 astAct = 0;
+		 for (auto& o : ast.getPool())
+		 {
+			 o->setActive(false);
+		 }
+		 astAct = 0;
  }
 
  //void AsteroidPool::onCollision(Asteroid* a, Bullet* b) {
