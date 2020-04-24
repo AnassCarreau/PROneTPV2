@@ -18,7 +18,6 @@ private:
 		ast(n) {
 		for (Entity* e : ast.getPool()) {
 			e->addComponent<Transform>();
-			//e->addComponent<Asteroid>();
 			e->addComponent<Rotation>();
 		    e->addComponent<AsteroidLifeTime>();
 			Texture* o = SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid);
@@ -62,7 +61,7 @@ public :
 			ast.relObj(p);
 		}
 
-	 	void disablAll();
+	 	void disableAll();
 		//void  onCollision(Asteroid* a, Bullet* b);
 		//int getNumOfAsteroid() { return astAct; }
 };

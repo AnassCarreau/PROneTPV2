@@ -19,23 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Bullet.h" />
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.h" />
-    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.h" />
-    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.h" />
-    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.h" />
     <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h" />
-    <ClInclude Include="Asteroid.h" />
     <ClInclude Include="AsteroidLifeTime.h" />
     <ClInclude Include="AsteroidPool.h" />
     <ClInclude Include="Asteroids.h" />
-    <ClInclude Include="AsteroidsMotion.h" />
     <ClInclude Include="AsteroidsSystem.h" />
-    <ClInclude Include="AsteroidsViewer.h" />
     <ClInclude Include="AudioManager.h" />
-    <ClInclude Include="BulletsMotion.h" />
     <ClInclude Include="BulletsSystem.h" />
-    <ClInclude Include="BulletsViewer.h" />
     <ClInclude Include="checkML.h" />
     <ClInclude Include="Collisions.h" />
     <ClInclude Include="CollisionSystem.h" />
@@ -44,13 +35,10 @@
     <ClInclude Include="ecs.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="FighterGunSystem.h" />
-    <ClInclude Include="FighterMotion.h" />
     <ClInclude Include="FighterSystem.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="FontsManager.h" />
-    <ClInclude Include="GameCtrl.h" />
     <ClInclude Include="GameCtrlSystem.h" />
-    <ClInclude Include="GameLogic.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="ImageComponent.h" />
     <ClInclude Include="InputHandler.h" />
@@ -61,16 +49,12 @@
     <ClInclude Include="ObjectFactory.h" />
     <ClInclude Include="ObjectPool.h" />
     <ClInclude Include="OFFacotry.h" />
-    <ClInclude Include="PacMan.h" />
-    <ClInclude Include="PacManSystem.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Resources.h" />
     <ClInclude Include="Rotation.h" />
     <ClInclude Include="Score.h" />
-    <ClInclude Include="ScoreManager.h" />
-    <ClInclude Include="ScoreViewer.h" />
     <ClInclude Include="SDLAudioManager.h" />
     <ClInclude Include="SDLFontsManager.h" />
     <ClInclude Include="SDLGame.h" />
@@ -78,8 +62,6 @@
     <ClInclude Include="SDL_macros.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SRandBasedGenerator.h" />
-    <ClInclude Include="StarsPool.h" />
-    <ClInclude Include="StarsSystem.h" />
     <ClInclude Include="System.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TexturesManager.h" />
@@ -88,11 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\BulletsPool.cpp" />
-    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterCtrl.cpp" />
-    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\FighterViewer.cpp" />
-    <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Gun.cpp" />
     <ClCompile Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.cpp" />
-    <ClCompile Include="Asteroid.cpp" />
     <ClCompile Include="AsteroidPool.cpp" />
     <ClCompile Include="Asteroids.cpp" />
     <ClCompile Include="AsteroidsSystem.cpp" />
@@ -104,13 +82,10 @@
     <ClCompile Include="DefFactory.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="FighterGunSystem.cpp" />
-    <ClCompile Include="FighterMotion.cpp" />
     <ClCompile Include="FighterSystem.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="FontsManager.cpp" />
-    <ClCompile Include="GameCtrl.cpp" />
     <ClCompile Include="GameCtrlSystem.cpp" />
-    <ClCompile Include="GameLogic.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="jute.cpp" />
     <ClCompile Include="main.cpp" />
@@ -118,13 +93,9 @@
     <ClCompile Include="ObjectFactory.cpp" />
     <ClCompile Include="ObjectPool.cpp" />
     <ClCompile Include="OFFacotry.cpp" />
-    <ClCompile Include="PacMan.cpp" />
-    <ClCompile Include="PacManSystem.cpp" />
     <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Resources.cpp" />
-    <ClCompile Include="ScoreManager.cpp" />
-    <ClCompile Include="ScoreViewer.cpp" />
     <ClCompile Include="SDLAudioManager.cpp" />
     <ClCompile Include="SDLFontsManager.cpp" />
     <ClCompile Include="SDLGame.cpp" />
@@ -132,8 +103,6 @@
     <ClCompile Include="sdl_macros.cpp" />
     <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="SRandBasedGenerator.cpp" />
-    <ClCompile Include="StarsPool.cpp" />
-    <ClCompile Include="StarsSystem.cpp" />
     <ClCompile Include="System.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="TexturesManager.cpp" />

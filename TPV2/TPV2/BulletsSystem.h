@@ -7,9 +7,7 @@
 #include "BulletsPool.h"
 
 #include <cmath>
-#include "SDL_macros.h"
 #include "Score.h"
-#include "SDLGame.h"
 
 
 class BulletsSystem : public System {
@@ -17,9 +15,7 @@ public:
 	// - añadir una bala al juego, como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir la bala al grupo _grp_Bullet
 	void shoot(Vector2D pos, Vector2D vel, double width, double height) {
-		//Entity* b = mngr_->addEntity<BulletsPool>(pos, vel, width, height);
-		Entity* b = mngr_->addEntity();
-			b->addComponent<BulletsPool>(pos, vel, width, height);
+		Entity* b = mngr_->addEntity<BulletsPool>(pos, vel, width, height);
 		if (b != nullptr) {
 			b->addToGroup<_grp_Bullet>();
 		}

@@ -1,7 +1,6 @@
 #pragma once
 #include "System.h"
 #include "Entity.h"
-#include "ScoreManager.h"
 #include "Transform.h"
 #include "Manager.h"
 #include "GameState.h"

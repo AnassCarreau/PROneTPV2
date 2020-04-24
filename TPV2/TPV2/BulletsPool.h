@@ -15,7 +15,8 @@ private:
 		bul(n) {
 		for (Entity* e : bul.getPool()) {
 			e->addComponent<Transform>();
-			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Bullet));
+			Texture* o = SDLGame::instance()->getTextureMngr()->getTexture(Resources::Bullet);
+			e->addComponent<ImageComponent>(o);
 		}
 	}
 	ObjectPool<Entity>bul;
@@ -55,11 +56,9 @@ public:
 		bul.relObj(p);
 	}
 
-	/*void onCollision(Bullet* b, Asteroid* a) {
-		b->isUse(false);
-	}*/
+	
 
-	void disablAll() {
+	void disableAll() {
 		//deactivate all the bullets
 		for (auto& o : bul.getPool())
 		{

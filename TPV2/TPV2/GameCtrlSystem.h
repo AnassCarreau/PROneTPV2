@@ -6,7 +6,6 @@
 #include "AsteroidsSystem.h"
 #include "BulletsPool.h"
 #include "Health.h"
-#include "ScoreManager.h"
 #include "GameState.h"
 #include "Singleton.h"
 
@@ -19,8 +18,8 @@ public:
 		// - a este método se le va a llamar cuando muere el caza.
 		// - desactivar todos los asteroides y las balas.
 		// - actualizar los componentes correspondientes (Score, GameState, …).
-		AsteroidPool::instance()->disablAll();
-		BulletsPool::instance()->disablAll();
+		AsteroidPool::instance()->disableAll();
+		BulletsPool::instance()->disableAll();
 		 mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_--;
 
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
@@ -32,7 +31,7 @@ public:
 		// - a este método se le va a llamar cuando no haya más asteroides.
 // - desactivar todas las balas.
 // - actualizar los componentes correspondientes (Score, GameState, …).
-		//BulletsPool::instance()->disablAll();
+		//BulletsPool::instance()->disableAll();
 		mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_=3;
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		state->win = true;

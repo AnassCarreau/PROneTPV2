@@ -29,7 +29,7 @@
 	 }
  }*/
 
- void AsteroidPool::disablAll() {
+ void AsteroidPool::disableAll() {
 	 //deactivate all the asteroids
 		 for (auto& o : ast.getPool())
 		 {

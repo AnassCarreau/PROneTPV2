@@ -4,7 +4,6 @@
 #include "CollisionSystem.h"
 #include "GameCtrlSystem.h"
 #include "Manager.h"
-#include "FighterCtrl.h"
 #include "FighterGunSystem.h"
 #include "RenderSystem.h"
 #include "SDLGame.h"
