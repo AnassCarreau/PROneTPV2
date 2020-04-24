@@ -43,7 +43,9 @@ public:
 		e = mngr_->addEntity();
 		auto sc = e->addComponent<Score>();
 		sc->points_ = 0;
-		mngr_->setHandler<_hdlr_GameState>(e);
+		 mngr_->setHandler<_hdlr_GameState>(e);
+		 auto state = e->addComponent<GameState>();
+		 state->estado = state->pausado;
 	}
 	// - si el juego está parado y el jugador pulsa ENTER empieza una nueva ronda:
 // 1) añadir 10 asteroides llamando a addAsteroids del AsteroidsSystem.

@@ -1,22 +1,29 @@
-﻿  BulletsPool.cpp
-  Health.cpp
-  AsteroidPool.cpp
-  Asteroids.cpp
-  AsteroidsSystem.cpp
-  BulletsSystem.cpp
-  CollisionSystem.cpp
+﻿  Asteroids.cpp
+  AudioManager.cpp
+  Collisions.cpp
   Entity.cpp
-  FighterGunSystem.cpp
-  FighterSystem.cpp
-  GameCtrlSystem.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(58,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Font.cpp
+  FontsManager.cpp
+  InputHandler.cpp
+  jute.cpp
   main.cpp
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(58,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(60,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
   Manager.cpp
-  RenderSystem.cpp
-  System.cpp
-  Transform.cpp
+  RandomNumberGenerator.cpp
+  Resources.cpp
+  SDLAudioManager.cpp
+  SDLFontsManager.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  sdl_macros.cpp
+  SRandBasedGenerator.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(60,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Texture.cpp
+  TexturesManager.cpp
   Generando código...
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.h(58,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Compilando...
+  Vector2D.cpp
+  Generando código...
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244: 'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
      Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
   TPV2.vcxproj -> C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe

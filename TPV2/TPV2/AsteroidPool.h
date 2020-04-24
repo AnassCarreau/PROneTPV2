@@ -5,7 +5,6 @@
 #include "ObjectPool.h"
 #include "Singleton.h"
 #include "LifeTime.h"
-#include "Rotation.h"
 #include "Transform.h"
 #include "AsteroidLifeTime.h"
 
@@ -18,7 +17,6 @@ private:
 		ast(n) {
 		for (Entity* e : ast.getPool()) {
 			e->addComponent<Transform>();
-			e->addComponent<Rotation>();
 		    e->addComponent<AsteroidLifeTime>();
 			Texture* o = SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid);
 			e->addComponent<ImageComponent>(o);
@@ -61,8 +59,14 @@ public :
 			ast.relObj(p);
 		}
 
-	 	void disableAll();
-		//void  onCollision(Asteroid* a, Bullet* b);
-		//int getNumOfAsteroid() { return astAct; }
+		void disableAll() {
+			//deactivate all the asteroids
+			for (auto& o : ast.getPool())
+			{
+				o->setActive(false);
+			}
+			astAct = 0;
+		}
+		
 };
 

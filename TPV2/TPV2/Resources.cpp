@@ -16,8 +16,6 @@ vector<Resources::ImageInfo> Resources::images_ {
 		{ AIIcon, "resources/images/ai.png" }, //
 		{ SpaceShips, "resources/images/spaceships.png" }, //
 		{ Airplanes, "resources/images/airplanes.png" }, //
-		{ Star, "resources/images/star.png" }, //
-		{ PacMan, "resources/images/pacman.png" }, //
 		{ Asteroid, "resources/images/asteroid.png" }, //
 		{ Bullet, "resources/images/whiterect.png" } //
 };
@@ -26,7 +24,9 @@ vector<Resources::TextMsgInfo> Resources::messages_ {
 //
 		{ HelloWorld, "Hello World", { COLOR(0xaaffffff) }, ARIAL16 }, //
 		{ PressAnyKey, "Press Any Key to Start", { COLOR(0xaaffbbff) }, ARIAL24 }, //
-		{ GameOver, "Game Over", { COLOR(0xffffbbff) }, ARIAL24 } //
+		{ GameOver, "Game Over", { COLOR(0xffffbbff) }, ARIAL24 } ,//
+        { Win, "You win", { COLOR(0xffffbbff) }, ARIAL24 }, //
+        { Lose, "You lose", { COLOR(0xffffbbff) }, ARIAL24 } //
 };
 
 vector<Resources::MusicInfo> Resources::musics_ {

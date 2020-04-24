@@ -18,8 +18,6 @@ public:
 		AIIcon,
 		SpaceShips,
 		Airplanes,
-		Star,
-		PacMan,
 		Asteroid,
 		Bullet,
 
@@ -27,6 +25,8 @@ public:
 		HelloWorld,
 		PressAnyKey,
 		GameOver,
+		Win,
+		Lose,
 	};
 
 	enum AudioId : std::size_t {
