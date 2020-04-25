@@ -19,8 +19,8 @@ void Asteroids::initGame() {
 
 	game_ = SDLGame::init("Asteroids", _WINDOW_WIDTH_, _WINDOW_HEIGHT_);
 
-	AsteroidPool::init(10);
-	BulletsPool::init(30);
+	AsteroidPool::init();
+	BulletsPool::init();
 
 	mngr_ = new Manager(game_);
 	
@@ -51,6 +51,7 @@ void Asteroids::start() {
 			exit_ = true;
 			break;
 		}
+
 		mngr_->refresh();
 		gameCtrlSystem_->update();
 		asteroidSystem_->update();
@@ -70,31 +71,6 @@ void Asteroids::start() {
 void Asteroids::stop() {
 	exit_ = true;
 }
-
-/*void Asteroids::handleInput() {
-
-	InputHandler *ih = InputHandler::instance();
-
-	ih->update();
-
-	if (ih->keyDownEvent()) {
-		if (ih->isKeyDown(SDLK_ESCAPE)) {
-			exit_ = true;
-		}
-
-		if (ih->isKeyDown(SDLK_f)) {
-			int flags = SDL_GetWindowFlags(game_->getWindow());
-			if (flags & SDL_WINDOW_FULLSCREEN) {
-				SDL_SetWindowFullscreen(game_->getWindow(), 0);
-			} else {
-				SDL_SetWindowFullscreen(game_->getWindow(),
-						SDL_WINDOW_FULLSCREEN);
-			}
-		}
-	}
-
-}*/
-
 
 
 

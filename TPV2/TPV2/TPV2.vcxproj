@@ -43,7 +43,6 @@
     <ClInclude Include="ImageComponent.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="jute.h" />
-    <ClInclude Include="LifeTime.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="mpl.h" />
     <ClInclude Include="ObjectFactory.h" />

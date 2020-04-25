@@ -9,6 +9,6 @@ struct Health : Component {
 	{
 	}
 	
-	unsigned int vidas_;
+	 int vidas_;
 };
 

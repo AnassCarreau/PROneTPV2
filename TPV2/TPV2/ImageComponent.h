@@ -5,7 +5,7 @@
 
 struct ImageComponent: Component {
 	ImageComponent(Texture* tex) :
-			tex_(tex) //
+			tex_(tex)
 	{
 	}
 	Texture *tex_;

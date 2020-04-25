@@ -9,7 +9,6 @@ class AsteroidsSystem : public System {
 public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir los asteroides al grupo _grp_Asteroid.
-	int numAsteroids() { return numOfAsteroids_; }
 	void addAsteroids(int n) {
 		for (int i = 0; i < n; i++)
 		{
@@ -33,39 +32,40 @@ public:
 
 	// - desactivar el asteroide “a” y crear 2 asteroides como en la práctica 1.
 	void onCollisionWithBullet(Entity* a, Entity* b) {
-		
+
+		//game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
 		a->setActive(false);
 		numOfAsteroids_--;
-		int gen= a->getComponent<AsteroidLifeTime>()->generaciones_;
+		int gen = a->getComponent<AsteroidLifeTime>()->generaciones_;
 		if (gen > 0) {
-			 gen--;
+			gen--;
+			Transform* astd = a->getComponent<Transform>();
+			Vector2D v, p;
 			for (int i = 0; i < 2; i++) {
-				//Asteroid* astdiv = a->getComponent<Asteroid>();
-				Transform* astd = a->getComponent<Transform>();
-				//astdiv->isUse(true);
+				v = astd->velocity_.rotate(i * 45);
+				p = astd->position_ + v.normalize();
+				int tam = 10 + 3 * gen;
+				Entity* e = mngr_->addEntity<AsteroidPool>(p, v, tam, tam, gen);
+				if (e != nullptr)
+				{
+					e->addToGroup<_grp_Asteroid>();
+					e->setActive(true);
+					numOfAsteroids_++;
+				}
 
-				Vector2D v = a->getComponent<Transform>()->velocity_.rotate(i * 45);
-				Vector2D p = a->getComponent<Transform>()->position_ + v.normalize();
-
-				int wh = 10 + 3 * gen;
-				int h = wh;
-				astd->velocity_ = v;
-				astd->position_ = p;
-				astd->width_ = wh;
-				astd->height_ = wh;
-				Entity* e = mngr_->addEntity<AsteroidPool>(p, v, wh, h, gen);
-				e->setActive(true);
-
-				numOfAsteroids_++;
 			}
 		}
+		else if (numOfAsteroids_ == 0)
+		{
+			//mngr_->getSystem<GameCtrlSystem>()->onAsteroidsExtenction();
+		}
+
 	};
 	// - si el juego está parado no hacer nada.
 	// - mover los asteroides como en la práctica 1.
 	void update() override {
-		//mngr_->getHandler<_hdlr_GameState>();
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
-		if (state->estado == state->jugando)
+		if (state->estado == state->Play)
 		{
 			for (auto& o : mngr_->getGroupEntities<_grp_Asteroid>())
 			{

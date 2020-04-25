@@ -20,6 +20,7 @@ public:
 		Airplanes,
 		Asteroid,
 		Bullet,
+		Heart,
 
 		// text
 		HelloWorld,

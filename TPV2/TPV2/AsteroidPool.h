@@ -4,7 +4,6 @@
 #include "ImageComponent.h"
 #include "ObjectPool.h"
 #include "Singleton.h"
-#include "LifeTime.h"
 #include "Transform.h"
 #include "AsteroidLifeTime.h"
 
@@ -17,9 +16,8 @@ private:
 		ast(n) {
 		for (Entity* e : ast.getPool()) {
 			e->addComponent<Transform>();
-		    e->addComponent<AsteroidLifeTime>();
-			Texture* o = SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid);
-			e->addComponent<ImageComponent>(o);
+		    e->addComponent<AsteroidLifeTime>();	
+			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
 		}
 	}
 	ObjectPool<Entity>ast;

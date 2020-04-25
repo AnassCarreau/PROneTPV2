@@ -3,15 +3,14 @@
 
 struct GameState : Component {
 	GameState() :
-		estado(pausado), //
-		win(false) //
+		estado(Start) //
 	{
 	}
 
-	enum State
+	enum  State
 	{
-		pausado,jugando,terminado
+		Start, Play,Pause,FinishWin,FinishLose
 	};
+	
 	State estado;
-	bool win;
 };
