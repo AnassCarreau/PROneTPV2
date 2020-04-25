@@ -38,17 +38,17 @@ public:
 			switch (state->estado)
 			{
 			case GameState::Start:
-				cadena = "Press Any Key to start";
+				cadena = "Presione cualquier tecla para empezar la partida";
 				break;
 			case GameState::Pause:
-				cadena = "Press Any Key to play";
+				cadena = "Upsss Has perdido una vida .Intentalo de nuevo";
 				break;
 			case GameState::FinishWin:
-				cadena = "You win";
+				cadena = "Has ganado eres el mejor";
 
 				break;
 			case GameState::FinishLose:
-				cadena = "You lose";
+				cadena = "Eres un perdedor";
 
 				break;
 
@@ -57,26 +57,6 @@ public:
 			msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
 		}
 
-		/*else if (state->estado == state->Pause ||state->estado==state->Start)
-		{
-			
-			Texture msg(game_->getRenderer(), "Press ENTER to add More Stars", game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0xff0000ff) });
-			msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
-		}
-		else
-		{
-			if (state->estado == state->FinishLose)
-			{
-				Texture msg(game_->getRenderer(), "YOU LOSE", game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0xff0000ff) });
-				msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
-			}
-			else
-			{
-				Texture msg(game_->getRenderer(), "YOU WIN", game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0xff0000ff) });
-				msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
-			}
-		}*/
-		
 		
 	}	
 	void draw(Entity *e) {
@@ -103,7 +83,7 @@ public:
 	void drawScore() {
 		auto sc =
 				mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>();
-		Texture scoreMsg(game_->getRenderer(), std::to_string(sc->points_),
+		Texture scoreMsg(game_->getRenderer(),"Score :"+ std::to_string(sc->points_),
 				game_->getFontMngr()->getFont(Resources::ARIAL24),
 				{ COLOR(0x0000ffff) });
 		scoreMsg.render(game_->getWindowWidth() / 2 - scoreMsg.getWidth() / 2,
@@ -111,10 +91,8 @@ public:
 
 	}
 	void drawLifes() {
-		
 		int x = 15;
 		 mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ ;
-
 		for (int i = 0; i < mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_; i++) {
 			game_->getTextureMngr()->getTexture(Resources::Heart)->render(x, 10);
 			x += 30;

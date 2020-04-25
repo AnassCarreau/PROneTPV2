@@ -10,6 +10,7 @@ public:
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir los asteroides al grupo _grp_Asteroid.
 	void addAsteroids(int n) {
+		numOfAsteroids_=0;
 		for (int i = 0; i < n; i++)
 		{
 			int px = game_->getRandGen()->nextInt(0, game_->getWindowWidth());
@@ -27,6 +28,7 @@ public:
 			Entity* e=  mngr_->addEntity<AsteroidPool>(pos, vel,w, h, g);
 			if (e != nullptr)
 				e->addToGroup<_grp_Asteroid>();
+			numOfAsteroids_++;
 		}
 	};
 
@@ -35,6 +37,7 @@ public:
 
 		//game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
 		a->setActive(false);
+		cout << numOfAsteroids_<<endl;
 		numOfAsteroids_--;
 		int gen = a->getComponent<AsteroidLifeTime>()->generaciones_;
 		if (gen > 0) {
@@ -58,10 +61,13 @@ public:
 		//error circular y no se que voy a hacer jajajaja
 		else if (numOfAsteroids_ == 0)
 		{
-			//mngr_->getSystem<GameCtrlSystem>()->onAsteroidsExtenction();
+			SinAsteroides();
 		}
+		cout << numOfAsteroids_ << endl;
+
 
 	};
+	void SinAsteroides();
 	// - si el juego está parado no hacer nada.
 	// - mover los asteroides como en la práctica 1.
 	void update() override {

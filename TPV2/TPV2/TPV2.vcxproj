@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroids.cpp" />
+    <ClCompile Include="AsteroidsSystem.cpp" />
     <ClCompile Include="AudioManager.cpp" />
     <ClCompile Include="Collisions.cpp" />
     <ClCompile Include="Entity.cpp" />

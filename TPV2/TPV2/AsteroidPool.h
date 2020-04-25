@@ -22,7 +22,6 @@ private:
 	}
 	ObjectPool<Entity>ast;
 	
-	int astAct = 0;
 public :
 		
 		virtual ~AsteroidPool() {
@@ -48,7 +47,6 @@ public :
 				tr->width_ = width;
 				tr->height_ = height;
 				e->getComponent<AsteroidLifeTime>()->generaciones_ = generations;
-				astAct++;
 			}
 			return e;
 		}
@@ -63,7 +61,6 @@ public :
 			{
 				o->setActive(false);
 			}
-			astAct = 0;
 		}
 		
 };

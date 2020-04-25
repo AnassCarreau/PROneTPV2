@@ -3,7 +3,6 @@
 #include "ecs.h"
 #include "System.h"
 #include "Score.h"
-#include "AsteroidsSystem.h"
 #include "BulletsPool.h"
 #include "Health.h"
 #include "GameState.h"
@@ -12,9 +11,9 @@ class GameCtrlSystem : public System {
 private:
 	Entity* e;
 public:
-// - a este método se le va a llamar cuando muere el caza.
-// - desactivar todos los asteroides y las balas.
-// - actualizar los componentes correspondientes (Score, GameState, …).
+	// - a este método se le va a llamar cuando muere el caza.
+	// - desactivar todos los asteroides y las balas.
+	// - actualizar los componentes correspondientes (Score, GameState, …).
 	void onFighterDeath() {
 		AsteroidPool::instance()->disableAll();
 		BulletsPool::instance()->disableAll();
@@ -32,15 +31,14 @@ public:
 			state->estado = state->Pause;
 		}
 	}
-//- a este método se le va a llamar cuando no haya más asteroides.
-//- desactivar todas las balas.
-//- actualizar los componentes correspondientes (Score, GameState, …).
+	//- a este método se le va a llamar cuando no haya más asteroides.
+	//- desactivar todas las balas.
+	//- actualizar los componentes correspondientes (Score, GameState, …).
 	void onAsteroidsExtenction() {
 		BulletsPool::instance()->disableAll();
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ = 3;
 		state->estado = state->FinishWin;
-		e->getComponent<Score>()->points_ = 0;
 	}
 
 	void init() override {
@@ -50,7 +48,7 @@ public:
 		auto state = e->addComponent<GameState>();
 		state->estado = state->Start;
 		mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ = 3;
-		
+
 
 	}
 	// - si el juego está parado y el jugador pulsa ENTER empieza una nueva ronda:
@@ -60,9 +58,9 @@ public:
 	void update() override {
 
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
-		if (InputHandler::instance()->keyDownEvent() && state->estado != state->Play ) {
+		if (InputHandler::instance()->keyDownEvent() && state->estado != state->Play) {
 			state->estado = state->Play;
-			
+			e->getComponent<Score>()->points_ = 0;
 			//game_->getAudioMngr()->playMusic(Resources::Imperial, 5);
 			mngr_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 		}
