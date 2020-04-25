@@ -18,7 +18,7 @@ public:
 			int rx = game_->getRandGen()->nextInt(-50,50);
 			int ry = game_->getRandGen()->nextInt(-50, 50);
 			int m = game_->getRandGen()->nextInt(1, 10);
-			Vector2D c = Vector2D((game_->getWindowWidth() / 2) + rx, (game_->getWindowHeight() / 2) + ry);
+			Vector2D c = Vector2D((game_->getWindowWidth() / 2.0) + rx, (game_->getWindowHeight() / 2.0) + ry);
 			Vector2D vel = (c - pos).normalize() * (m / 10.0);
 			int g = game_->getRandGen()->nextInt(1, 3);
 			int w =10+3*g;
@@ -42,7 +42,7 @@ public:
 			Transform* astd = a->getComponent<Transform>();
 			Vector2D v, p;
 			for (int i = 0; i < 2; i++) {
-				v = astd->velocity_.rotate(i * 45);
+				v = astd->velocity_.rotate(i * 45.0);
 				p = astd->position_ + v.normalize();
 				int tam = 10 + 3 * gen;
 				Entity* e = mngr_->addEntity<AsteroidPool>(p, v, tam, tam, gen);
@@ -55,6 +55,7 @@ public:
 
 			}
 		}
+		//error circular y no se que voy a hacer jajajaja
 		else if (numOfAsteroids_ == 0)
 		{
 			//mngr_->getSystem<GameCtrlSystem>()->onAsteroidsExtenction();
