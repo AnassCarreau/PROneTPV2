@@ -15,6 +15,10 @@
 
 class RenderSystem: public System {
 public:
+	void init()override
+	{
+		vidaTex = game_->getTextureMngr()->getTexture(Resources::Heart);
+	}
 	void update() override {
 		drawScore();
 		drawLifes();
@@ -95,9 +99,11 @@ public:
 		int x = 15;
 		 mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ ;
 		for (int i = 0; i < mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_; i++) {
-			game_->getTextureMngr()->getTexture(Resources::Heart)->render(x, 10);
+			vidaTex->render(x, 10);
 			x += 30;
 		}
 	}
+private:
+Texture*	vidaTex;
 };
 
