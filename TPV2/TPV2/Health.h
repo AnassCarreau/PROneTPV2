@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Component.h"
-#include "Texture.h"
+#include "checkML.h"
 
 struct Health : Component {
 	Health() :

@@ -2,6 +2,7 @@
 
 #include "Component.h"
 #include "Texture.h"
+#include "checkML.h"
 
 struct ImageComponent: Component {
 	ImageComponent(Texture* tex) :

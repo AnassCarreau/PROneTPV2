@@ -1,5 +1,6 @@
 #pragma once
 #include "Component.h"
+#include "checkML.h"
 
 struct GameState : Component {
 	GameState() :

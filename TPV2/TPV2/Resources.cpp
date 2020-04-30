@@ -30,19 +30,15 @@ vector<Resources::TextMsgInfo> Resources::messages_ {
         { Lose, "You lose", { COLOR(0xffffbbff) }, ARIAL24 } //
 };
 
-vector<Resources::MusicInfo> Resources::musics_ {
+vector<Resources::MusicInfo> Resources::musics_{
 //
-		{ Beat, "resources/sound/beat.wav" }, //
-		{ Cheer, "resources/sound/cheer.wav" }, //
-		{ Explosion, "resources/sound/explosion.wav" },
-		{ GunShot, "resources/sound/GunShot.wav" },
-		{ Imperial, "resources/sound/imperial_march.wav" },
-		{ Boooo, "resources/sound/boooo.wav" } //
+			{ Imperial, "resources/sound/imperial_march.wav" }//
 };
+		
 
 vector<Resources::SoundInfo> Resources::sounds_ {
 //
-		{ Wall_Hit, "resources/sound/wall_hit.wav" }, //
-		{ Paddle_Hit, "resources/sound/paddle_hit.wav" } //
+		{ Explosion, "resources/sound/explosion.wav" },//
+		{ GunShot, "resources/sound/GunShot.wav" },//
 };
 

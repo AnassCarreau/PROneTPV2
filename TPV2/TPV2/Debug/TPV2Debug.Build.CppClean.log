@@ -1,6 +1,5 @@
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\vc142.pdb
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\vc142.idb
-c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\texturesmanager.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\texture.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\srandbasedgenerator.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\sdl_macros.obj
@@ -19,8 +18,10 @@ c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\font.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\entity.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\collisions.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\audiomanager.obj
+c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\asteroidssystem.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\asteroids.obj
 c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\vector2d.obj
+c:\users\anass\desktop\pronetpv2\tpv2\tpv2\debug\texturesmanager.obj
 c:\users\anass\desktop\pronetpv2\tpv2\bin\tpv2debug.exe
 c:\users\anass\desktop\pronetpv2\tpv2\bin\tpv2debug.ilk
 c:\users\anass\desktop\pronetpv2\tpv2\bin\tpv2debug.pdb

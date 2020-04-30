@@ -1,23 +1,14 @@
 #pragma once
-#include "ecs.h"
-#include "Manager.h"
-#include "ImageComponent.h"
 #include "SDL_macros.h"
-#include "SDLGame.h"
-#include "System.h"
-#include "Transform.h"
-#include "Entity.h"
-#include "Manager.h"
-#include "Score.h"
-#include "SDLGame.h"
-#include "Texture.h"
-#include "GameState.h"
+#include "checkML.h"
 
 class RenderSystem: public System {
 public:
+	RenderSystem() :vidaTex(nullptr), clip(SDL_Rect{0,0,0,0}) {}
 	void init()override
 	{
 		vidaTex = game_->getTextureMngr()->getTexture(Resources::Heart);
+		clip ={47,90,207,250};
 	}
 	void update() override {
 		drawScore();
@@ -34,11 +25,10 @@ public:
 				draw(a);
 			}
 			// draw fighter
-			drawFighter(mngr_->getHandler<_hdlr_Fighter>());
+			draw(mngr_->getHandler<_hdlr_Fighter>());
 		}
 		else
 		{
-
 			string cadena;
 			switch (state->estado)
 			{
@@ -50,46 +40,31 @@ public:
 				break;
 			case GameState::FinishWin:
 				cadena = "Has ganado eres el mejor";
-
 				break;
 			case GameState::FinishLose:
 				cadena = "Eres un perdedor";
-
 				break;
-
 			}
 			Texture msg(game_->getRenderer(), cadena, game_->getFontMngr()->getFont(Resources::ARIAL24), { COLOR(0xff0000ff) });
 			msg.render(game_->getWindowWidth() / 2 - msg.getWidth() / 2, game_->getWindowHeight() - msg.getHeight() - 10);
 		}
-
-		
-	}	
+	}
 	void draw(Entity *e) {
 		Transform *tr = e->getComponent<Transform>();
 		ImageComponent *img = e->getComponent<ImageComponent>();		
 		SDL_Rect dest =
 			RECT(tr->position_.getX(), tr->position_.getY(), tr->width_,tr->height_);
-		img->tex_->render(dest, tr->rotation_);
-		
-	}
-	void drawFighter(Entity* e) {
-		Transform* tr = e->getComponent<Transform>();
-		ImageComponent* img = e->getComponent<ImageComponent>();
-		SDL_Rect clip;
-		clip.x = 47;
-		clip.y = 90;
-		clip.w = 207;
-		clip.h = 250;
-		SDL_Rect dest =
-			RECT(tr->position_.getX(), tr->position_.getY(), tr->width_, tr->height_);
-		img->tex_->render(dest, tr->rotation_, clip);
-
+		if (e->getComponent<Health>()==nullptr)
+		{
+			img->tex_->render(dest, tr->rotation_);
+		}
+		else  img->tex_->render(dest, tr->rotation_, clip);
 	}
 	void drawScore() {
 		auto sc =
 				mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>();
 		Texture scoreMsg(game_->getRenderer(),"Score :"+ std::to_string(sc->points_),
-				game_->getFontMngr()->getFont(Resources::ARIAL24),
+				game_->getFontMngr()->getFont(Resources::FontId::ARIAL24),
 				{ COLOR(0x0000ffff) });
 		scoreMsg.render(game_->getWindowWidth() / 2 - scoreMsg.getWidth() / 2,
 				10);
@@ -104,6 +79,7 @@ public:
 		}
 	}
 private:
-Texture*	vidaTex;
+Texture*vidaTex;
+SDL_Rect clip;
 };
 

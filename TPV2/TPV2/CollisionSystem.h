@@ -6,12 +6,14 @@
 #include "BulletsSystem.h"
 #include "Transform.h"
 #include "GameCtrlSystem.h"
+#include "checkML.h"
+
 class CollisionSystem: public System {
 public:
 	// - si el juego está parado no hacer nada.
 // - comprobar colisiones usando el esquema abajo (nota las instrucciones break
 // y continue, piensa porque son necesarias).
-	void update() {
+	void update()override {
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		if (state->estado == state->Play)
 		{

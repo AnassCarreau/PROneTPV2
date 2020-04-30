@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Component.h"
+#include "checkML.h"
 
 struct Score: Component {
 	Score() :

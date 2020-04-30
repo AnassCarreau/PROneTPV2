@@ -1,12 +1,15 @@
 #pragma once
-#include "Entity.h"
 #include "Transform.h"
 #include "Manager.h"
 #include "GameState.h"
 #include "AsteroidPool.h"
-#include "AsteroidLifeTime.h"
+#include "checkML.h"
+
 class AsteroidsSystem : public System {
 public:
+	AsteroidsSystem() :
+		numOfAsteroids_(0)//
+	{}
 	// - añadir n asteroides al juego como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir los asteroides al grupo _grp_Asteroid.
 	void addAsteroids(int n) {
@@ -35,9 +38,8 @@ public:
 	// - desactivar el asteroide “a” y crear 2 asteroides como en la práctica 1.
 	void onCollisionWithBullet(Entity* a, Entity* b) {
 
-		game_->getAudioMngr()->playChannel(Resources::Boooo, 0);
+		game_->getAudioMngr()->playChannel(Resources::Explosion, 0, 1);
 		a->setActive(false);
-		cout << numOfAsteroids_<<endl;
 		numOfAsteroids_--;
 		int gen = a->getComponent<AsteroidLifeTime>()->generaciones_;
 		if (gen > 0) {
@@ -58,14 +60,10 @@ public:
 
 			}
 		}
-		//error circular y no se que voy a hacer jajajaja
 		else if (numOfAsteroids_ == 0)
 		{
 			SinAsteroides();
 		}
-		cout << numOfAsteroids_ << endl;
-
-
 	};
 	void SinAsteroides();
 	// - si el juego está parado no hacer nada.

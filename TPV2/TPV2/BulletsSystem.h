@@ -1,13 +1,9 @@
 #pragma once
-#include "System.h"
 #include "Entity.h"
-#include "Transform.h"
 #include "Manager.h"
-#include "GameState.h"
 #include "BulletsPool.h"
-
-#include <cmath>
 #include "Score.h"
+#include "checkML.h"
 
 
 class BulletsSystem : public System {
@@ -15,19 +11,19 @@ public:
 	// - añadir una bala al juego, como en la práctica 1 pero usando entidades.
 	// - no olvidar añadir la bala al grupo _grp_Bullet
 	void shoot(Vector2D pos, Vector2D vel, double width, double height) {
- 		Entity* b = mngr_->addEntity<BulletsPool>(pos, vel, width, height);
+		Entity* b = mngr_->addEntity<BulletsPool>(pos, vel, width, height);
 		if (b != nullptr) {
 			b->addToGroup<_grp_Bullet>();
 		}
 	};
-		// - desactivar la bala “b”
+	// - desactivar la bala “b”
 	void onCollisionWithAsteroid(Entity* b, Entity* a) {
-		auto puntos= mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>();
+		auto puntos = mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>();
 		puntos->points_ = puntos->points_ + 10;
 		b->setActive(false);
 	};
-		// - si el juego está parado no hacer nada.
-		// - mover las balas y desactivar las que se salen de la ventana
+	// - si el juego está parado no hacer nada.
+	// - mover las balas y desactivar las que se salen de la ventana
 	void update() override {
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		if (state->estado == state->Play)

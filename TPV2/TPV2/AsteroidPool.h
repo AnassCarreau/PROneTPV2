@@ -1,11 +1,9 @@
 #pragma once
-#include "ecs.h"
 #include "Entity.h"
-#include "ImageComponent.h"
 #include "ObjectPool.h"
 #include "Singleton.h"
-#include "Transform.h"
 #include "AsteroidLifeTime.h"
+#include "checkML.h"
 
 class AsteroidPool: public Singleton<AsteroidPool>
 {
@@ -20,7 +18,7 @@ private:
 			e->addComponent<ImageComponent>(SDLGame::instance()->getTextureMngr()->getTexture(Resources::Asteroid));
 		}
 	}
-	ObjectPool<Entity>ast;
+	 ObjectPool<Entity>ast;
 	
 public :
 		
@@ -56,7 +54,7 @@ public :
 		}
 
 		void disableAll() {
-			//deactivate all the asteroids
+			//desactiva todos los asteroides
 			for (auto& o : ast.getPool())
 			{
 				o->setActive(false);

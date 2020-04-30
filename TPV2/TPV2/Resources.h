@@ -32,14 +32,11 @@ public:
 
 	enum AudioId : std::size_t {
 		// music
-		Beat,
-		Cheer,
-		Boooo,
+		
 		Imperial,
 
 		// sound effects
-		Wall_Hit,
-		Paddle_Hit,
+		
 		GunShot,
 		Explosion
 	};

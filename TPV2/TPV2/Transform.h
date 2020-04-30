@@ -2,6 +2,7 @@
 
 #include "Vector2D.h"
 #include "Component.h"
+#include "checkML.h"
 
 struct Transform: Component {
 	Transform(Vector2D pos, Vector2D vel, double width, double height,
