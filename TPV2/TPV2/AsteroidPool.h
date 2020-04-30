@@ -4,7 +4,6 @@
 #include "Singleton.h"
 #include "AsteroidLifeTime.h"
 #include "checkML.h"
-
 class AsteroidPool: public Singleton<AsteroidPool>
 {
 	friend Singleton<AsteroidPool>;
@@ -22,9 +21,7 @@ private:
 	
 public :
 		
-		virtual ~AsteroidPool() {
-		}
-
+	virtual ~AsteroidPool() {}
 
 		template<typename ...Targs>
 		inline static Entity* construct(Targs&& ...args) {

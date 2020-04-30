@@ -21,15 +21,17 @@ private:
 	ObjectPool<Entity>bul;
 public:
 
-	virtual ~BulletsPool() {
-	}
+	virtual ~BulletsPool() {}
+	
 	template<typename ...Targs>
 	inline static Entity* construct(Targs&& ...args) {
 		return BulletsPool::instance()->construct_(std::forward<Targs>(args)...);
 	}
+
 	inline static void destroy(Entity* p) {
 		BulletsPool::instance()->destroy_(p);
 	}
+
 	inline Entity* construct_(Vector2D pos, Vector2D vel, double width, double height) {
 		Entity* e = bul.getObj();
 		if (e != nullptr) {
@@ -45,9 +47,11 @@ public:
 		}
 		return e;
 	}
+
 	inline void destroy_(Entity* p) {
 		bul.relObj(p);
 	}
+
 	void disableAll() {
 		//deactivate all the bullets
 		for (auto& o : bul.getPool())
