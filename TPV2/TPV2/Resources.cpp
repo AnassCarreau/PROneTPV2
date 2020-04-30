@@ -34,6 +34,9 @@ vector<Resources::MusicInfo> Resources::musics_ {
 //
 		{ Beat, "resources/sound/beat.wav" }, //
 		{ Cheer, "resources/sound/cheer.wav" }, //
+		{ Explosion, "resources/sound/explosion.wav" },
+		{ GunShot, "resources/sound/GunShot.wav" },
+		{ Imperial, "resources/sound/imperial_march.wav" },
 		{ Boooo, "resources/sound/boooo.wav" } //
 };
 

@@ -15,8 +15,9 @@ public:
 		if (state->estado == state->Play)
 		{
 			InputHandler* ih = InputHandler::instance();
-			if (ih->isKeyDown(SDLK_SPACE))
+			if (ih->isKeyDown(SDLK_SPACE) && disparo)
 			{
+				game_->getAudioMngr()->playMusic(Resources::GunShot, 0);
 
 				Transform* tr = mngr_->getHandler<_hdlr_Fighter>()->getComponent<Transform>();
 				Vector2D pos = tr->position_ + Vector2D(tr->width_ / 2, tr->height_ / 2) + Vector2D(0, -(tr->height_ / 2 + 5.0)).rotate(tr->rotation_);
@@ -25,8 +26,6 @@ public:
 				frame = game_->getTime() + shootTime;
 				disparo = false;
 			}
-
-
 			else if (frame <= game_->getTime())
 			{
 				if (!disparo)

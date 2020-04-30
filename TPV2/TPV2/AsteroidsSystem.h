@@ -35,7 +35,7 @@ public:
 	// - desactivar el asteroide “a” y crear 2 asteroides como en la práctica 1.
 	void onCollisionWithBullet(Entity* a, Entity* b) {
 
-		//game_->getAudioMngr()->playChannel(Resources::Explosion, 0);
+		game_->getAudioMngr()->playChannel(Resources::Boooo, 0);
 		a->setActive(false);
 		cout << numOfAsteroids_<<endl;
 		numOfAsteroids_--;

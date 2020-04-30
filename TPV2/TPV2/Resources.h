@@ -36,9 +36,12 @@ public:
 		Cheer,
 		Boooo,
 		Imperial,
+
 		// sound effects
 		Wall_Hit,
-		Paddle_Hit
+		Paddle_Hit,
+		GunShot,
+		Explosion
 	};
 
 	enum FontId : std::size_t {

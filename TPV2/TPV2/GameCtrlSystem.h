@@ -61,7 +61,6 @@ public:
 		if (InputHandler::instance()->keyDownEvent() && state->estado != state->Play) {
 			state->estado = state->Play;
 			e->getComponent<Score>()->points_ = 0;
-			//game_->getAudioMngr()->playMusic(Resources::Imperial, 5);
 			mngr_->getSystem<AsteroidsSystem>()->addAsteroids(10);
 		}
 

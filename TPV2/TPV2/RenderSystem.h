@@ -34,6 +34,7 @@ public:
 		}
 		else
 		{
+
 			string cadena;
 			switch (state->estado)
 			{

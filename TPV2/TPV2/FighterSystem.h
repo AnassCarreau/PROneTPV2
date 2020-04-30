@@ -14,6 +14,8 @@ public:
 	// - poner el caza en el centro con velocidad 0 y rotación 0. No hace falta
 	// desactivar la entidad (no dibujarla si el juego está parado en RenderSystem).
 	void onCollisionWithAsteroid(Entity* a) {
+		game_->getAudioMngr()->playMusic(Resources::Explosion, 0);
+
 		tr_->position_ = Vector2D(game_->getWindowWidth() / 2 - 25, game_->getWindowHeight() / 2 - 25);
 		tr_->velocity_ = Vector2D(0, 0);
 		tr_->rotation_ = 0;
