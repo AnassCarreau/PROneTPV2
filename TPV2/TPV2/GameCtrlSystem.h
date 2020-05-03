@@ -26,7 +26,6 @@ public:
 		if (vida->vidas_ == 0)
 		{
 			state->estado = state->FinishLose;
-			vida->vidas_ = 3;
 		}
 		else state->estado = state->Pause;
 
@@ -37,7 +36,6 @@ public:
 	void onAsteroidsExtenction() {
 		BulletsPool::instance()->disableAll();
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
-		mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ = 3;
 		state->estado = state->FinishWin;
 	}
 
@@ -50,9 +48,15 @@ public:
 		auto state = mngr_->getHandler<_hdlr_GameState>()->getComponent<GameState>();
 		if (InputHandler::instance()->keyDownEvent() && state->estado != state->Play) {
 			game_->getAudioMngr()->playMusic(Resources::Imperial, 0);
-			state->estado = state->Play;
 			mngr_->getHandler<_hdlr_GameState>()->getComponent<Score>()->points_ = 0;
 			mngr_->getSystem<AsteroidsSystem>()->addAsteroids(10);
+			if (state->estado == state->FinishWin || state->estado == state->FinishLose)
+			{
+				mngr_->getHandler<_hdlr_Fighter>()->getComponent<Health>()->vidas_ = 3;
+			}
+			state->estado = state->Play;
+
+
 		}
 
 	}
