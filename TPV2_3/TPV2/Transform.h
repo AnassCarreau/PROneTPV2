@@ -2,11 +2,11 @@
 
 #include "Vector2D.h"
 #include "Component.h"
-#include "checkML.h"
-//Incluye las propiedades de un objeto
+
 struct Transform: Component {
 	Transform(Vector2D pos, Vector2D vel, double width, double height,
 			double rotation) :
+			Component(ecs::Transform), //
 			position_(pos), //
 			velocity_(vel), //
 			width_(width), //
@@ -16,6 +16,7 @@ struct Transform: Component {
 	}
 
 	Transform() :
+			Component(ecs::Transform), //
 			position_(), //
 			velocity_(), //
 			width_(), //

@@ -1,28 +1,77 @@
-﻿  Asteroids.cpp
-  AsteroidsSystem.cpp
-  AudioManager.cpp
-  Collisions.cpp
-  Entity.cpp
-  Font.cpp
-  FontsManager.cpp
-  InputHandler.cpp
-  jute.cpp
-  main.cpp
-  Manager.cpp
-  RandomNumberGenerator.cpp
-  Resources.cpp
-  SDLAudioManager.cpp
-  SDLFontsManager.cpp
-  SDLGame.cpp
-  SDLTexturesManager.cpp
-  sdl_macros.cpp
-  SRandBasedGenerator.cpp
-  Texture.cpp
+﻿  CollisionSystem.cpp
+  DefFactory.cpp
+  Networking.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\Networking.cpp(21,8): warning C4018: '<': no coinciden signed/unsigned
+  NetworkingSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\ObjectFactory.h(38,3): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\Manager.h(106): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\NetworkingSystem.cpp(28): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::forwardMsg<msg::ClientDisconnectedMsg,OFFacotry<T>,uint32_t&>(uint32_t,uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\ObjectFactory.h(25,1): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(22): message : Vea la referencia a la creación de una instancia de la función plantilla "T *ObjectFactory<T,std::allocator<T>>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(23): message : Vea la referencia a la creación de una instancia de la función plantilla "T *ObjectFactory<T,std::allocator<T>>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(13): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct_<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\OFFacotry.h(14): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct_<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\Manager.h(106): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\TPV2\Manager.h(107): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+  ObjectFactory.cpp
+  ObjectPool.cpp
+  OFFacotry.cpp
+  Singleton.cpp
+  System.cpp
+  Transform.cpp
   Generando código...
-  Compilando...
-  TexturesManager.cpp
-  Vector2D.cpp
-  Generando código...
-C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244: 'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
-  TPV2.vcxproj -> C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exe
+     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2_3\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2_3\bin\TPV2Debug.exp
+CollisionSystem.obj : error LNK2019: símbolo externo "public: void __thiscall BulletsSystem::disableAll(void)" (?disableAll@BulletsSystem@@QAEXXZ) sin resolver al que se hace referencia en la función "public: virtual void __thiscall CollisionSystem::update(void)" (?update@CollisionSystem@@UAEXXZ)
+CollisionSystem.obj : error LNK2019: símbolo externo "public: void __thiscall GameCtrlSystem::onFighterDeath(unsigned char)" (?onFighterDeath@GameCtrlSystem@@QAEXE@Z) sin resolver al que se hace referencia en la función "public: virtual void __thiscall CollisionSystem::update(void)" (?update@CollisionSystem@@UAEXXZ)
+FightersSystem.obj : error LNK2019: símbolo externo "public: void __thiscall BulletsSystem::shoot(class Vector2D,class Vector2D,double,double)" (?shoot@BulletsSystem@@QAEXVVector2D@@0NN@Z) sin resolver al que se hace referencia en la función "private: void __thiscall FightersSystem::updateFighter(class Entity *)" (?updateFighter@FightersSystem@@AAEXPAVEntity@@@Z)
+StarWars.obj : error LNK2019: símbolo externo "public: __thiscall BulletsSystem::BulletsSystem(void)" (??0BulletsSystem@@QAE@XZ) sin resolver al que se hace referencia en la función "public: class BulletsSystem * __thiscall Manager::addSystem<class BulletsSystem>(void)" (??$addSystem@VBulletsSystem@@$$V@Manager@@QAEPAVBulletsSystem@@XZ)
+StarWars.obj : error LNK2019: símbolo externo "public: __thiscall GameCtrlSystem::GameCtrlSystem(void)" (??0GameCtrlSystem@@QAE@XZ) sin resolver al que se hace referencia en la función "public: class GameCtrlSystem * __thiscall Manager::addSystem<class GameCtrlSystem>(void)" (??$addSystem@VGameCtrlSystem@@$$V@Manager@@QAEPAVGameCtrlSystem@@XZ)
+StarWars.obj : error LNK2019: símbolo externo "public: __thiscall RenderSystem::RenderSystem(void)" (??0RenderSystem@@QAE@XZ) sin resolver al que se hace referencia en la función "public: class RenderSystem * __thiscall Manager::addSystem<class RenderSystem>(void)" (??$addSystem@VRenderSystem@@$$V@Manager@@QAEPAVRenderSystem@@XZ)
+C:\Users\anass\Desktop\PROneTPV2\TPV2_3\bin\TPV2Debug.exe : fatal error LNK1120: 6 externos sin resolver

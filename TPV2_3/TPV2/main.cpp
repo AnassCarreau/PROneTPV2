@@ -1,18 +1,14 @@
 #include <iostream>
-#include "Asteroids.h"
+#include "StarWars.h"
 
 using namespace std;
 
 
-void start() {
-	Asteroids g;
-	g.start();
-}
 
-int main(int ac, char **av) {
-	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+int main(int argc, char **argv) {
 	try {
-		start();
+		StarWars g;
+		g.start();
 	} catch (std::string &e) { // catch errors thrown as strings
 		cerr << e << endl;
 	} catch (const std::exception &e) { // catch other exceptions

@@ -1,87 +1,70 @@
 #pragma once
-
 #include <ctime>
-#include "mpl.h"
 
-// ** Components
-//
-// They must match the names of your components.
-//
-struct Transform;
-struct ImageComponent;
-struct Rotation;
-struct Score;
-struct AsteroidLifeTime;
-struct Health;
-struct GameState;
+namespace ecs {
 
-using ComponentsList =
-mpl::TypeList<Transform, ImageComponent, Rotation, Score, AsteroidLifeTime, Health, GameState>;
+using CmpIdType = std::size_t;
+using GrpIdType = std::size_t;
+using HdlrIdType = std::size_t;
+using SysIdType = std::size_t;
 
-// ** Groups
-//
-// start them with _grp_ to avoid conflicts (or make a name space)
-//
-struct _grp_Asteroid;
-struct _grp_Bullet;
+enum CmpId : CmpIdType {
+	Transform = 0,
+	Image,
+	GameState,
+	CtrlKeys,
+	FighterInfo,
+	//
+	// don't touch the rest of this enum, it is to identify the max
+	// number of components
+	_LastCmptId_
+};
 
-using GroupsList =
-mpl::TypeList<_grp_Asteroid, _grp_Bullet>;
+enum GrpId : GrpIdType {
+	_grp_Fighters,
+	_grp_Bullets,
+	//
+	// don't touch the rest of this enum, it is to identify the max
+	// number of groups
+	_LastGrpId_
+};
 
-// ** handlers
-//
-// start them with _grp_ to avoid conflicts (or make a name space)
-//
-struct _hdlr_Fighter;
-struct _hdlr_GameState;
+enum HdlrId : HdlrIdType {
+	_hdlr_Fighter0,
+	_hdlr_Fighter1,
+	//
+	// don't touch the rest of this enum, it is to identify the max
+	// number of handlers
+	_LastHdlrId_
+};
 
-using HandlersList =
-mpl::TypeList<_hdlr_Fighter, _hdlr_GameState>;
+enum SysId : SysIdType {
+	_sys_GameCtrl,
+	_sys_Fighters,
+	_sys_Bullets,
+	_sys_Collision,
+	_sys_Render,
+	_sys_NetWorking,
+	//
+	// don't touch the rest of this enum, it is to identify the max
+	// number of systems
+	_LastSysId_
+};
 
-// ** Systems
-//
-// they must match the name of the systems classes
+constexpr std::size_t maxComponents = _LastCmptId_;
+constexpr std::size_t maxGroups = _LastGrpId_;
+constexpr std::size_t maxHandlers = _LastHdlrId_;
+constexpr std::size_t maxSystems = _LastSysId_;
 
-class GameCtrlSystem; // sistema de control del juego (para empezar el juego, etc.)
-class AsteroidsSystem; // sistema de los asteroids (para mover los asteroides)
-class BulletsSystem; // sistema de las balas (para mover las balas)
-class FighterSystem; // sistema del caza (para gestionar el movimiento del caza)
-class FighterGunSystem; // sistema del arma (para disparar -- arma para el caza)
-class CollisionSystem; // sistema de colisiones (para comprobar todas las colisiones)
-class RenderSystem; // sistema de rendering (para dibujar las entidades, etc.)
-
-
-//class _sys_GameCtrl; // sistema de control del juego (para empezar el juego, etc.)
-//	class _sys_Asteroids; // sistema de los asteroids (para mover los asteroides)
-//	class _sys_Bullets; // sistema de las balas (para mover las balas)
-//	class _sys_Fighter; // sistema del caza (para gestionar el movimiento del caza)
-//	class _sys_FighterGun; // sistema del arma (para disparar -- arma para el caza)
-//	class _sys_Collisions; // sistema de colisiones (para comprobar todas las colisiones)
-//	class _sys_Render; // sistema de rendering (para dibujar las entidades, etc.)
-
-using SystemsList =
-mpl::TypeList<GameCtrlSystem, AsteroidsSystem, BulletsSystem, FighterSystem, FighterGunSystem, CollisionSystem, RenderSystem>;
-/*using SystemsList =
-mpl::TypeList<_sys_GameCtrl, _sys_Asteroids, _sys_Bullets, _sys_Fighter, _sys_FighterGun, _sys_Collisions, _sys_Render>;*/
-
-constexpr std::size_t maxComponents = ComponentsList::size;
-constexpr std::size_t maxGroups = GroupsList::size;
-constexpr std::size_t maxHandlers = HandlersList::size;
-constexpr std::size_t maxSystems = SystemsList::size;
-
-
-// These macros are obselete ... you can ucomment them if needed,
-// but better use getComponent directly
-
-/*
 // these two should be used to get a component via the field
 // entity_
-#define GETCMP2_(id,type)  GETCMP2(entity_,type)
-#define GETCMP1_(type)     GETCMP2(entity_,type)
+#define GETCMP2_(id,type)  GETCMP3(entity_,id,type)
+#define GETCMP1_(type)     GETCMP3(entity_,ecs::type,type)
 
 // these two should be used to get a component via an
 // entity e provided as a parameter
-#define GETCMP2(e,type) e->getComponent<type>()
-#define GETCMP3(e,id,type) e->getComponent<type>()
-*/
+#define GETCMP2(e,type) GETCMP3(e,ecs::type,type)
+#define GETCMP3(e,id,type) e->getComponent<type>(id)
+
+}
 

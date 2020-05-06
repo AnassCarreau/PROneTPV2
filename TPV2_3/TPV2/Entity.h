@@ -45,14 +45,12 @@ public:
 	}
 
 	template<typename T>
-	inline T* getComponent() {
-		constexpr std::size_t id = mpl::IndexOf<T,ComponentsList>();
+	inline T* getComponent(ecs::CmpIdType id) {
 		return static_cast<T*>(cmpArray_[id].get());
 	}
 
 	template<typename T>
-	inline bool hasComponent() {
-		constexpr std::size_t id = mpl::IndexOf<T,ComponentsList>();
+	inline bool hasComponent(ecs::CmpIdType id) {
 		return cmpArray_[id] != nullptr;
 	}
 
@@ -66,30 +64,20 @@ public:
 		});
 
 		// store it in the components array
-		constexpr std::size_t id = mpl::IndexOf<T,ComponentsList>();
-		cmpArray_[id] = std::move(uPtr);
+		cmpArray_[c->id_] = std::move(uPtr);
 
 		return c;
 	}
 
 	template<typename T>
-	inline void removeComponent() {
-		constexpr std::size_t id = mpl::IndexOf<T,ComponentsList>();
+	inline void removeComponent(ecs::CmpIdType id) {
 		 cmpArray_[id] = nullptr;
 	}
 
-	template<typename TG>
-	void addToGroup() {
-		constexpr std::size_t grpId = mpl::IndexOf<TG,GroupsList>();
-		addToGroup(grpId);
-	}
-
 	// defined in CPP since it access the manager
-	void addToGroup(std::size_t id);
+	void addToGroup(ecs::GrpIdType id);
 
-	template<typename TG>
-	inline void removeFromGroup() {
-		constexpr std::size_t grpId = mpl::IndexOf<TG,GroupsList>();
+	inline void removeFromGroup(ecs::GrpIdType grpId) {
 		groups_[grpId] = false;
 	}
 
@@ -97,21 +85,16 @@ public:
 		groups_.reset();
 	}
 
-	template<typename TG>
-	inline bool hasGroup() {
-		constexpr std::size_t grpId = mpl::IndexOf<TG,GroupsList>();
-		return hasGroup(grpId);
-	}
-
-	inline bool hasGroup(std::size_t grpId) {
+	inline bool hasGroup(ecs::GrpIdType grpId) {
 		return groups_[grpId];
 	}
+
 private:
 	SDLGame *game_;
 	Manager *mngr_;
 
-	std::array<uptr_cmp, maxComponents> cmpArray_ = { };
-	std::bitset<maxGroups> groups_;
+	std::array<uptr_cmp, ecs::maxComponents> cmpArray_ = { };
+	std::bitset<ecs::maxGroups> groups_;
 
 
 	bool active_;

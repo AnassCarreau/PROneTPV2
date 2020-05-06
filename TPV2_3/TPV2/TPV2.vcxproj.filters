@@ -27,9 +27,6 @@
     <ClInclude Include="checkML.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Asteroids.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AudioManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -114,37 +111,13 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AsteroidsSystem.h">
-      <Filter>Header Files\System</Filter>
-    </ClInclude>
     <ClInclude Include="BulletsSystem.h">
       <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="CollisionSystem.h">
       <Filter>Header Files\System</Filter>
     </ClInclude>
-    <ClInclude Include="FighterGunSystem.h">
-      <Filter>Header Files\System</Filter>
-    </ClInclude>
-    <ClInclude Include="FighterSystem.h">
-      <Filter>Header Files\System</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\PROneTPV2\TPV2\TPV2\Health.h">
-      <Filter>Header Files\Component</Filter>
-    </ClInclude>
-    <ClInclude Include="Score.h">
-      <Filter>Header Files\Component</Filter>
-    </ClInclude>
     <ClInclude Include="Transform.h">
-      <Filter>Header Files\Component</Filter>
-    </ClInclude>
-    <ClInclude Include="GameState.h">
-      <Filter>Header Files\Component</Filter>
-    </ClInclude>
-    <ClInclude Include="ImageComponent.h">
-      <Filter>Header Files\Component</Filter>
-    </ClInclude>
-    <ClInclude Include="AsteroidLifeTime.h">
       <Filter>Header Files\Component</Filter>
     </ClInclude>
     <ClInclude Include="AsteroidPool.h">
@@ -162,11 +135,32 @@
     <ClInclude Include="RenderSystem.h">
       <Filter>Header Files\System</Filter>
     </ClInclude>
+    <ClInclude Include="FightersSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="StarWars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkingSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Asteroids.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AudioManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -227,7 +221,40 @@
     <ClCompile Include="Vector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AsteroidsSystem.cpp">
+    <ClCompile Include="FightersSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StarWars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OFFacotry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
