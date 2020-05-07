@@ -1,0 +1,99 @@
+﻿  AudioManager.cpp
+  BulletsPool.cpp
+  BulletsSystem.cpp
+  Collisions.cpp
+  CollisionSystem.cpp
+  DefFactory.cpp
+  Entity.cpp
+  FightersSystem.cpp
+  Font.cpp
+  FontsManager.cpp
+  GameCtrlSystem.cpp
+  InputHandler.cpp
+  jute.cpp
+  Manager.cpp
+  Networking.cpp
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\Networking.cpp(21,8): warning C4018: '<': no coinciden signed/unsigned
+  NetworkingSystem.cpp
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\ObjectFactory.h(38,3): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\Manager.h(106): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\NetworkingSystem.cpp(28): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::forwardMsg<msg::ClientDisconnectedMsg,OFFacotry<T>,uint32_t&>(uint32_t,uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\ObjectFactory.h(25,1): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(22): message : Vea la referencia a la creación de una instancia de la función plantilla "T *ObjectFactory<T,std::allocator<T>>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(23): message : Vea la referencia a la creación de una instancia de la función plantilla "T *ObjectFactory<T,std::allocator<T>>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(13): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct_<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\OFFacotry.h(14): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct_<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\Manager.h(106): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\Manager.h(107): message : Vea la referencia a la creación de una instancia de la función plantilla "T *OFFacotry<T>::construct<uint32_t&>(uint32_t &)" que se está compilando
+          with
+          [
+              T=msg::ClientDisconnectedMsg
+          ]
+  ObjectFactory.cpp
+  ObjectPool.cpp
+  OFFacotry.cpp
+  RandomNumberGenerator.cpp
+  Generando código...
+  Compilando...
+  RenderSystem.cpp
+  Resources.cpp
+  SDLAudioManager.cpp
+  SDLFontsManager.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  sdl_macros.cpp
+  Singleton.cpp
+  SRandBasedGenerator.cpp
+C:\Users\anass\Desktop\TPV2\TPV2\TPV2\SRandBasedGenerator.cpp(11,8): warning C4244: 'inicializando': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  StarWars.cpp
+  System.cpp
+  Texture.cpp
+  TexturesManager.cpp
+  Transform.cpp
+  Vector2D.cpp
+  Generando código...
+     Creando biblioteca C:\Users\anass\Desktop\TPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\TPV2\TPV2\bin\TPV2Debug.exp
+  TPV2.vcxproj -> C:\Users\anass\Desktop\TPV2\TPV2\bin\TPV2Debug.exe
