@@ -14,6 +14,39 @@ CollisionSystem::CollisionSystem() :
 CollisionSystem::~CollisionSystem() {
 }
 
+void CollisionSystem::recieve(const msg::Message& msg)
+{
+	switch (msg.id) {
+	case msg::_AIRPLANE_INFO: {
+		if (msg.senderClientId == mngr_->getClientId())
+			return;
+
+		Transform* FighterTR = nullptr;
+		if (msg.senderClientId == 0) {
+			FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<
+				Transform>(ecs::Transform);
+		}
+		else {
+			FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<
+				Transform>(ecs::Transform);
+		}
+
+		FighterTR->position_.setY(static_cast<const msg::AirplaneInfoMsg&>(msg).y);
+
+		break;
+	}
+	case msg::_START_ROUND: {
+		const msg::StartRoundMsg& m = static_cast<const msg::StartRoundMsg&>(msg);
+		/*auto ballTR = mngr_->getHandler(ecs::_hdlr_Ball)->getComponent<Transform>(
+			ecs::Transform);
+		ballTR->velocity_.set(m.x, m.y);*/
+		break;
+	}
+	default:
+		break;
+	}
+}
+
 void CollisionSystem::update() {
 	auto gameCtrlSys = mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl);
 

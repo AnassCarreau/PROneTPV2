@@ -23,11 +23,32 @@ void NetworkingSystem::update() {
 
 	while ((msg = net->recieve()) != nullptr) {
 		switch (msg->id) {
+		case msg::_PLAYER_INFO:
+			mngr_->forwardMsg<msg::Message>(msg->senderClientId,
+				msg::_PLAYER_INFO);
+			break;
 		case msg::_CLIENT_DISCONNECTED:
 			mngr_->forwardMsg<msg::ClientDisconnectedMsg>(msg->senderClientId,
-					static_cast<msg::ClientDisconnectedMsg*>(msg)->clientId);
+				static_cast<msg::ClientDisconnectedMsg*>(msg)->clientId);
 			break;
-
+		case msg::_AIRPLANE_INFO:
+			mngr_->forwardMsg<msg::AirplaneInfoMsg>(msg->senderClientId,
+				static_cast<msg::AirplaneInfoMsg*>(msg)->y);
+			break;
+		case msg::_START_REQ:
+			mngr_->forwardMsg<msg::Message>(msg->senderClientId,
+				msg::_START_REQ);
+			break;
+		case msg::_START_ROUND: {
+			msg::StartRoundMsg* m = static_cast<msg::StartRoundMsg*>(msg);
+			mngr_->forwardMsg<msg::StartRoundMsg>(msg->senderClientId, m->x,
+				m->y);
+			break;
+		}
+		case msg::_ON_FIGHTER_DEATH:
+			mngr_->forwardMsg<msg::OnFighterDeathMsg>(msg->senderClientId,
+				static_cast<msg::OnFighterDeathMsg*>(msg)->fighterId);
+			break;
 		default:
 			assert(false);
 			break;

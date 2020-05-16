@@ -8,7 +8,7 @@
 class GameCtrlSystem: public System {
 public:
 	enum State : uint8_t {
-		READY, RUNNING, ROUNDOVER, GAMEOVER
+		WAITING,READY, RUNNING, ROUNDOVER, GAMEOVER
 	};
 
 	GameCtrlSystem();
@@ -26,6 +26,8 @@ private:
 	void resetScore();
 	void startGame();
 	void sendMyInfo();
+	void recieve(const msg::Message& msg) override;
+
 
 	uint8_t score[2];
 	State state_;

@@ -10,6 +10,8 @@
 class FightersSystem: public System {
 public:
 	FightersSystem();
+	void recieve(const msg::Message& msg) override;
+
 	virtual ~FightersSystem();
 	void init() override;
 	void update() override;

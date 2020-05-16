@@ -18,6 +18,41 @@ FightersSystem::FightersSystem() :
 		System(ecs::_sys_Fighters), fighter0_(nullptr), fighter1_(nullptr) {
 }
 
+void FightersSystem::recieve(const msg::Message& msg)
+{
+	
+		switch (msg.id) {
+		case msg::_AIRPLANE_INFO: {
+			if (msg.senderClientId == mngr_->getClientId())
+				return;
+
+			Transform* paddleTR = nullptr;
+			if (msg.senderClientId == 0) {
+				paddleTR = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<
+					Transform>(ecs::Transform);
+			}
+			else {
+				paddleTR = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<
+					Transform>(ecs::Transform);
+			}
+
+			paddleTR->position_.setY(static_cast<const msg::AirplaneInfoMsg&>(msg).y);
+
+			break;
+		}
+		case msg::_START_ROUND: {
+			const msg::StartRoundMsg& m = static_cast<const msg::StartRoundMsg&>(msg);
+			auto ballTR = mngr_->getHandler(ecs::_hdlr_Ball)->getComponent<Transform>(
+				ecs::Transform);
+			ballTR->velocity_.set(m.x, m.y);
+			break;
+		}
+		default:
+			break;
+		}
+	}
+
+
 FightersSystem::~FightersSystem() {
 }
 

@@ -18,6 +18,8 @@ GameCtrlSystem::GameCtrlSystem() :
 
 void GameCtrlSystem::init() {
 	state_ = READY;
+	mngr_->send<msg::Message>(msg::_PLAYER_INFO);
+
 }
 
 void GameCtrlSystem::update() {
@@ -25,7 +27,7 @@ void GameCtrlSystem::update() {
 	if (state_ != RUNNING) {
 		InputHandler *ih = game_->getInputHandler();
 		if (ih->keyDownEvent() && ih->isKeyDown(SDLK_RETURN)) {
-			startGame();
+			mngr_->send<msg::Message>(msg::_START_REQ);
 		}
 	}
 }
@@ -36,6 +38,68 @@ void GameCtrlSystem::startGame() {
 	}
 	mngr_->getSystem<FightersSystem>(ecs::_sys_Fighters)->resetFighterPositions();
 	state_ = RUNNING;
+}
+
+void GameCtrlSystem::sendMyInfo()
+{
+}
+
+void GameCtrlSystem::recieve(const msg::Message& msg)
+{
+
+	switch (msg.id) {
+	case msg::_PLAYER_INFO: {
+		auto gameState =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+		if (gameState==WAITING || msg.senderClientId == mngr_->getClientId())
+			return;
+
+		gameState= READY;
+		mngr_->send<msg::Message>(msg::_PLAYER_INFO);
+		break;
+	}
+	case msg::_CONNECTED: {
+		auto gameState =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+		auto scoreIZQ =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(0);
+		auto scoreDER =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(1);
+		gameState = READY;
+		scoreIZQ = scoreDER = 0;
+		break;
+	}
+	case msg::_CLIENT_DISCONNECTED: {
+		auto gameState =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+		auto scoreIZQ=
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(0);
+		auto scoreDER=
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(1);
+		gameState= WAITING;
+		scoreIZQ = scoreDER = 0;
+		break;
+	}
+	case msg::_START_REQ: {
+		auto gameState =
+			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+
+		if (mngr_->getClientId() == 0 && gameState!=RUNNING) {
+			/*Vector2D v =
+				mngr_->getSystem<PhysicsSystem>(ecs::_sys_Physics)->resetBallVelocity();*/
+			//mngr_->send<msg::StartRoundMsg>(v.getX(), v.getY());
+		}
+		break;
+	}
+	case msg::_START_ROUND:
+		startGame();
+		break;
+	case msg::_ON_FIGHTER_DEATH:
+		onFighterDeath(static_cast<const msg::OnFighterDeathMsg&>(msg).fighterId);
+		break;
+	default:
+		break;
+	}
 }
 
 void GameCtrlSystem::onFighterDeath(uint8_t fighterId) {
