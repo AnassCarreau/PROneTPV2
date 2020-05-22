@@ -1,4 +1,169 @@
-﻿     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
+﻿  BulletsPool.cpp
+  BulletsSystem.cpp
+  CollisionSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(37,11): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(96): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\CollisionSystem.cpp(59): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::send<msg::OnFighterDeathMsg,OFFacotry<T>,uint8_t&>(uint8_t &)" que se está compilando
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(35,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(34): message : al compilar la función del miembro clase plantilla "OFFacotry<T>::OFFacotry(size_t)"
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(32): message : Vea la referencia a la creación de una instancia de la función plantilla "OFFacotry<T>::OFFacotry(size_t)" que se está compilando
+          with
+          [
+              T=msg::OnFighterDeathMsg
+          ]
+  Entity.cpp
+  FightersSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(37,11): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(96): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\FightersSystem.cpp(164): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::send<msg::AirplaneInfoMsg,OFFacotry<T>,Transform&>(Transform &)" que se está compilando
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(35,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(34): message : al compilar la función del miembro clase plantilla "OFFacotry<T>::OFFacotry(size_t)"
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(32): message : Vea la referencia a la creación de una instancia de la función plantilla "OFFacotry<T>::OFFacotry(size_t)" que se está compilando
+          with
+          [
+              T=msg::AirplaneInfoMsg
+          ]
+  GameCtrlSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(37,11): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(96): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\GameCtrlSystem.cpp(75): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::send<msg::StartRoundMsg,OFFacotry<T>,>(void)" que se está compilando
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(35,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(34): message : al compilar la función del miembro clase plantilla "OFFacotry<T>::OFFacotry(size_t)"
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(32): message : Vea la referencia a la creación de una instancia de la función plantilla "OFFacotry<T>::OFFacotry(size_t)" que se está compilando
+          with
+          [
+              T=msg::StartRoundMsg
+          ]
+  Manager.cpp
+  Networking.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Networking.cpp(21,8): warning C4018: '<': no coinciden signed/unsigned
+  NetworkingSystem.cpp
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(37,11): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\ObjectFactory.h(36): message : al compilar la función del miembro clase plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)"
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(27): message : Vea la referencia a la creación de una instancia de la función plantilla "void ObjectFactory<T,std::allocator<T>>::destroy(T *)" que se está compilando
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(38): message : Vea la referencia a la creación de una instancia de clase plantilla "ObjectFactory<T,std::allocator<T>>" que se está compilando
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\Manager.h(106): message : Vea la referencia a la creación de una instancia de clase plantilla "OFFacotry<T>" que se está compilando
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\NetworkingSystem.cpp(54): message : Vea la referencia a la creación de una instancia de la función plantilla "void Manager::forwardMsg<msg::OnFightersDeathMsg,OFFacotry<T>,>(uint32_t)" que se está compilando
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(35,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(34): message : al compilar la función del miembro clase plantilla "OFFacotry<T>::OFFacotry(size_t)"
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+C:\Users\anass\Desktop\PROneTPV2\TPV2\TPV2\OFFacotry.h(32): message : Vea la referencia a la creación de una instancia de la función plantilla "OFFacotry<T>::OFFacotry(size_t)" que se está compilando
+          with
+          [
+              T=msg::OnFightersDeathMsg
+          ]
+  RenderSystem.cpp
+  Resources.cpp
+  SDLGame.cpp
+  StarWars.cpp
+  System.cpp
+  main.cpp
+  Generando código...
+     Creando biblioteca C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.lib y objeto C:\Users\anass\Desktop\PROneTPV2\TPV2\bin\TPV2Debug.exp
 FightersSystem.obj : error LNK2019: símbolo externo SDL_GetScancodeFromKey sin resolver al que se hace referencia en la función "public: bool __cdecl InputHandler::isKeyDown(int)" (?isKeyDown@InputHandler@@QEAA_NH@Z)
 GameCtrlSystem.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver
 StarWars.obj : error LNK2001: símbolo externo SDL_GetScancodeFromKey sin resolver

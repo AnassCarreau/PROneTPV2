@@ -21,7 +21,6 @@ enum MsgId : uint8_t {
 	_ON_FIGHTER_DEATH,
 	_ON_FIGHTERS_DEATH,
 	_PLAYER_INFO_MSG,
-	_ON_GAME_OVER,
 	//
 	_last_MsgId_
 };
@@ -75,13 +74,6 @@ struct PlayerInfoMsg :Message {
 	string tr;
 };
 
-struct OnGameOver : Message {
-	OnGameOver(bool winner) :
-		Message(sizeof(OnGameOver), _ON_GAME_OVER), winner(winner) {
-	}
-	bool winner;
-};
-
 
 struct OnFighterDeathMsg : Message {
 	OnFighterDeathMsg(uint8_t fighterId) :
@@ -89,18 +81,8 @@ struct OnFighterDeathMsg : Message {
 	}
 	uint8_t fighterId;
 };
-struct OnFightersDeathMsg : Message {
-	OnFightersDeathMsg() :
-		Message(sizeof(OnFightersDeathMsg), _ON_FIGHTERS_DEATH) {
-	}
-};
 
-struct StartRoundMsg : Message {
-	StartRoundMsg() :
-		Message(sizeof(StartRoundMsg), _START_ROUND) {
-	}
-	
-};
+
 
 #pragma pack(pop)
 

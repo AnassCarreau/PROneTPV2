@@ -43,15 +43,15 @@ void NetworkingSystem::update() {
 				msg::_START_REQ);
 			break;
 		case msg::_START_ROUND: 
-			//mngr_->forwardMsg<msg::Message>(msg->senderClientId,msg::_START_ROUND);
-			mngr_->forwardMsg<msg::StartRoundMsg>(msg->senderClientId);
+			mngr_->forwardMsg<msg::Message>(msg->senderClientId,msg::_START_ROUND);
 			break;
 		case msg::_ON_FIGHTER_DEATH:
 			mngr_->forwardMsg<msg::OnFighterDeathMsg>(msg->senderClientId,
 				static_cast<msg::OnFighterDeathMsg*>(msg)->fighterId);
 			break;
 		case msg::_ON_FIGHTERS_DEATH:
-			mngr_->forwardMsg<msg::OnFightersDeathMsg>(msg->senderClientId);
+			mngr_->forwardMsg<msg::Message>(msg->senderClientId,
+				msg::_ON_FIGHTERS_DEATH);	
 			break;
 		default:
 			assert(false);

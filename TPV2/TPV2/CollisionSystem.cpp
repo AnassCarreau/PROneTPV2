@@ -22,7 +22,6 @@ void CollisionSystem::update() {
 		return;
 
 
-	bool roundOver = false;
 
 	//Micodigo
 	auto f0 = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<Transform>(ecs::Transform);
@@ -32,9 +31,7 @@ void CollisionSystem::update() {
 		f0->height_, f0->rotation_, f1->position_, f1->width_,
 		f1->height_, f1->rotation_)) {
 
-		roundOver = true;
-		mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onFightersDeath();
-		mngr_->send<msg::OnFightersDeathMsg>();
+		mngr_->send<msg::Message>(msg::_ON_FIGHTERS_DEATH);
 
 	}
 
@@ -53,9 +50,8 @@ void CollisionSystem::update() {
 					bTR->height_, bTR->rotation_, fTR->position_, fTR->width_,
 					fTR->height_, fTR->rotation_)) {
 
-				roundOver = true;
 				auto id = f->getComponent<FighterInfo>(ecs::FighterInfo)->fighterId;
-				//mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onFighterDeath(id);
+				
 				mngr_->send<msg::OnFighterDeathMsg>(id);
 			}
 			
@@ -63,8 +59,8 @@ void CollisionSystem::update() {
 		
 	}
 	
-
-	if ( roundOver )
-		mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->disableAll();
+	//ya se hace con mensajes
+	/*if ( roundOver )
+		mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->disableAll();*/
 }
 

@@ -7,6 +7,7 @@
 #include "FighterInfo.h"
 #include "FightersSystem.h"
 #include "Manager.h"
+#include "BulletsSystem.h"
 
 using ecs::CmpId;
 
@@ -72,8 +73,7 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
 
 		if (mngr_->getClientId() == 0 && gameState!=RUNNING) {
-			mngr_->send<msg::StartRoundMsg>();
-			//mngr_->send<msg::Message>(msg::_START_REQ);
+			mngr_->send<msg::Message>(msg::_START_ROUND);
 		}
 		break;
 	}
@@ -82,9 +82,11 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 		break;
 	case msg::_ON_FIGHTER_DEATH:
 		onFighterDeath(static_cast<const msg::OnFighterDeathMsg&>(msg).fighterId);
+		mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->disableAll();
 		break;
 	case msg::_ON_FIGHTERS_DEATH:
 		onFightersDeath();
+		mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->disableAll();
 		break;
 	default:
 		break;
@@ -98,12 +100,8 @@ void GameCtrlSystem::onFighterDeath(uint8_t fighterId) {
 
 	state_ = ROUNDOVER;
 	score[id]++;
-	cout << "entreperra";
-	if (score[id] == 3) {
+	if (score[id] == 3) 
 		state_ = GAMEOVER;
-		mngr_->send<msg::StartRoundMsg>();
-
-	}
 	    
 
 }

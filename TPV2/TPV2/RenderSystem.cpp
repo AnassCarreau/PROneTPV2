@@ -38,7 +38,7 @@ void RenderSystem::drawImage(Entity *e) {
 
 void RenderSystem::drawCtrlMessages() {
 	auto gameState =
-			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+		mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
 
 	if (gameState == GameCtrlSystem::WAITING) {
 		Texture* waiting = game_->getTextureMngr()->getTexture(
@@ -49,25 +49,29 @@ void RenderSystem::drawCtrlMessages() {
 	}
 	else if (gameState != GameCtrlSystem::RUNNING) {
 		auto msgTex = game_->getTextureMngr()->getTexture(
-				Resources::PressEnter);
+			Resources::PressEnter);
 		msgTex->render((game_->getWindowWidth() - msgTex->getWidth()) / 2,
-				(game_->getWindowHeight() - msgTex->getHeight() - 10));
+			(game_->getWindowHeight() - msgTex->getHeight() - 10));
+
 	}
 
 	if (gameState == GameCtrlSystem::GAMEOVER) {
 		auto msgTex = game_->getTextureMngr()->getTexture(Resources::GameOver);
-
-		/*if (static_cast<const msg::AirplaneInfoMsg&>(msg).tr.position_)
+		auto game = mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl);
+		Texture* winlose;
+		msgTex->render((game_->getWindowWidth() - msgTex->getWidth()) / 2,
+			(game_->getWindowHeight() - msgTex->getHeight()) / 2);
+		if (game->getScore(mngr_->getClientId()) == 3)
 		{
-			msgTex = game_->getTextureMngr()->getTexture(Resources::YouWin)
+			winlose=game_->getTextureMngr()->getTexture(Resources::YouWin);
 		}
 		else
 		{
-			msgTex = game_->getTextureMngr()->getTexture(Resources::YouLose);
+			winlose = game_->getTextureMngr()->getTexture(Resources::YouLose);
+		}
+		winlose->render((game_->getWindowWidth() - winlose->getWidth()) / 2,
+			100+(game_->getWindowHeight() - winlose->getHeight()) / 2);
 
-		}*/
-		msgTex->render((game_->getWindowWidth() - msgTex->getWidth()) / 2,
-				(game_->getWindowHeight() - msgTex->getHeight()) / 2);
 	}
 
 }
