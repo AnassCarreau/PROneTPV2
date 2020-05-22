@@ -12,19 +12,19 @@ using ecs::CmpId;
 
 GameCtrlSystem::GameCtrlSystem() :
 		System(ecs::_sys_GameCtrl) {
-	state_ = READY;
+	state_ = WAITING;
 	resetScore();
 }
 
 void GameCtrlSystem::init() {
-	state_ = READY;
+	state_ = WAITING;
 	mngr_->send<msg::Message>(msg::_PLAYER_INFO);
 
 }
 
 void GameCtrlSystem::update() {
 
-	if (state_ != RUNNING) {
+	if (state_ != RUNNING && state_!=WAITING) {
 		InputHandler *ih = game_->getInputHandler();
 		if (ih->keyDownEvent() && ih->isKeyDown(SDLK_RETURN)) {
 			mngr_->send<msg::Message>(msg::_START_REQ);
@@ -40,33 +40,19 @@ void GameCtrlSystem::startGame() {
 	state_ = RUNNING;
 }
 
-void GameCtrlSystem::sendMyInfo()
-{
-}
 
 void GameCtrlSystem::recieve(const msg::Message& msg)
 {
 
 	switch (msg.id) {
 	case msg::_PLAYER_INFO: {
-		auto gameState =
-			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
-		if (gameState==WAITING || msg.senderClientId == mngr_->getClientId())
-			return;
 
-		gameState= READY;
-		mngr_->send<msg::Message>(msg::_PLAYER_INFO);
-		break;
-	}
-	case msg::_CONNECTED: {
 		auto gameState =
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
-		auto scoreIZQ =
-			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(0);
-		auto scoreDER =
-			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(1);
-		gameState = READY;
-		scoreIZQ = scoreDER = 0;
+		if (gameState==READY || msg.senderClientId == mngr_->getClientId())
+			return;
+		state_ = READY;
+		mngr_->send<msg::Message>(msg::_PLAYER_INFO);
 		break;
 	}
 	case msg::_CLIENT_DISCONNECTED: {
@@ -76,7 +62,8 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(0);
 		auto scoreDER=
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getScore(1);
-		gameState= WAITING;
+		state_ = WAITING;
+
 		scoreIZQ = scoreDER = 0;
 		break;
 	}
@@ -85,9 +72,8 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
 
 		if (mngr_->getClientId() == 0 && gameState!=RUNNING) {
-			/*Vector2D v =
-				mngr_->getSystem<PhysicsSystem>(ecs::_sys_Physics)->resetBallVelocity();*/
-			//mngr_->send<msg::StartRoundMsg>(v.getX(), v.getY());
+			mngr_->send<msg::StartRoundMsg>();
+			//mngr_->send<msg::Message>(msg::_START_REQ);
 		}
 		break;
 	}
@@ -96,6 +82,9 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 		break;
 	case msg::_ON_FIGHTER_DEATH:
 		onFighterDeath(static_cast<const msg::OnFighterDeathMsg&>(msg).fighterId);
+		break;
+	case msg::_ON_FIGHTERS_DEATH:
+		onFightersDeath();
 		break;
 	default:
 		break;
@@ -109,10 +98,22 @@ void GameCtrlSystem::onFighterDeath(uint8_t fighterId) {
 
 	state_ = ROUNDOVER;
 	score[id]++;
-	if (score[id] == 3)
+	cout << "entreperra";
+	if (score[id] == 3) {
 		state_ = GAMEOVER;
+		mngr_->send<msg::StartRoundMsg>();
+
+	}
+	    
 
 }
+
+void GameCtrlSystem::onFightersDeath()
+{
+	state_ = ROUNDOVER;
+}
+
+
 
 void GameCtrlSystem::resetScore() {
 	score[0] = score[1] = 0;

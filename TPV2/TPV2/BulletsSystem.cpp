@@ -13,6 +13,7 @@ void BulletsSystem::shoot(Vector2D pos, Vector2D vel, double w, double h) {
 	Entity *b = mngr_->addEntity<BulletsPool>(pos,vel,w,h);
 	if (b != nullptr) {
 		b->addToGroup(ecs::_grp_Bullets);
+		
 	}
 }
 
@@ -35,6 +36,23 @@ void BulletsSystem::update() {
 		} else {
 			tr->position_ = p;
 		}
+	}
+}
+
+void BulletsSystem::recieve(const msg::Message& msg)
+{
+	switch (msg.id) {
+	case msg::_BULLET_INFO: {
+		if (msg.senderClientId == mngr_->getClientId())
+			return;
+		auto a = static_cast<const msg::BulletInfoMsg&>(msg);
+		shoot(a.p, a.v, 2, 5);
+
+		break;
+	}
+
+	default:
+		break;
 	}
 }
 

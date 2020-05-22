@@ -9,7 +9,7 @@ StarWars::StarWars	(char* host, int port) :
 	port_(port), //
 	game_(nullptr), //
 	mngr_(nullptr), //
-	exit_(false) {
+	exit_(false) {			
 	initGame();
 }
 
@@ -30,11 +30,10 @@ void StarWars::initGame() {
 	BulletsPool::init(100);
 
 	networkingSystem_ = mngr_->addSystem<NetworkingSystem>();
-
 	fightersSystem_ = mngr_->addSystem<FightersSystem>();
+	collisionSystem_ = mngr_->addSystem<CollisionSystem>();
 	gameCtrlSystem_ = mngr_->addSystem<GameCtrlSystem>();
 	bulletsSystem_ = mngr_->addSystem<BulletsSystem>();
-	collisionSystem_ = mngr_->addSystem<CollisionSystem>();
 	renderSystem_ = mngr_->addSystem<RenderSystem>();
 
 }
@@ -72,7 +71,6 @@ void StarWars::start() {
 		networkingSystem_->update();
 
 		mngr_->flushMessages();
-
 		SDL_RenderPresent(game_->getRenderer());
 		Uint32 frameTime = game_->getTime() - startTime;
 		if (frameTime < 10)

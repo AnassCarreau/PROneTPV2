@@ -20,33 +20,26 @@ FightersSystem::FightersSystem() :
 
 void FightersSystem::recieve(const msg::Message& msg)
 {
-	
 		switch (msg.id) {
 		case msg::_AIRPLANE_INFO: {
 			if (msg.senderClientId == mngr_->getClientId())
 				return;
-
-			Transform* paddleTR = nullptr;
+			Transform* FighterTR = nullptr;
 			if (msg.senderClientId == 0) {
-				paddleTR = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<
+				FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<
 					Transform>(ecs::Transform);
 			}
 			else {
-				paddleTR = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<
+				FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<
 					Transform>(ecs::Transform);
 			}
 
-			paddleTR->position_.setY(static_cast<const msg::AirplaneInfoMsg&>(msg).y);
+		    FighterTR->position_.set(static_cast<const msg::AirplaneInfoMsg&>(msg).tr.position_);
+			FighterTR->rotation_=static_cast<const msg::AirplaneInfoMsg&>(msg).tr.rotation_;
 
 			break;
 		}
-		case msg::_START_ROUND: {
-			const msg::StartRoundMsg& m = static_cast<const msg::StartRoundMsg&>(msg);
-			auto ballTR = mngr_->getHandler(ecs::_hdlr_Ball)->getComponent<Transform>(
-				ecs::Transform);
-			ballTR->velocity_.set(m.x, m.y);
-			break;
-		}
+		
 		default:
 			break;
 		}
@@ -97,7 +90,8 @@ void FightersSystem::init() {
 	f1Tr->width_ = 50.0;
 	f1Tr->height_ = 50.0;
 	f1Tr->rotation_ = -90.0;
-	fighter1_->addComponent<CtrlKeys>(SDLK_a, SDLK_s, SDLK_w, SDLK_z, SDLK_x);
+	fighter1_->addComponent<CtrlKeys>(SDLK_LEFT, SDLK_RIGHT, SDLK_UP, SDLK_DOWN,
+		SDLK_SPACE);
 
 	fighter1_->addComponent<Image>(
 			game_->getTextureMngr()->getTexture(Resources::Fighter));
@@ -112,9 +106,10 @@ void FightersSystem::update() {
 	if (gameState != GameCtrlSystem::RUNNING)
 		return;
 
-	updateFighter(fighter0_);
-	updateFighter(fighter1_);
-
+		if (mngr_->getClientId() == 0)
+			updateFighter(fighter0_);
+		else
+			updateFighter(fighter1_);
 }
 
 void FightersSystem::updateFighter(Entity *e) {
@@ -145,6 +140,7 @@ void FightersSystem::updateFighter(Entity *e) {
 			Vector2D d = Vector2D(0, -1).rotate(tr->rotation_) * 2;
 
 			mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->shoot(p,d,2,5);
+			mngr_->send<msg::BulletInfoMsg>(p,d);
 
 		}
 
@@ -165,4 +161,6 @@ void FightersSystem::updateFighter(Entity *e) {
 		tr->velocity_ = Vector2D();
 		tr->position_ = oldPos;
 	}
+	mngr_->send<msg::AirplaneInfoMsg>(*tr);
+
 }

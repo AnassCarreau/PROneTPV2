@@ -14,48 +14,32 @@ CollisionSystem::CollisionSystem() :
 CollisionSystem::~CollisionSystem() {
 }
 
-void CollisionSystem::recieve(const msg::Message& msg)
-{
-	switch (msg.id) {
-	case msg::_AIRPLANE_INFO: {
-		if (msg.senderClientId == mngr_->getClientId())
-			return;
-
-		Transform* FighterTR = nullptr;
-		if (msg.senderClientId == 0) {
-			FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<
-				Transform>(ecs::Transform);
-		}
-		else {
-			FighterTR = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<
-				Transform>(ecs::Transform);
-		}
-
-		FighterTR->position_.setY(static_cast<const msg::AirplaneInfoMsg&>(msg).y);
-
-		break;
-	}
-	case msg::_START_ROUND: {
-		const msg::StartRoundMsg& m = static_cast<const msg::StartRoundMsg&>(msg);
-		/*auto ballTR = mngr_->getHandler(ecs::_hdlr_Ball)->getComponent<Transform>(
-			ecs::Transform);
-		ballTR->velocity_.set(m.x, m.y);*/
-		break;
-	}
-	default:
-		break;
-	}
-}
 
 void CollisionSystem::update() {
 	auto gameCtrlSys = mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl);
 
-	if (gameCtrlSys->getState() != GameCtrlSystem::RUNNING)
+	if (gameCtrlSys->getState() != GameCtrlSystem::RUNNING  || mngr_->getClientId() == 1)
 		return;
 
 
 	bool roundOver = false;
 
+	//Micodigo
+	auto f0 = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<Transform>(ecs::Transform);
+	auto f1 = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<Transform>(ecs::Transform);
+
+	if (Collisions::collidesWithRotation(f0->position_, f0->width_,
+		f0->height_, f0->rotation_, f1->position_, f1->width_,
+		f1->height_, f1->rotation_)) {
+
+		roundOver = true;
+		mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onFightersDeath();
+		mngr_->send<msg::OnFightersDeathMsg>();
+
+	}
+
+
+	//
 	for (auto &f : mngr_->getGroupEntities(ecs::_grp_Fighters)) {
 		auto fTR = f->getComponent<Transform>(ecs::Transform);
 
@@ -71,10 +55,14 @@ void CollisionSystem::update() {
 
 				roundOver = true;
 				auto id = f->getComponent<FighterInfo>(ecs::FighterInfo)->fighterId;
-				mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onFighterDeath(id);
+				//mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onFighterDeath(id);
+				mngr_->send<msg::OnFighterDeathMsg>(id);
 			}
+			
 		}
+		
 	}
+	
 
 	if ( roundOver )
 		mngr_->getSystem<BulletsSystem>(ecs::_sys_Bullets)->disableAll();

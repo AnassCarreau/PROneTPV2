@@ -56,6 +56,16 @@ void RenderSystem::drawCtrlMessages() {
 
 	if (gameState == GameCtrlSystem::GAMEOVER) {
 		auto msgTex = game_->getTextureMngr()->getTexture(Resources::GameOver);
+
+		/*if (static_cast<const msg::AirplaneInfoMsg&>(msg).tr.position_)
+		{
+			msgTex = game_->getTextureMngr()->getTexture(Resources::YouWin)
+		}
+		else
+		{
+			msgTex = game_->getTextureMngr()->getTexture(Resources::YouLose);
+
+		}*/
 		msgTex->render((game_->getWindowWidth() - msgTex->getWidth()) / 2,
 				(game_->getWindowHeight() - msgTex->getHeight()) / 2);
 	}

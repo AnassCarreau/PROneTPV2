@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <ctime>
+#include "Transform.h"
 
 namespace msg {
 
@@ -14,9 +15,13 @@ enum MsgId : uint8_t {
 	_CLIENT_DISCONNECTED, //
 	_PLAYER_INFO, //
 	_AIRPLANE_INFO, //
+	_BULLET_INFO, //
 	_START_REQ, //
 	_START_ROUND, //
 	_ON_FIGHTER_DEATH,
+	_ON_FIGHTERS_DEATH,
+	_PLAYER_INFO_MSG,
+	_ON_GAME_OVER,
 	//
 	_last_MsgId_
 };
@@ -51,20 +56,32 @@ struct ClientDisconnectedMsg : Message {
 };
 
 struct AirplaneInfoMsg : Message {
-	AirplaneInfoMsg(double y) :
-		Message(sizeof(AirplaneInfoMsg), _AIRPLANE_INFO), y(y) {
+	AirplaneInfoMsg(Transform tr) :
+		Message(sizeof(AirplaneInfoMsg), _AIRPLANE_INFO), tr(tr) {
 	}
-	double y;
+	Transform tr;
+};
+struct BulletInfoMsg : Message {
+	BulletInfoMsg(Vector2D p,Vector2D v) :
+		Message(sizeof(BulletInfoMsg), _BULLET_INFO), p(p),v(v) {
+	}
+	Vector2D p;
+	Vector2D v;
+};
+struct PlayerInfoMsg :Message {
+	PlayerInfoMsg(string tr) :
+		Message(sizeof(AirplaneInfoMsg), _PLAYER_INFO_MSG), tr(tr) {
+	}
+	string tr;
 };
 
-
-struct StartRoundMsg : Message {
-	StartRoundMsg(double x, double y) :
-		Message(sizeof(StartRoundMsg), _START_ROUND), x(x), y(y) {
+struct OnGameOver : Message {
+	OnGameOver(bool winner) :
+		Message(sizeof(OnGameOver), _ON_GAME_OVER), winner(winner) {
 	}
-	double x;
-	double y;
+	bool winner;
 };
+
 
 struct OnFighterDeathMsg : Message {
 	OnFighterDeathMsg(uint8_t fighterId) :
@@ -72,7 +89,18 @@ struct OnFighterDeathMsg : Message {
 	}
 	uint8_t fighterId;
 };
+struct OnFightersDeathMsg : Message {
+	OnFightersDeathMsg() :
+		Message(sizeof(OnFightersDeathMsg), _ON_FIGHTERS_DEATH) {
+	}
+};
 
+struct StartRoundMsg : Message {
+	StartRoundMsg() :
+		Message(sizeof(StartRoundMsg), _START_ROUND) {
+	}
+	
+};
 
 #pragma pack(pop)
 
