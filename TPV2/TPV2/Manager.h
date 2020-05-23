@@ -15,8 +15,8 @@ class Manager {
 	using EventType = std::function<void()>;
 
 public:
-	Manager(SDLGame *game) :
-			game_(game) {
+	Manager(SDLGame *game,char*name) :
+			game_(game),name_(name) {
 
 		msgs_ = new std::list<uptr_msg>();
 
@@ -128,9 +128,14 @@ public:
 	inline uint32_t getClientId() {
 		return game_->getNetworking()->getClientId();
 	}
+	const char* getName() {
+
+		return name_;
+	}
 
 private:
 	SDLGame *game_;
+	char* name_;
 
 	std::vector<uptr_ent> ents_;
 	std::array<std::vector<Entity*>, ecs::maxGroups> entsGroups_;

@@ -12,6 +12,27 @@
 
 RenderSystem::RenderSystem() :
 		System(ecs::_sys_Render) {
+	
+
+}
+
+void RenderSystem::recieve(const msg::Message& msg)
+{
+	if (msg.id== msg::_PLAYER_NAME_MSG && msg.senderClientId != mngr_->getClientId())
+	{
+		if (mngr_->getClientId()==0)
+		{
+			strcpy_s(nameIzq,mngr_->getName());
+			strcpy_s(nameDer, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
+
+		}
+		else
+		{
+			strcpy_s(nameIzq, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
+			strcpy_s(nameDer, mngr_->getName());
+		}
+	}
+	
 }
 
 void RenderSystem::update() {
@@ -24,6 +45,7 @@ void RenderSystem::update() {
 
 	drawCtrlMessages();
 	drawScore();
+	drawNames();
 }
 
 void RenderSystem::drawImage(Entity *e) {
@@ -73,7 +95,7 @@ void RenderSystem::drawCtrlMessages() {
 			100+(game_->getWindowHeight() - winlose->getHeight()) / 2);
 
 	}
-
+	
 }
 
 void RenderSystem::drawScore() {
@@ -85,4 +107,31 @@ void RenderSystem::drawScore() {
 			game_->getFontMngr()->getFont(Resources::ARIAL24),
 			{ COLOR(0x111122ff) });
 	scoreTex.render(game_->getWindowWidth() / 2 - scoreTex.getWidth() / 2, 10);
+}
+
+void RenderSystem::drawNames()
+{
+	
+	if (mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState()!=GameCtrlSystem::WAITING)
+	{
+		Texture name1(game_->getRenderer(), nameIzq,
+			game_->getFontMngr()->getFont(Resources::ARIAL24),
+			{ COLOR(0x111122ff) });
+		name1.render(0, 10);
+
+		Texture name2(game_->getRenderer(), nameDer,
+			game_->getFontMngr()->getFont(Resources::ARIAL24),
+			{ COLOR(0x111122ff) });
+		name2.render(game_->getWindowWidth() - name2.getWidth(), 10);
+	}
+	else
+	{
+		Texture name1(game_->getRenderer(), mngr_->getName(),
+			game_->getFontMngr()->getFont(Resources::ARIAL24),
+			{ COLOR(0x111122ff) });
+		name1.render(0, 10);
+	}
+
+	
+
 }

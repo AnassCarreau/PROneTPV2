@@ -53,6 +53,10 @@ void NetworkingSystem::update() {
 			mngr_->forwardMsg<msg::Message>(msg->senderClientId,
 				msg::_ON_FIGHTERS_DEATH);	
 			break;
+		case msg::_PLAYER_NAME_MSG:
+			mngr_->forwardMsg<msg::PlayerNameMsg>(msg->senderClientId,
+				static_cast<msg::PlayerNameMsg*>(msg)->nombre);
+			break;
 		default:
 			assert(false);
 			break;

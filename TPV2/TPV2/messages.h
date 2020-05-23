@@ -20,7 +20,7 @@ enum MsgId : uint8_t {
 	_START_ROUND, //
 	_ON_FIGHTER_DEATH,
 	_ON_FIGHTERS_DEATH,
-	_PLAYER_INFO_MSG,
+	_PLAYER_NAME_MSG,
 	//
 	_last_MsgId_
 };
@@ -67,11 +67,13 @@ struct BulletInfoMsg : Message {
 	Vector2D p;
 	Vector2D v;
 };
-struct PlayerInfoMsg :Message {
-	PlayerInfoMsg(string tr) :
-		Message(sizeof(AirplaneInfoMsg), _PLAYER_INFO_MSG), tr(tr) {
+struct PlayerNameMsg :Message {
+	PlayerNameMsg(const char*  name) :
+		Message(sizeof(PlayerNameMsg), _PLAYER_NAME_MSG)
+	{
+		strcpy_s(nombre, name);
 	}
-	string tr;
+	char nombre[11];
 };
 
 

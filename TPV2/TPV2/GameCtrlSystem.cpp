@@ -50,9 +50,11 @@ void GameCtrlSystem::recieve(const msg::Message& msg)
 
 		auto gameState =
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+
 		if (gameState==READY || msg.senderClientId == mngr_->getClientId())
 			return;
 		state_ = READY;
+		mngr_->send<msg::PlayerNameMsg>(mngr_->getName());
 		mngr_->send<msg::Message>(msg::_PLAYER_INFO);
 		break;
 	}
