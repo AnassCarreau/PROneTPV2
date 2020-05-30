@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
 		}
 		else if (argc == 4)
 		{
-			 char an[11] = "Anonimous";
+			 char an[11] = "Anonymous";
 			client(argv[2], atoi(argv[3]),an ); // start in client mode
 
 		}

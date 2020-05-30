@@ -13,7 +13,6 @@
 RenderSystem::RenderSystem() :
 		System(ecs::_sys_Render) {
 	
-
 }
 
 void RenderSystem::recieve(const msg::Message& msg)
@@ -24,12 +23,16 @@ void RenderSystem::recieve(const msg::Message& msg)
 		{
 			strcpy_s(nameIzq,mngr_->getName());
 			strcpy_s(nameDer, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
-
+			posBlanco = strlen(mngr_->getName())/13;
+			//cout << strlen(mngr_->getName());
 		}
 		else
 		{
 			strcpy_s(nameIzq, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
 			strcpy_s(nameDer, mngr_->getName());
+			posBlanco = game_->getWindowWidth() - 13* strlen( mngr_->getName());
+			//cout << strlen(mngr_->getName());
+
 		}
 	}
 	
@@ -111,9 +114,11 @@ void RenderSystem::drawScore() {
 
 void RenderSystem::drawNames()
 {
-	
+	game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{posBlanco ,10,(int)strlen( mngr_->getName())*13,24 });
+
 	if (mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState()!=GameCtrlSystem::WAITING)
 	{
+
 		Texture name1(game_->getRenderer(), nameIzq,
 			game_->getFontMngr()->getFont(Resources::ARIAL24),
 			{ COLOR(0x111122ff) });
@@ -126,10 +131,14 @@ void RenderSystem::drawNames()
 	}
 	else
 	{
+
 		Texture name1(game_->getRenderer(), mngr_->getName(),
 			game_->getFontMngr()->getFont(Resources::ARIAL24),
 			{ COLOR(0x111122ff) });
 		name1.render(0, 10);
+
+		
+
 	}
 
 	
