@@ -17,6 +17,7 @@ RenderSystem::RenderSystem() :
 
 void RenderSystem::recieve(const msg::Message& msg)
 {
+	//si el mensaje corresponde al nombre del jugador lo colocamos dependiendo de que cliente sea
 	if (msg.id== msg::_PLAYER_NAME_MSG && msg.senderClientId != mngr_->getClientId())
 	{
 		if (mngr_->getClientId()==0)
@@ -24,14 +25,12 @@ void RenderSystem::recieve(const msg::Message& msg)
 			strcpy_s(nameIzq,mngr_->getName());
 			strcpy_s(nameDer, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
 			posBlanco = 0;
-			//cout << strlen(mngr_->getName());
 		}
 		else
 		{
 			strcpy_s(nameIzq, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
 			strcpy_s(nameDer, mngr_->getName());
 			posBlanco = game_->getWindowWidth() - 13* strlen( mngr_->getName());
-			//cout << strlen(mngr_->getName());
 
 		}
 	}
@@ -48,7 +47,7 @@ void RenderSystem::update() {
 
 	drawCtrlMessages();
 	drawScore();
-	drawNames();
+	drawNames(); // dibujamos los nombres
 }
 
 void RenderSystem::drawImage(Entity *e) {
@@ -116,6 +115,7 @@ void RenderSystem::drawNames()
 {
 	game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{posBlanco ,10,(int)strlen( mngr_->getName())*14,24 });
 
+	//si no está waiting el juego, dibujamos ambos nombres 
 	if (mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState()!=GameCtrlSystem::WAITING)
 	{
 
@@ -129,6 +129,7 @@ void RenderSystem::drawNames()
 			{ COLOR(0x111122ff) });
 		name2.render(game_->getWindowWidth() - name2.getWidth(), 10);
 	}
+	//si no solo el del cliente 0
 	else
 	{
 

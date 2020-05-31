@@ -22,6 +22,7 @@ void BulletsSystem::disableAll() {
 		b->setActive(false);
 }
 
+//actualizamos las balas
 void BulletsSystem::update() {
 	for (auto &e : mngr_->getGroupEntities(ecs::_grp_Bullets)) {
 		Transform *tr = e->getComponent<Transform>(ecs::Transform);

@@ -17,16 +17,16 @@ CollisionSystem::~CollisionSystem() {
 
 void CollisionSystem::update() {
 	auto gameCtrlSys = mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl);
-
+	//si no estamos jugando o el cliente es el 1 no comprueba colisiones
 	if (gameCtrlSys->getState() != GameCtrlSystem::RUNNING  || mngr_->getClientId() == 1)
 		return;
 
 
 
-	//Micodigo
+	//transforms de los fighter
 	auto f0 = mngr_->getHandler(ecs::_hdlr_Fighter0)->getComponent<Transform>(ecs::Transform);
 	auto f1 = mngr_->getHandler(ecs::_hdlr_Fighter1)->getComponent<Transform>(ecs::Transform);
-
+	//comprobamos si se chocan
 	if (Collisions::collidesWithRotation(f0->position_, f0->width_,
 		f0->height_, f0->rotation_, f1->position_, f1->width_,
 		f1->height_, f1->rotation_)) {
@@ -36,7 +36,7 @@ void CollisionSystem::update() {
 	}
 
 
-	//
+	//comprobacion de colisiones con las balas
 	for (auto &f : mngr_->getGroupEntities(ecs::_grp_Fighters)) {
 		auto fTR = f->getComponent<Transform>(ecs::Transform);
 

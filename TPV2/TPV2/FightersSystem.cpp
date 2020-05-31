@@ -49,6 +49,7 @@ void FightersSystem::recieve(const msg::Message& msg)
 FightersSystem::~FightersSystem() {
 }
 
+//reseteamos la posicion de ambos cazas
 void FightersSystem::resetFighterPositions() {
 	auto f0Tr = fighter0_->getComponent<Transform>(ecs::Transform);
 	f0Tr->velocity_ = Vector2D(0.0, 0.0);
@@ -103,6 +104,7 @@ void FightersSystem::init() {
 void FightersSystem::update() {
 	auto gameState =
 			mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState();
+	//dependiendo del cliente llamamos al update con un fighter u otro
 	if (gameState != GameCtrlSystem::RUNNING)
 		return;
 
@@ -112,6 +114,7 @@ void FightersSystem::update() {
 			updateFighter(fighter1_);
 }
 
+//dependiendo del input actualizamos la posicion del caza que le llega
 void FightersSystem::updateFighter(Entity *e) {
 	Transform *tr = e->getComponent<Transform>(ecs::Transform);
 	CtrlKeys *keys = e->getComponent<CtrlKeys>(ecs::CtrlKeys);

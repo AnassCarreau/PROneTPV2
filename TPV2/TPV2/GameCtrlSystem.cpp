@@ -24,7 +24,7 @@ void GameCtrlSystem::init() {
 }
 
 void GameCtrlSystem::update() {
-
+	//comprobamos si no se está jugando en ese momento y si es asi comprobamos si se pulsa la tecla enter para empezar
 	if (state_ != RUNNING && state_!=WAITING) {
 		InputHandler *ih = game_->getInputHandler();
 		if (ih->keyDownEvent() && ih->isKeyDown(SDLK_RETURN)) {
@@ -32,7 +32,8 @@ void GameCtrlSystem::update() {
 		}
 	}
 }
-
+//si startgame es llamado cuando el estado ha pasado a ser gameover reseteamos puntos
+//reseteamos posicion de los fighter y cambiamos estado
 void GameCtrlSystem::startGame() {
 	if (state_ == GAMEOVER) {
 		resetScore();
@@ -108,6 +109,7 @@ void GameCtrlSystem::onFighterDeath(uint8_t fighterId) {
 
 }
 
+//cambia el estado a fin de ronda cuando un caza muere
 void GameCtrlSystem::onFightersDeath()
 {
 	state_ = ROUNDOVER;
