@@ -35,16 +35,21 @@ int main(int argc, char** argv) {
 		server(atoi(argv[2])); // start in server mode
 	}
 	else if ((argc == 4  || argc == 5) && strcmp(argv[1], "client") == 0 ) {
-		if (argc == 5 && strlen(argv[4]) <= 10)
-		{
-			client(argv[2], atoi(argv[3]), argv[4]); // start in client mode
-
+		if (argc == 5 && strlen(argv[4]) > 10) {
+			cout << "El nombre debe tener 10 caracteres o menos" << endl;
 		}
-		else if (argc == 4)
-		{
-			 char an[11] = "Anonymous";
-			client(argv[2], atoi(argv[3]),an ); // start in client mode
+		else {
+			if (argc == 5 && strlen(argv[4]) <= 10)
+			{
+				client(argv[2], atoi(argv[3]), argv[4]); // start in client mode
 
+			}
+			else if (argc == 4)
+			{
+				char an[11] = "Anonymous";
+				client(argv[2], atoi(argv[3]), an); // start in client mode
+
+			}
 		}
 	}
 

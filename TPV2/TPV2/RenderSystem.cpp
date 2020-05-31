@@ -23,7 +23,7 @@ void RenderSystem::recieve(const msg::Message& msg)
 		{
 			strcpy_s(nameIzq,mngr_->getName());
 			strcpy_s(nameDer, static_cast<const msg::PlayerNameMsg&>(msg).nombre);
-			posBlanco = strlen(mngr_->getName())/13;
+			posBlanco = 0;
 			//cout << strlen(mngr_->getName());
 		}
 		else
@@ -114,7 +114,7 @@ void RenderSystem::drawScore() {
 
 void RenderSystem::drawNames()
 {
-	game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{posBlanco ,10,(int)strlen( mngr_->getName())*13,24 });
+	game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{posBlanco ,10,(int)strlen( mngr_->getName())*14,24 });
 
 	if (mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState()!=GameCtrlSystem::WAITING)
 	{
