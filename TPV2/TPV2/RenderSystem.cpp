@@ -118,6 +118,7 @@ void RenderSystem::drawNames()
 	//si no está waiting el juego, dibujamos ambos nombres 
 	if (mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->getState()!=GameCtrlSystem::WAITING)
 	{
+		game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{ posBlanco ,10,(int)strlen(mngr_->getName()) * 14,24 });
 
 		Texture name1(game_->getRenderer(), nameIzq,
 			game_->getFontMngr()->getFont(Resources::ARIAL24),
@@ -132,6 +133,8 @@ void RenderSystem::drawNames()
 	//si no solo el del cliente 0
 	else
 	{
+		//Para volver a dibujar todo en su sitio si un jugador se desconecta sea quien sea
+		game_->getTextureMngr()->getTexture(Resources::WhiteRect)->render(SDL_Rect{ 0 ,10,(int)strlen(mngr_->getName()) * 14,24 });
 
 		Texture name1(game_->getRenderer(), mngr_->getName(),
 			game_->getFontMngr()->getFont(Resources::ARIAL24),

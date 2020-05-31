@@ -13,20 +13,8 @@ void server(int port) {
 }
 
 void client(char* host, int port, char* name) {
-	try {
 		StarWars g(host, port,name);
 		g.start();
-	}
-	catch (std::string& e) { // catch errors thrown as strings
-		cerr << e << endl;
-	}
-	catch (const std::exception& e) { // catch other exceptions
-		cerr << e.what();
-	}
-	catch (...) {
-		cerr << "Caught and exception of unknown type ..";
-	}
-
 }
 
 
@@ -34,15 +22,22 @@ int main(int argc, char** argv) {
 	if (argc == 3 && strcmp(argv[1], "server") == 0) {
 		server(atoi(argv[2])); // start in server mode
 	}
-	else if ((argc == 4  || argc == 5) && strcmp(argv[1], "client") == 0 ) {
-		if (argc == 5 && strlen(argv[4]) > 10) {
-			cout << "El nombre debe tener 10 caracteres o menos" << endl;
-		}
-		else {
+	else if ((argc == 4 || argc == 5) && strcmp(argv[1], "client") == 0) {
+
+		try
+		{
 			if (argc == 5 && strlen(argv[4]) <= 10)
 			{
-				client(argv[2], atoi(argv[3]), argv[4]); // start in client mode
 
+				if (strlen(argv[4]) <= 10)
+				{
+					client(argv[2], atoi(argv[3]), argv[4]); // start in client mode
+
+				}
+				else
+				{
+					throw  "El nombre debe tener 10 caracteres o menos";
+				}
 			}
 			else if (argc == 4)
 			{
@@ -51,7 +46,17 @@ int main(int argc, char** argv) {
 
 			}
 		}
+		catch (std::string& e) { // catch errors thrown as strings
+			cerr << e << endl;
+		}
+		catch (const std::exception& e) { // catch other exceptions
+			cerr << e.what();
+		}
+		catch (...) {
+			cerr << "Caught and exception of unknown type ..";
+		}
 	}
+
 
 	else {
 		cout << "Usage: " << endl;
