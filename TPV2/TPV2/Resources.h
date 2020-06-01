@@ -11,34 +11,22 @@ public:
 
 	enum TextureId : std::size_t {
 		// images
-		Blank,
-		TennisBall,
-		KeyBoardIcon,
-		MouseIcon,
-		AIIcon,
-		SpaceShips,
-		Airplanes,
-		Asteroid,
-		Bullet,
-		Heart,
+		PacManSprites,
 
 		// text
-		HelloWorld,
-		PressAnyKey,
+		PressEnterToStartANewGame,
+		PressEnterToContinue,
 		GameOver,
-		Win,
-		Lose,
 	};
 
 	enum AudioId : std::size_t {
 		// music
-		
-		Imperial,
+		PacMan_Intro,
 
 		// sound effects
-		
-		GunShot,
-		Explosion
+		PacMan_Eat,
+		PacMan_Death,
+		PacMan_Won
 	};
 
 	enum FontId : std::size_t {

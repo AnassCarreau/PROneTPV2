@@ -21,7 +21,7 @@ public:
 
 	template<typename ...Targs>
 	inline T* construct_(Targs &&...args) {
-		pool_.construct(std::forward<Targs>(args)...);
+		return pool_.construct(std::forward<Targs>(args)...);
 	}
 
 	inline void destroy_(T *p) {

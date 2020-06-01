@@ -1,17 +1,21 @@
 #pragma once
+
+#include <cstdint>
 #include "Component.h"
-#include "checkML.h"
-// incluye el estado del juego (parado, terminado, etc.) y el ganador
+
 struct GameState : Component {
+	enum State : uint8_t { READY, RUNNING, OVER };
+
 	GameState() :
-		estado(Start) //
+		Component(ecs::GameState), //
+		state_(READY), //
+		won_(false),
+		score_(0)//
 	{
 	}
 
-	enum  State
-	{
-		Start, Play,Pause,FinishWin,FinishLose
-	};
-	
-	State estado;
+	State state_;
+	bool won_; // true means packman won 0 packman, 1
+	int score_;
 };
+

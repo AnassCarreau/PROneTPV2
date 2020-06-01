@@ -3,34 +3,35 @@
 class SDLGame;
 class Manager;
 #include "ecs.h"
-#include "checkML.h"
-
+#include "messages.h"
 
 class System {
 public:
-	System() :
-			mngr_(nullptr), game_(nullptr) {
+	System(ecs::SysIdType id) :
+			 id_(id), mngr_(nullptr), game_(nullptr) {
 	}
 
 	virtual ~System() {
 	}
 
-	void setGame(SDLGame *game) {
+	ecs::SysIdType getId() {
+		return id_;
+	}
+
+	void setGame(SDLGame* game) {
 		game_ = game;
 	}
-	
-	void setMngr(Manager *mngr) {
+
+	void setMngr(Manager* mngr) {
 		mngr_ = mngr;
 	}
 
-	virtual void init() {
-	}
-	;
-	virtual void update() {
-	}
-	;
+	virtual void init() {};
+	virtual void update() {};
+    virtual void recieve(const msg::Message& msg) {}
 
 protected:
+	ecs::SysIdType id_;
 	Manager *mngr_;
 	SDLGame *game_;
 

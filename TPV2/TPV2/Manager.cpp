@@ -12,7 +12,7 @@ void Manager::refresh() {
 	}
 
 	// update groups
-	for (auto i(0u); i < maxGroups; i++) {
+	for (auto i(0u); i < ecs::maxGroups; i++) {
 		auto &grp = entsGroups_[i];
 		grp.erase( //
 				std::remove_if( //

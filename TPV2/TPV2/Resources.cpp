@@ -9,36 +9,25 @@ vector<Resources::FontInfo> Resources::fonts_ {
 
 vector<Resources::ImageInfo> Resources::images_ {
 //
-		{ Blank, "resources/images/blank.png" }, //
-		{ TennisBall, "resources/images/tennis_ball.png" }, //
-		{ KeyBoardIcon, "resources/images/keyboard.png" }, //
-		{ MouseIcon, "resources/images/mouse.png" }, //
-		{ AIIcon, "resources/images/ai.png" }, //
-		{ SpaceShips, "resources/images/spaceships.png" }, //
-		{ Airplanes, "resources/images/airplanes.png" }, //
-		{ Asteroid, "resources/images/asteroid.png" }, //
-		{ Bullet, "resources/images/whiterect.png" } ,
-		{Heart,"resources/images/heart.png"}//
+		{ PacManSprites, "resources/images/pacman_sprites.png" } //
 };
 
 vector<Resources::TextMsgInfo> Resources::messages_ {
 //
-		{ HelloWorld, "Hello World", { COLOR(0xaaffffff) }, ARIAL16 }, //
-		{ PressAnyKey, "Press Any Key to Start", { COLOR(0xaaffbbff) }, ARIAL24 }, //
-		{ GameOver, "Game Over", { COLOR(0xffffbbff) }, ARIAL24 } ,//
-        { Win, "You win", { COLOR(0xffffbbff) }, ARIAL24 }, //
-        { Lose, "You lose", { COLOR(0xffffbbff) }, ARIAL24 } //
+		{ PressEnterToStartANewGame, "Press ENTER to start a new game", { COLOR(0xaaffffff) }, ARIAL16 }, //
+		{ PressEnterToContinue, "Press ENTER to continue", { COLOR(0xaaffbbff) }, ARIAL24 }, //
+		{ GameOver, "Game Over!", { COLOR(0xffffbbff) }, ARIAL24 } //
 };
 
-vector<Resources::MusicInfo> Resources::musics_{
+vector<Resources::MusicInfo> Resources::musics_ {
 //
-			{ Imperial, "resources/sound/imperial_march.wav" }//
+		{ PacMan_Intro, "resources/sound/pacman_intro.wav" }, //
 };
-		
 
 vector<Resources::SoundInfo> Resources::sounds_ {
 //
-		{ Explosion, "resources/sound/explosion.wav" },//
-		{ GunShot, "resources/sound/GunShot.wav" },//
+		{ PacMan_Eat, "resources/sound/pacman_eat.wav" }, //
+		{ PacMan_Death, "resources/sound/pacman_death.wav" }, //
+		{ PacMan_Won, "resources/sound/pacman_won.wav" }, //
 };
 
