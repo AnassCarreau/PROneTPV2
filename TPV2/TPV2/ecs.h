@@ -45,7 +45,6 @@ enum SysId : SysIdType {
 	_sys_Food,
 	_sys_Render,
 	_sys_Collisions,
-	_sys_ScoreMngr,
 	_sys_Sound,
 	//
 	// don't touch the rest of this enum, it is to identify the max

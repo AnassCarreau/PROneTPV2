@@ -7,11 +7,13 @@ public:
 	FoodSystem();
 	void init() override;
 	void update() override;
+	void recieve(const msg::Message& msg) override;
 
-	void addFood(std::size_t n);
-	void onEat(Entity *e);
-	void disableAll();
+
 private:
+	void addFood(std::size_t n);
+	void onEat(Entity* e);
+	void disableAll();
 	int numOfFoodPieces_;
 
 };

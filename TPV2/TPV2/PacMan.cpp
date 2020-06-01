@@ -42,6 +42,9 @@ void PacMan::initGame() {
 	renderSystem_ = mngr_->addSystem<RenderSystem>();
 	collisionSystem_ = mngr_->addSystem<CollisionSystem>();
 	gameCtrlSystem_ = mngr_->addSystem<GameCtrlSystem>();
+	//Audio sistem implementado
+	audioSystem_ = mngr_->addSystem<AudioSystem>();
+
 }
 
 void PacMan::closeGame() {
@@ -73,9 +76,11 @@ void PacMan::start() {
 		foodSystem_->update();
 		collisionSystem_->update();
 		renderSystem_->update();
+		//Audio sistem implementado
+		audioSystem_->update();
 
 		// this is needed for sending the messages!
-		// mngr_->flushMessages();
+		 mngr_->flushMessages();
 
 		SDL_RenderPresent(game_->getRenderer());
 

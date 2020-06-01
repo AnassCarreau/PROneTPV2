@@ -70,6 +70,15 @@ void PacManSystem::update() {
 
 }
 
+void PacManSystem::recieve(const msg::Message& msg)
+{
+	//Si se empieza una partida colocamos a nuestro pacman en su posicion
+	if (msg.id==msg::_GAME_START)
+	{
+		resetPacManPosition();
+	}
+}
+
 void PacManSystem::resetPacManPosition() {
 	tr_->width_ = tr_->height_ = 30.0;
 	tr_->position_ = Vector2D( (game_->getWindowWidth()-tr_->width_)/2,

@@ -24,7 +24,10 @@ void CollisionSystem::update() {
 		auto etr = e->getComponent<Transform>(ecs::Transform);
 		if (Collisions::collides(ptr->position_, ptr->width_, ptr->height_,
 				etr->position_, etr->width_, etr->height_)) {
-				mngr_->getSystem<FoodSystem>(ecs::_sys_Food)->onEat(e);
+			//Antes mngr_->getSystem<FoodSystem>(ecs::_sys_Food)->onEat(e);
+			//Ahora mandamos la entidad junto con el mensaje de que se ha comido la cereza
+			mngr_->send<msg::OnEatCherry>(e);
+			
 		}
 	}
 
@@ -33,9 +36,12 @@ void CollisionSystem::update() {
 		auto etr = e->getComponent<Transform>(ecs::Transform);
 		if (Collisions::collides(ptr->position_, ptr->width_, ptr->height_,
 				etr->position_, etr->width_, etr->height_)) {
-				mngr_->getSystem<GhostsSystem>(ecs::_sys_Ghosts)->onCollisionWithPacMan(e);
+			//Antes mngr_->getSystem<GhostsSystem>(ecs::_sys_Ghosts)->onCollisionWithPacMan(e);
+			//Ahora mandamos el mensaje de que se ha producido la colision de pacman y un fantasma
+			mngr_->send<msg::Message>(msg::_COLLISION);
 				break;
 		}
 	}
 
 }
+

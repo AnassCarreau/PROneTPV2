@@ -20,19 +20,46 @@ void FoodSystem::init() {
 void FoodSystem::update() {
 }
 
+void FoodSystem::recieve(const msg::Message& msg)
+{
+	switch (msg.id) 
+	{
+		//Se añade x numero de cerezas
+	case msg::_GAME_START: 
+		addFood(10);
+		break;
+	//Al colisionar con un fantasma se desactivan toda la comida
+	case msg::_COLLISION: 
+		disableAll();
+		break;
+	//Se desactiva la cereza correspondiente y se  mira si se han comido todas
+	case msg::_EAT_CHERRY: 
+		onEat(static_cast<const msg::OnEatCherry&>(msg).e);
+		break;
+	
+	default:
+		break;
+	}
+}
+
 void FoodSystem::onEat(Entity *e) {
 	// update score
 	auto gameState = mngr_->getHandler(ecs::_hdlr_GameStateEntity)->getComponent<GameState>(ecs::GameState);
 	gameState->score_++;
 
-	game_->getAudioMngr()->playChannel(Resources::PacMan_Eat,0);
 
-	// disbale food
+	// disable food
 	e->setActive(false);
 	numOfFoodPieces_--;
 
-	if ( numOfFoodPieces_ == 0)
-		mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onNoMoreFood();
+	if (numOfFoodPieces_ == 0)
+	{
+		//Antes mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onNoMoreFood();
+		//Ahora mandamos el mensaje de que ya no hay mas cerezas 
+		mngr_->send<msg::Message>(msg::_NO_CHERRY);
+
+	}
+
 }
 
 void FoodSystem::addFood(std::size_t n) {

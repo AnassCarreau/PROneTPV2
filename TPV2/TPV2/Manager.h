@@ -98,8 +98,9 @@ public:
 	void flushMessages() {
 		while (!msgs_->empty()) {
 			uptr_msg msg = std::move(msgs_->front());
-			for (auto &s : systems_) {
-				s->recieve(*msg);
+			for (auto & s : systems_) {
+				if (s != nullptr)
+					s->recieve(*msg);
 			}
 			msgs_->pop_front();
 		}

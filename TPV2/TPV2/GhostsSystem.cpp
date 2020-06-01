@@ -63,10 +63,26 @@ void GhostsSystem::update() {
 	}
 }
 
-
-void GhostsSystem::onCollisionWithPacMan(Entity *e) {
-	mngr_->getSystem<GameCtrlSystem>(ecs::_sys_GameCtrl)->onPacManDeath();
+void GhostsSystem::recieve(const msg::Message& msg)
+{
+	switch (msg.id) {
+	case msg::_GAME_START: 
+		//Si empieza la partida se añaden x fantasmas
+		addGhosts(2);
+		break;
+	case msg::_COLLISION: 
+		//Si se produce una colision se desactivan todos los fantasmas
+		disableAll();
+		break;
+	case msg::_NO_CHERRY: 
+		//Si se acaban las cerezas se desactivan todos los fantasmas
+		disableAll();
+		break;
+	default:
+		break;
+	}
 }
+
 
 void GhostsSystem::addGhosts(std::size_t n) {
 

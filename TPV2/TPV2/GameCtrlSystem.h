@@ -11,13 +11,11 @@ public:
 
 	void init() override;
 	void update() override;
-
-	// TODO: these methods should go private
-	void onPacManDeath();
-	void onNoMoreFood();
+	void recieve(const msg::Message& msg)override;
 
 private:
-	void startGame();
+	void onPacManDeath();
+	void onNoMoreFood();
 
 	GameState *gameState_;
 

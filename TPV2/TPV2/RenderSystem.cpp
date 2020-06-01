@@ -2,29 +2,26 @@
 
 #include <cassert>
 #include "AnimatedImageComponent.h"
+#include "ImageComponent.h"
 #include "ecs.h"
 #include "Manager.h"
-#include "ImageComponent.h"
 #include "SDL_macros.h"
 #include "SDLGame.h"
 #include "Transform.h"
 #include "Entity.h"
-#include "GameState.h"
-#include "Manager.h"
-#include "SDLGame.h"
 #include "Texture.h"
 
 RenderSystem::RenderSystem() :
 		System(ecs::_sys_Render) {
 }
 
-void RenderSystem::drawAnimated(Entity *e) {
-	Transform *tr = e->getComponent<Transform>(ecs::Transform);
-	AnimatedImageComponent *img = e->getComponent<AnimatedImageComponent>(
-			ecs::AnimatedImageComponent);
-	const auto &sprite = img->getSprite(game_->getTime());
+void RenderSystem::drawAnimated(Entity* e) {
+	Transform* tr = e->getComponent<Transform>(ecs::Transform);
+	AnimatedImageComponent* img = e->getComponent<AnimatedImageComponent>(
+		ecs::AnimatedImageComponent);
+	const auto& sprite = img->getSprite(game_->getTime());
 	SDL_Rect dest =
-	RECT(tr->position_.getX(), tr->position_.getY(), tr->width_,
+		RECT(tr->position_.getX(), tr->position_.getY(), tr->width_,
 			tr->height_);
 	sprite.first->render(dest, tr->rotation_, sprite.second);
 }
